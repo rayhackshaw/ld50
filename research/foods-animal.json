@@ -1,0 +1,3504 @@
+{
+  "meta": {
+    "category": "animal",
+    "compiledAt": "2026-11-10",
+    "count": 20,
+    "included": 19,
+    "flagged": 1
+  },
+  "foods": [
+    {
+      "slug": "chicken-breast",
+      "name": "Chicken breast",
+      "emoji": "🍗",
+      "aliases": [
+        "chicken",
+        "roast chicken breast",
+        "cooked chicken",
+        "chicken fillet"
+      ],
+      "category": "animal",
+      "form": "cooked (roasted), skinless",
+      "tagline": "Lean, mild and two-thirds water. Quietly the safest thing on the menu.",
+      "overview": [
+        "Skinless roast chicken breast is about 31 g protein, 65 g water and under 4 g fat per 100 g, with very little sodium (USDA). It's the gym-bag staple, the sandwich filler and the thing everyone overcooks.",
+        "With almost no salt in it, the water sets the limit: about 9.7 kg of chicken breast, or roughly 45 whole cooked breasts. You'd get bored of chicken a very long way before that."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 single breast, edible part (213 g, NZ data) or half a breast (86 g)"
+        },
+        {
+          "label": "Protein",
+          "value": "31.0 g per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "65.3 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "74 mg per 100 g (no added salt)"
+        }
+      ],
+      "funFact": "The global live chicken population passed 26.5 billion in 2023, with over 50 billion more slaughtered each year.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 65260,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+            "id": "171477"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 9654,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 74,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+            "id": "171477"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 111631,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 256,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+            "id": "171477"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 37286,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "single breast, edible part (213 g)",
+          "plural": "single breasts, edible part (213 g)",
+          "gramsPerUnit": 213,
+          "emoji": "🍗",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          },
+          "quip": "A whole poultry department's worth."
+        },
+        {
+          "singular": "half breast (86 g)",
+          "plural": "half breasts (86 g)",
+          "gramsPerUnit": 86,
+          "emoji": "🍗",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/171477/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is solid; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "The water figure is a lower bound, and in people the risk from water is drinking a lot very fast, not eating it inside a solid food. You would stop eating chicken long before any of this mattered."
+    },
+    {
+      "slug": "beef-mince",
+      "name": "Beef mince",
+      "emoji": "🥩",
+      "aliases": [
+        "ground beef",
+        "minced beef",
+        "hamburger meat",
+        "beef patty",
+        "mince"
+      ],
+      "category": "animal",
+      "form": "cooked (pan-broiled), 85% lean / 15% fat",
+      "tagline": "Dinner's workhorse, and a surprisingly big pile of water with a side of protein.",
+      "overview": [
+        "Pan-cooked 85% lean beef mince is about 25 g protein, 14 g fat and 61 g water per 100 g, with only 79 mg of sodium before you season it (USDA). The salt gets added at the stove, not by the cow.",
+        "So it's water again: about 10.4 kg of cooked mince, or roughly 125 burger patties. The most dangerous thing in the pan is the spitting fat."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 patty (83 g, from 1/4 lb raw)"
+        },
+        {
+          "label": "Protein",
+          "value": "24.6 g per 100 g"
+        },
+        {
+          "label": "Fat",
+          "value": "14.0 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "79 mg per 100 g, unseasoned"
+        }
+      ],
+      "funFact": "Cooked beef mince is still about 60% water by weight (USDA: 60.6 g per 100 g), which is how water ends up as the headline.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 60610,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/174033/nutrients",
+            "id": "174033"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 10394,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 79,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/174033/nutrients",
+            "id": "174033"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 104566,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 349,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/174033/nutrients",
+            "id": "174033"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 27350,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "burger patty (83 g)",
+          "plural": "burger patties (83 g)",
+          "gramsPerUnit": 83,
+          "emoji": "🍔",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/174033/nutrients"
+          }
+        },
+        {
+          "singular": "3 oz serving (85 g)",
+          "plural": "3 oz servings (85 g)",
+          "gramsPerUnit": 85,
+          "emoji": "🥩",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/174033/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is solid; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "A lower-bound water figure applied to a solid food. Your stomach, and your sense of self-preservation, would tap out many patties earlier."
+    },
+    {
+      "slug": "pork-loin",
+      "name": "Pork loin",
+      "emoji": "🐖",
+      "aliases": [
+        "roast pork",
+        "pork roast",
+        "loin of pork",
+        "pork chop"
+      ],
+      "category": "animal",
+      "form": "cooked (roasted), lean and fat",
+      "tagline": "Sunday roast energy, with less salt than you'd think and more water than you'd guess.",
+      "overview": [
+        "Roast pork loin (lean and fat) has about 27 g protein, 15 g fat and 58 g water per 100 g, and only 59 mg of sodium, a small fraction of what bacon carries (USDA). Fresh pork isn't a salty food, however it gets treated later.",
+        "Water sets the limit again: about 11.0 kg of roast pork loin, or 129 three-ounce servings. The apple sauce would run out first."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "3 oz portion (85 g)"
+        },
+        {
+          "label": "Protein",
+          "value": "27.1 g per 100 g"
+        },
+        {
+          "label": "Fat",
+          "value": "14.7 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "59 mg per 100 g"
+        }
+      ],
+      "funFact": "Pork loin carries just 59 mg of sodium per 100 g (USDA); NZ's database lists ham at 1,500 mg, so curing does the salting.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 57510,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/167821/nutrients",
+            "id": "167821"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 10955,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 59,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/167821/nutrients",
+            "id": "167821"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 140012,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 408,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/167821/nutrients",
+            "id": "167821"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 23395,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "3 oz serving (85 g)",
+          "plural": "3 oz servings (85 g)",
+          "gramsPerUnit": 85,
+          "emoji": "🐖",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/167821/nutrients"
+          }
+        },
+        {
+          "singular": "cooked pork chop (89 g)",
+          "plural": "cooked pork chops (89 g)",
+          "gramsPerUnit": 89,
+          "emoji": "🥩",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/167821/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is solid; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "The water figure is a lower bound and isn't how people actually get into trouble with water. Real-life limits here are fullness and fat, long before toxicology."
+    },
+    {
+      "slug": "bacon",
+      "name": "Bacon",
+      "emoji": "🥓",
+      "aliases": [
+        "streaky bacon",
+        "middle bacon",
+        "bacon rashers",
+        "rasher",
+        "fried bacon"
+      ],
+      "category": "animal",
+      "form": "pan-fried, rindless, no added fat",
+      "tagline": "Delicious, and easily the saltiest thing in this category.",
+      "overview": [
+        "Pan-fried bacon is the salt champion of this list: about 2.4 g of sodium per 100 g (roughly 6 g of salt), plus 32 g protein and 28 g fat (NZ Food Composition Database). Curing and frying concentrate it all.",
+        "That sodium sets the limit: about 3.5 kg of bacon at the rat-derived dose, or roughly 410 streaky rashers. You'd run out of packet, then fridge, then supermarket."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 rasher of middle or shoulder bacon (23.8 g)"
+        },
+        {
+          "label": "Sodium",
+          "value": "2,370 mg per 100 g (about 6 g of salt)"
+        },
+        {
+          "label": "Protein",
+          "value": "31.6 g per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "32.6 g per 100 g"
+        }
+      ],
+      "funFact": "NZ's food composition database lists two rasher sizes: 8.5 g for streaky and 23.8 g for middle or shoulder bacon.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 32600,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "N1051"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 19325,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 2370,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "N1051"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 3486,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium. This is the headline constituent. NZ value is higher than USDA's pan-fried bacon (1,684 mg per 100 g, which would give about 4,905 g)."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 421,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "N1051"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 22673,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "sodium",
+      "servingUnits": [
+        {
+          "singular": "streaky bacon rasher (8.5 g)",
+          "plural": "streaky bacon rashers (8.5 g)",
+          "gramsPerUnit": 8.5,
+          "emoji": "🥓",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          }
+        },
+        {
+          "singular": "middle or shoulder bacon rasher (23.8 g)",
+          "plural": "middle or shoulder bacon rashers (23.8 g)",
+          "gramsPerUnit": 23.8,
+          "emoji": "🥓",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          }
+        }
+      ],
+      "attainability": "large",
+      "confidence": "medium",
+      "confidenceNote": "Sodium varies a lot by brand and cooking (USDA pan-fried bacon: 1,684 mg vs NZ 2,370 mg per 100 g); this is the lower-mass (more cautious) NZ figure.",
+      "realWorldCaveat": "The rat figure is not a human threshold: people react badly to big sudden salt loads, and you'd be stopped by thirst, nausea and the sheer quantity first. Treat 'large' as 'not a challenge'."
+    },
+    {
+      "slug": "lamb-leg",
+      "name": "Lamb leg",
+      "emoji": "🐑",
+      "aliases": [
+        "roast lamb",
+        "leg of lamb",
+        "lamb roast",
+        "cooked lamb"
+      ],
+      "category": "animal",
+      "form": "cooked (roasted), NZ lamb leg, lean and fat",
+      "tagline": "The Kiwi Sunday roast: low in salt, big on water, long on leftovers.",
+      "overview": [
+        "Roast New Zealand leg of lamb (lean and fat) has about 25 g protein, 16 g fat and 58 g water per 100 g, and just 43 mg of sodium (USDA's record for imported NZ lamb). The salt arrives with the gravy.",
+        "Water sets the limit: about 10.9 kg of roast lamb, or 128 servings of 85 g. Mint sauce not included."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "3 oz portion (85 g)"
+        },
+        {
+          "label": "Protein",
+          "value": "24.8 g per 100 g"
+        },
+        {
+          "label": "Fat",
+          "value": "15.6 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "43 mg per 100 g"
+        }
+      ],
+      "funFact": "Sheep farming was New Zealand's most important agricultural industry for 130 years, until dairy overtook it in 1987.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 57870,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/174343/nutrients",
+            "id": "174343"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 10886,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 43,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/174343/nutrients",
+            "id": "174343"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 192109,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 167,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/174343/nutrients",
+            "id": "174343"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 57157,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "3 oz serving (85 g)",
+          "plural": "3 oz servings (85 g)",
+          "gramsPerUnit": 85,
+          "emoji": "🐑",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/174343/nutrients"
+          }
+        },
+        {
+          "singular": "cooked meat from 1 lb of raw leg (258 g)",
+          "plural": "cooked meat from 1 lb of raw leg (258 g)",
+          "gramsPerUnit": 258,
+          "emoji": "🍖",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/174343/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is solid; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "A lower-bound water figure applied to a solid food, so real life stops you at 'full', not 'toxic'."
+    },
+    {
+      "slug": "egg",
+      "name": "Egg",
+      "emoji": "🥚",
+      "aliases": [
+        "eggs",
+        "boiled egg",
+        "hard-boiled egg",
+        "hen's egg",
+        "chicken egg"
+      ],
+      "category": "animal",
+      "form": "whole, hard-boiled, peeled",
+      "tagline": "Nature's tidy protein capsule, about three-quarters water.",
+      "overview": [
+        "A hard-boiled egg is about 75% water, with 12.6 g protein and 10.6 g fat per 100 g, and 124 mg of sodium (USDA). It also carries 373 mg of cholesterol per 100 g, which is why eggs have spent decades on trial in the court of public opinion.",
+        "Water sets the limit: about 8.4 kg of boiled egg, or roughly 169 large eggs, which is 14 dozen. You'd run out of egg cups, and chickens, first."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 large egg (50 g)"
+        },
+        {
+          "label": "Protein",
+          "value": "12.6 g per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "74.6 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "124 mg per 100 g"
+        }
+      ],
+      "funFact": "A hard-boiled egg is about three-quarters water (USDA: 74.6 g per 100 g).",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 74620,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+            "id": "173424"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 8443,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 124,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+            "id": "173424"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 66619,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 126,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+            "id": "173424"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 75756,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "large hard-boiled egg (50 g)",
+          "plural": "large hard-boiled eggs (50 g)",
+          "gramsPerUnit": 50,
+          "emoji": "🥚",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients"
+          }
+        },
+        {
+          "singular": "dozen hard-boiled eggs (600 g)",
+          "plural": "dozens of hard-boiled eggs (600 g)",
+          "gramsPerUnit": 600,
+          "emoji": "🥚",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients"
+          },
+          "quip": "12 x USDA's 50 g large egg."
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is solid; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "A lower-bound water figure applied to a solid food. Dozens of boiled eggs would end the experiment through sheer discomfort."
+    },
+    {
+      "slug": "milk",
+      "name": "Milk",
+      "emoji": "🥛",
+      "aliases": [
+        "whole milk",
+        "full cream milk",
+        "cow's milk",
+        "blue top",
+        "standard milk"
+      ],
+      "category": "animal",
+      "form": "whole (3.25% fat), cow, fluid",
+      "tagline": "A glass of mostly water, with calcium and a faint sense of childhood.",
+      "overview": [
+        "Whole cow's milk is about 88% water, with 3.2 g protein, 3.3 g fat and 5 g lactose per 100 g, plus 43 mg of sodium and 132 mg of potassium (USDA). It is basically water with ambition.",
+        "Water sets the limit: about 7.1 kg of milk, or roughly 6.9 litres at 1.03 g/mL. That's a trolley of cartons and a very patient cow."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 glass (244 g)"
+        },
+        {
+          "label": "Water",
+          "value": "88.1 g per 100 g"
+        },
+        {
+          "label": "Protein",
+          "value": "3.15 g per 100 g"
+        },
+        {
+          "label": "Density",
+          "value": "About 1.03 g/mL (USDA: 976 g per US quart)"
+        }
+      ],
+      "funFact": "A litre of milk weighs about 1,031 g, roughly 3% more than a litre of water (from USDA's 976 g per US quart).",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 88130,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/171265/nutrients",
+            "id": "171265"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 7149,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 43,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/171265/nutrients",
+            "id": "171265"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 192109,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 132,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/171265/nutrients",
+            "id": "171265"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 72312,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "glass of milk (244 g)",
+          "plural": "glasses of milk (244 g)",
+          "gramsPerUnit": 244,
+          "emoji": "🥛",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/171265/nutrients"
+          }
+        },
+        {
+          "singular": "1 litre carton (1,031 g)",
+          "plural": "1 litre cartons (1,031 g)",
+          "gramsPerUnit": 1031,
+          "emoji": "🧃",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/171265/nutrients"
+          },
+          "quip": "Density 1.03: USDA's 976 g per US quart (0.9464 L)."
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is solid; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "People get into water trouble by drinking a lot of fluid fast, which dilutes blood sodium. Milk carries sodium and solids, but a few litres in one go would simply make you feel unwell, long before the lab maths."
+    },
+    {
+      "slug": "cheddar-cheese",
+      "name": "Cheddar cheese",
+      "emoji": "🧀",
+      "aliases": [
+        "cheddar",
+        "tasty cheese",
+        "tasty",
+        "mild cheddar",
+        "cheese"
+      ],
+      "category": "animal",
+      "form": "cheddar, block",
+      "tagline": "Sharp, salty, and about as far from lethal as a cheese board gets.",
+      "overview": [
+        "Cheddar is about 37% water, 33 g fat and 23 g protein per 100 g, with 653 mg of sodium (USDA). Cheese needs salt for flavour, texture and keeping, which is why it makes crackers taste like something.",
+        "At the rat-derived salt dose you'd need about 12.7 kg of cheddar, which is 452 one-ounce slices. You'd run out of crackers, then friends."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 slice (28 g)"
+        },
+        {
+          "label": "Sodium",
+          "value": "653 mg per 100 g"
+        },
+        {
+          "label": "Fat",
+          "value": "33.3 g per 100 g"
+        },
+        {
+          "label": "Protein",
+          "value": "22.9 g per 100 g"
+        }
+      ],
+      "funFact": "Cheddar is named after the village of Cheddar in Somerset, England.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 36750,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173414/nutrients",
+            "id": "173414"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 17143,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 653,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173414/nutrients",
+            "id": "173414"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 12650,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium. This is the headline constituent. NZ tasty cheddar has 675 mg per 100 g (about 12,238 g)."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 76,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173414/nutrients",
+            "id": "173414"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 125595,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "sodium",
+      "servingUnits": [
+        {
+          "singular": "slice of cheddar (28 g)",
+          "plural": "slices of cheddar (28 g)",
+          "gramsPerUnit": 28,
+          "emoji": "🧀",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173414/nutrients"
+          }
+        },
+        {
+          "singular": "2 cm cube of tasty cheddar (8 g)",
+          "plural": "2 cm cubes of tasty cheddar (8 g)",
+          "gramsPerUnit": 8,
+          "emoji": "🧀",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          }
+        },
+        {
+          "singular": "cup of shredded cheddar (113 g)",
+          "plural": "cups of shredded cheddar (113 g)",
+          "gramsPerUnit": 113,
+          "emoji": "🥣",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173414/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "high",
+      "confidenceNote": "USDA (653 mg) and NZ tasty cheddar (675 mg) sodium agree within about 3%, and both NaCl LD50 values are within 20% of each other.",
+      "realWorldCaveat": "The rat figure is not a human salt threshold, and big salt loads cause trouble in people at lower doses. In practice, thirst and the taste of cheese (and a very full stomach) stop you first."
+    },
+    {
+      "slug": "butter-salted",
+      "name": "Butter (salted)",
+      "emoji": "🧈",
+      "aliases": [
+        "butter",
+        "salted butter",
+        "block of butter"
+      ],
+      "category": "animal",
+      "form": "salted",
+      "tagline": "Mostly fat, a bit of salt, and extremely difficult to eat in bulk.",
+      "overview": [
+        "Salted butter is about 81 g fat, 16 g water and 643 mg of sodium per 100 g (USDA). Only the sodium really sets a limit, since there's hardly any potassium, and no sugar to speak of.",
+        "At the rat-derived salt dose you'd need about 12.8 kg of butter, or roughly 905 tablespoons. Your toast would be the first casualty."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 tablespoon (14.2 g)"
+        },
+        {
+          "label": "Fat",
+          "value": "81.1 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "643 mg per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "16.2 g per 100 g"
+        }
+      ],
+      "funFact": "Butter is only about 81% fat (USDA: 81.1 g per 100 g salted); most of the rest is water, at 16.2 g.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 16170,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173410/nutrients",
+            "id": "173410"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 38961,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 643,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173410/nutrients",
+            "id": "173410"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 12847,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium. This is the headline constituent. NZ salted butter has 547 mg per 100 g (about 15,100 g)."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 24,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173410/nutrients",
+            "id": "173410"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 397717,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "sodium",
+      "servingUnits": [
+        {
+          "singular": "tablespoon of butter (14.2 g)",
+          "plural": "tablespoons of butter (14.2 g)",
+          "gramsPerUnit": 14.2,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173410/nutrients"
+          }
+        },
+        {
+          "singular": "stick of butter (113 g)",
+          "plural": "sticks of butter (113 g)",
+          "gramsPerUnit": 113,
+          "emoji": "🧈",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173410/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "high",
+      "confidenceNote": "USDA (643 mg) and NZ (547 mg) sodium differ by about 15%; both lead to 'absurd'. NaCl LD50 values differ by about 18%.",
+      "realWorldCaveat": "The rat figure isn't a human threshold, and nobody gets through kilos of butter. Fat and fullness end it long before the salt does."
+    },
+    {
+      "slug": "yoghurt",
+      "name": "Yoghurt (plain, whole milk)",
+      "emoji": "🥣",
+      "aliases": [
+        "yogurt",
+        "plain yoghurt",
+        "natural yoghurt",
+        "whole milk yoghurt"
+      ],
+      "category": "animal",
+      "form": "plain, whole milk",
+      "tagline": "Milk that took up a hobby: mostly water, live cultures, no ambitions.",
+      "overview": [
+        "Plain whole-milk yoghurt is about 88% water, with 3.5 g protein, 3.3 g fat, 4.7 g sugars and 46 mg sodium per 100 g (USDA). Bacteria turn some of the lactose into lactic acid, which is where the tang comes from.",
+        "Water sets the limit: about 7.2 kg of yoghurt, or 42 small tubs. Even the cultures would be exhausted."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 small tub (170 g)"
+        },
+        {
+          "label": "Water",
+          "value": "87.9 g per 100 g"
+        },
+        {
+          "label": "Protein",
+          "value": "3.47 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "46 mg per 100 g"
+        }
+      ],
+      "funFact": "Yoghurt is made by two bacteria, Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus, fermenting the lactose in milk.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 87900,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+            "id": "171284"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 7167,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 46,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+            "id": "171284"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 179580,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 155,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+            "id": "171284"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 61582,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "small tub of yoghurt (170 g)",
+          "plural": "small tubs of yoghurt (170 g)",
+          "gramsPerUnit": 170,
+          "emoji": "🥣",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients"
+          }
+        },
+        {
+          "singular": "cup of yoghurt (245 g)",
+          "plural": "cups of yoghurt (245 g)",
+          "gramsPerUnit": 245,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is solid; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "A lower-bound water figure applied to a food people eat by the spoonful. You'd be full, and sick of yoghurt, many kilos earlier."
+    },
+    {
+      "slug": "salmon",
+      "name": "Salmon",
+      "emoji": "🐟",
+      "aliases": [
+        "atlantic salmon",
+        "cooked salmon",
+        "salmon fillet",
+        "baked salmon"
+      ],
+      "category": "animal",
+      "form": "cooked (dry heat), Atlantic, farmed",
+      "tagline": "Oily, pink and rich in omega-3, and also about 65% water.",
+      "overview": [
+        "Cooked farmed Atlantic salmon has about 22 g protein, 12 g fat and 65 g water per 100 g, with only 61 mg of sodium and 384 mg of potassium (USDA). A notable extra is vitamin D, at 13 µg per 100 g.",
+        "Water sets the limit again: about 9.7 kg of salmon, or 55 half-fillets. Potassium is high for a fish but still finishes well behind."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "Half a fillet (178 g)"
+        },
+        {
+          "label": "Protein",
+          "value": "22.1 g per 100 g"
+        },
+        {
+          "label": "Fat",
+          "value": "12.3 g per 100 g"
+        },
+        {
+          "label": "Vitamin D",
+          "value": "13.1 µg per 100 g"
+        }
+      ],
+      "funFact": "Salmon flesh is pink-orange because of astaxanthin, a pigment from the crustaceans they eat (farmed salmon get it added to their feed).",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 64750,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/175168/nutrients",
+            "id": "175168"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 9730,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 61,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/175168/nutrients",
+            "id": "175168"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 135421,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 384,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/175168/nutrients",
+            "id": "175168"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 24857,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "half fillet (178 g)",
+          "plural": "half fillets (178 g)",
+          "gramsPerUnit": 178,
+          "emoji": "🐟",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/175168/nutrients"
+          }
+        },
+        {
+          "singular": "3 oz serving (85 g)",
+          "plural": "3 oz servings (85 g)",
+          "gramsPerUnit": 85,
+          "emoji": "🍣",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/175168/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is solid; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "A lower-bound water figure applied to a solid food. The dinner would end in boredom, not toxicology."
+    },
+    {
+      "slug": "tuna-in-brine",
+      "name": "Tuna (canned in brine)",
+      "emoji": "🥫",
+      "aliases": [
+        "canned tuna",
+        "tinned tuna",
+        "tuna in brine",
+        "tuna"
+      ],
+      "category": "animal",
+      "form": "canned in brine, drained",
+      "tagline": "Pantry hero: the brine goes down the sink, the water stays in the fish.",
+      "overview": [
+        "Drained tuna in brine is about 71% water, with 26.8 g protein, 1.0 g fat and 310 mg of sodium per 100 g (NZ Food Composition Database). Most of the brine ends up in the sink.",
+        "Water sets the limit: about 8.9 kg of drained tuna, or 59 cups of it. Your cat would have to join in."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 cup, drained (151 g)"
+        },
+        {
+          "label": "Protein",
+          "value": "26.8 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "310 mg per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "71.1 g per 100 g"
+        }
+      ],
+      "funFact": "Some tuna species, such as bluefin, can keep their bodies warmer than the water around them.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 71100,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "K1007"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 8861,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 310,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "K1007"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 26647,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 220,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "K1007"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 43387,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "cup of drained tuna (151 g)",
+          "plural": "cups of drained tuna (151 g)",
+          "gramsPerUnit": 151,
+          "emoji": "🥣",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          }
+        },
+        {
+          "singular": "can of tuna (165 g)",
+          "plural": "cans of tuna (165 g)",
+          "gramsPerUnit": 165,
+          "emoji": "🥫",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173709/nutrients"
+          },
+          "quip": "USDA's can weight for drained light tuna."
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is an exact NZ 'canned in brine, drained' match; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "A lower-bound water figure applied to a solid food. You would run out of cans, appetite and patience first."
+    },
+    {
+      "slug": "prawns",
+      "name": "Prawns",
+      "emoji": "🦐",
+      "aliases": [
+        "shrimp",
+        "king prawns",
+        "cooked prawns",
+        "cooked shrimp"
+      ],
+      "category": "animal",
+      "form": "cooked, king prawn flesh",
+      "tagline": "Seafood's fancy cousin: mostly water, plus whatever the cooking brine added.",
+      "overview": [
+        "Cooked king prawn flesh is about 73% water, with 23.7 g protein, 0.9 g fat and 552 mg of sodium per 100 g (NZ Food Composition Database). Sodium varies with how they were cooked: USDA's cooked shrimp record shows 111 mg.",
+        "Water still sets the limit: about 8.6 kg of prawns, or roughly 536 king prawns. That's every prawn on the platter, and probably the platter."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 king prawn (16 g)"
+        },
+        {
+          "label": "Protein",
+          "value": "23.7 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "552 mg per 100 g (NZ data; USDA shows 111 mg)"
+        },
+        {
+          "label": "Water",
+          "value": "73.4 g per 100 g"
+        }
+      ],
+      "funFact": "Whether a crustacean gets called a prawn or a shrimp depends heavily on where you are, not just on the biology.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 73400,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "T1027"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 8583,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 552,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "T1027"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 14965,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium. USDA's cooked shrimp record has only 111 mg per 100 g."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 127,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "T1027"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 75159,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "king prawn (16 g)",
+          "plural": "king prawns (16 g)",
+          "gramsPerUnit": 16,
+          "emoji": "🦐",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          }
+        },
+        {
+          "singular": "3 oz serving (85 g)",
+          "plural": "3 oz servings (85 g)",
+          "gramsPerUnit": 85,
+          "emoji": "🍤",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/175180/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Sodium differs 5x between NZ (552 mg) and USDA (111 mg); the NZ figure is the more cautious one, but water is the headline either way, and its rat LD50 is a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "A lower-bound water figure applied to a solid food. Prawn-wise, you'd hit shell fatigue first."
+    },
+    {
+      "slug": "pork-sausage",
+      "name": "Pork sausage",
+      "emoji": "🌭",
+      "aliases": [
+        "sausage",
+        "snag",
+        "sausages",
+        "pork snags",
+        "bangers"
+      ],
+      "category": "animal",
+      "form": "cooked (pan-fried)",
+      "tagline": "The snag: salty, fatty, and the unchallenged hero of the sausage sizzle.",
+      "overview": [
+        "A pan-fried pork sausage is about 50% water, 27 g fat and 18.5 g protein per 100 g, with 814 mg of sodium (USDA). NZ's database lists a lower figure for pan-fried pork sausage (633 mg), so USDA's higher number is used here.",
+        "Sodium sets the limit: about 10.1 kg of sausage, which is roughly 146 NZ-sized sausages. Even the longest sizzle queue wouldn't get you there."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 sausage (about 70 g, NZ data)"
+        },
+        {
+          "label": "Sodium",
+          "value": "814 mg per 100 g"
+        },
+        {
+          "label": "Fat",
+          "value": "27.3 g per 100 g"
+        },
+        {
+          "label": "Protein",
+          "value": "18.5 g per 100 g"
+        }
+      ],
+      "funFact": "The 'snag' is the main item at a sausage sizzle, the community fundraising barbecue often run outside hardware stores such as Bunnings.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 49890,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/174578/nutrients",
+            "id": "174578"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 12628,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 814,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/174578/nutrients",
+            "id": "174578"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 10148,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium. This is the headline constituent. NZ pan-fried pork sausage has 633 mg per 100 g (about 13,050 g); USDA's higher sodium is used."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 342,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/174578/nutrients",
+            "id": "174578"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 27910,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "sodium",
+      "servingUnits": [
+        {
+          "singular": "pork sausage, pan-fried (69.6 g)",
+          "plural": "pork sausages, pan-fried (69.6 g)",
+          "gramsPerUnit": 69.6,
+          "emoji": "🌭",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          }
+        },
+        {
+          "singular": "breakfast link (23 g)",
+          "plural": "breakfast links (23 g)",
+          "gramsPerUnit": 23,
+          "emoji": "🥓",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/174578/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Sodium varies by recipe (USDA 814 mg vs NZ 633 mg per 100 g); both give an 'absurd' answer.",
+      "realWorldCaveat": "The rat figure isn't a human salt threshold. Fat, fullness and thirst would end the attempt many sausages sooner."
+    },
+    {
+      "slug": "ham",
+      "name": "Ham (sliced, cured)",
+      "emoji": "🍖",
+      "aliases": [
+        "sliced ham",
+        "deli ham",
+        "cured ham",
+        "sandwich ham"
+      ],
+      "category": "animal",
+      "form": "sliced, cured",
+      "tagline": "Pink, cured and carrying nearly 4 g of salt per 100 g. A lot of sandwich.",
+      "overview": [
+        "Sliced ham is about 71% water, with 13.0 g protein, 5.1 g fat and 1,500 mg of sodium (about 3.8 g of salt) per 100 g (NZ Food Composition Database). USDA's regular sliced ham is lower at 814 mg, so the saltier NZ figure is used.",
+        "Sodium sets the limit: about 5.5 kg of ham, or 190 slices. That's a very long sandwich."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 slice (29 g)"
+        },
+        {
+          "label": "Sodium",
+          "value": "1,500 mg per 100 g (about 3.8 g of salt)"
+        },
+        {
+          "label": "Protein",
+          "value": "13.0 g per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "70.7 g per 100 g"
+        }
+      ],
+      "funFact": "Curing salt, a mix of sodium chloride and sodium nitrite, is dyed pink so it can't be mistaken for table salt.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 70700,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "N65"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 8911,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 1500,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "N65"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 5507,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium. This is the headline constituent. USDA's sliced regular ham has 814 mg per 100 g (about 10,148 g); the NZ figure is the more cautious one."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 250,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "N65"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 38181,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "sodium",
+      "servingUnits": [
+        {
+          "singular": "slice of ham (29 g)",
+          "plural": "slices of ham (29 g)",
+          "gramsPerUnit": 29,
+          "emoji": "🍖",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          }
+        },
+        {
+          "singular": "deli serving (56 g)",
+          "plural": "deli servings (56 g)",
+          "gramsPerUnit": 56,
+          "emoji": "🥪",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173864/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Sodium differs a lot by product (NZ 1,500 mg vs USDA 814 mg per 100 g); even the saltier one lands just over the 'absurd' line.",
+      "realWorldCaveat": "The rat figure is not a human salt threshold; a huge salt load is a real hazard to people at lower doses than rats. The thirst alone would defeat you well before this."
+    },
+    {
+      "slug": "green-lipped-mussels",
+      "name": "Green-lipped mussels",
+      "emoji": "🐚",
+      "aliases": [
+        "greenshell mussels",
+        "green mussels",
+        "kuku",
+        "kutai",
+        "mussels",
+        "Perna canaliculus"
+      ],
+      "category": "animal",
+      "form": "cooked (boiled), meat only",
+      "tagline": "New Zealand's shellfish export, and about 72% pure ocean water.",
+      "overview": [
+        "Boiled green-lipped mussel meat is about 72% water, with 15.9 g protein, 2.7 g fat and 596 mg of sodium per 100 g (NZ Food Composition Database). The data is for the green-lipped species itself, not a blue-mussel stand-in.",
+        "Water sets the limit: about 8.7 kg of mussel meat, which at 15.2 g a mussel is about 573 mussels. That's a lot of shell-picking."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 mussel (15.2 g of meat)"
+        },
+        {
+          "label": "Protein",
+          "value": "15.9 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "596 mg per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "72.4 g per 100 g"
+        }
+      ],
+      "funFact": "Green-lipped mussels (Perna canaliculus) occur around all of New Zealand's mainland, and are also called kuku or kutai.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 72400,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "T1026"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 8702,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 596,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "T1026"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 13860,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 219,
+          "compositionSource": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx",
+            "id": "T1026"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 43585,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "mussel (15.2 g meat)",
+          "plural": "mussels (15.2 g meat)",
+          "gramsPerUnit": 15.2,
+          "emoji": "🐚",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          }
+        },
+        {
+          "singular": "cup of mussel meat (216 g)",
+          "plural": "cups of mussel meat (216 g)",
+          "gramsPerUnit": 216,
+          "emoji": "🥣",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Exact species and form from NZ data; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "A lower-bound water figure applied to a solid food. Mussel-wise, shell fatigue and a long wait for the next steam would stop you first."
+    },
+    {
+      "slug": "vanilla-ice-cream",
+      "name": "Vanilla ice cream",
+      "emoji": "🍨",
+      "aliases": [
+        "ice cream",
+        "vanilla ice-cream",
+        "vanilla icecream",
+        "icecream"
+      ],
+      "category": "animal",
+      "form": "vanilla, regular",
+      "tagline": "About 61% water and 21% sugar, and brain freeze would intervene long before either.",
+      "overview": [
+        "Vanilla ice cream is about 61% water, 21 g sugars and 11 g fat per 100 g, with 80 mg of sodium (USDA). The sugars are a mix of sucrose, lactose and others, but sucrose is the only one with a rat LD50 we could source, so it stands in for the lot.",
+        "Sugar just edges water out as the limit: about 9.8 kg of ice cream, or 148 half-cup scoops. Brain freeze would arrive a very long way earlier."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1/2 cup scoop (66 g)"
+        },
+        {
+          "label": "Sugars",
+          "value": "21.2 g per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "61.0 g per 100 g"
+        },
+        {
+          "label": "Fat",
+          "value": "11.0 g per 100 g"
+        }
+      ],
+      "funFact": "Hokey pokey, vanilla ice cream with crunchy honeycomb toffee, is a Kiwi favourite, and NZ's food composition database lists it as its own entry.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 61000,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/167575/nutrients",
+            "id": "167575"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 10328,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 80,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/167575/nutrients",
+            "id": "167575"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 103259,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 199,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/167575/nutrients",
+            "id": "167575"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 47966,
+          "notes": "Not limiting for this food."
+        },
+        {
+          "key": "sugars",
+          "label": "Total sugars (as sucrose)",
+          "mgPer100g": 21220,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/167575/nutrients",
+            "id": "167575"
+          },
+          "ld50": {
+            "compound": "Sucrose",
+            "mgPerKgCompound": 29700,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 29700,
+            "conversionNote": "Total sugars treated as sucrose (fraction 1.0). Ice cream sugars are a mix of sucrose, lactose and glucose syrup, so this is a stand-in.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (LD50 Rat oral 29,700 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5988"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 9797,
+          "notes": "Sucrose stand-in for mixed sugars (mostly sucrose and lactose in ice cream). This is the headline constituent. Water alone would give about 10,328 g."
+        }
+      ],
+      "headlineConstituentKey": "sugars",
+      "servingUnits": [
+        {
+          "singular": "half-cup scoop (66 g)",
+          "plural": "half-cup scoops (66 g)",
+          "gramsPerUnit": 66,
+          "emoji": "🍨",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/167575/nutrients"
+          }
+        },
+        {
+          "singular": "small scoop (36.6 g)",
+          "plural": "small scoops (36.6 g)",
+          "gramsPerUnit": 36.6,
+          "emoji": "🍦",
+          "source": {
+            "name": "NZ Food Composition Database (FOODfiles), Concise Tables 14th ed. 2021",
+            "url": "https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx"
+          },
+          "quip": "NZ's 64 mL scoop of standard vanilla."
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Sugars are treated as sucrose, which is a stand-in; water and sugars give nearly the same answer (9.8 kg vs 10.3 kg).",
+      "realWorldCaveat": "Sucrose and water are both lab figures for dissolved or neat doses, and a half-frozen dessert never reaches them. Sugar crash, nausea and brain freeze would all intervene first."
+    },
+    {
+      "slug": "cream",
+      "name": "Cream (pouring/heavy)",
+      "emoji": "🥛",
+      "aliases": [
+        "pouring cream",
+        "heavy cream",
+        "heavy whipping cream",
+        "whipping cream"
+      ],
+      "category": "animal",
+      "form": "fluid, heavy whipping (about 36% fat)",
+      "tagline": "36% fat, 58% water, and nothing salty to hide behind.",
+      "overview": [
+        "Heavy whipping cream is about 58% water and 36 g fat per 100 g, with just 27 mg of sodium and 95 mg of potassium (USDA). NZ's 'standard' cream is very close, at 55% water and 25 mg sodium.",
+        "Water sets the limit: about 10.9 kg of cream, or roughly 728 tablespoons. You'd stop pouring around the first litre."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 tablespoon (15 g)"
+        },
+        {
+          "label": "Fat",
+          "value": "36.1 g per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "57.7 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "27 mg per 100 g"
+        }
+      ],
+      "funFact": "Cream needs roughly 30–36% butterfat to whip, because the fat globules hold the air bubbles in place.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 57710,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/170859/nutrients",
+            "id": "170859"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 10917,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record. This is the headline constituent."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 27,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/170859/nutrients",
+            "id": "170859"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 305952,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 95,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/170859/nutrients",
+            "id": "170859"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 100476,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "tablespoon of cream (15 g)",
+          "plural": "tablespoons of cream (15 g)",
+          "gramsPerUnit": 15,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/170859/nutrients"
+          }
+        },
+        {
+          "singular": "cup of cream (238 g)",
+          "plural": "cups of cream (238 g)",
+          "gramsPerUnit": 238,
+          "emoji": "🥛",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/170859/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Composition is solid; the headline is water, whose rat LD50 is only a '> 90 mL/kg' lower bound.",
+      "realWorldCaveat": "A lower-bound water figure applied to a food that's 36% fat. Your stomach would stage a protest a very long way short."
+    },
+    {
+      "slug": "feta-cheese",
+      "name": "Feta cheese",
+      "emoji": "🧀",
+      "aliases": [
+        "feta",
+        "greek feta",
+        "salad cheese"
+      ],
+      "category": "animal",
+      "form": "feta",
+      "tagline": "Briny, crumbly, and much saltier than cheddar.",
+      "overview": [
+        "Feta is about 55% water, 21 g fat and 14 g protein per 100 g, with 1,139 mg of sodium, about 2.9 g of salt (USDA). It's stored in brine, which explains most of that. NZ's traditional cows' milk feta lists 970 mg.",
+        "Sodium sets the limit: about 7.3 kg of feta, or 191 wedges. That's a Greek salad the size of a paddling pool."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 wedge (38 g)"
+        },
+        {
+          "label": "Sodium",
+          "value": "1139 mg per 100 g (about 2.9 g of salt)"
+        },
+        {
+          "label": "Fat",
+          "value": "21.5 g per 100 g"
+        },
+        {
+          "label": "Protein",
+          "value": "14.2 g per 100 g"
+        }
+      ],
+      "funFact": "Within the EU, only Greek cheese made from sheep's milk (with up to 30% goat's milk) can legally be called feta, protected by PDO since 2002.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 55220,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173420/nutrients",
+            "id": "173420"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the compound itself, so no conversion. Source reads '> 90 mL/kg' (a lower bound, not a measured median); 1 mL = 1 g, so 90 mL/kg = 90,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "ScienceLab Water MSDS (Wayback Machine capture, 1 Mar 2015)",
+                "url": "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 11409,
+          "notes": "Lower-bound LD50 ('> 90 mL/kg'), so the real lethal mass of food is at least this. Water content from the composition record."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 1139,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173420/nutrients",
+            "id": "173420"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.1,
+            "conversionNote": "Na = 22.990 / 58.443 = 39.3% of NaCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3550,
+                "species": "Rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 1000,
+                "species": "Human (quoted in the PubChem record; not a rat value, not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (HSDB/record: LD50 Rat oral 3000 mg/kg)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+              },
+              {
+                "name": "Fisher Scientific SDS, sodium chloride (rev. 18-Dec-2025): 3550 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S271500&productDescription=SODIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 7253,
+          "notes": "Sodium as NaCl-equivalent; in food it is a mix of added salt and natural sodium. This is the headline constituent. NZ cows' milk feta has 970 mg per 100 g (about 8,516 g)."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 62,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy)",
+            "url": "https://fdc.nal.usda.gov/food-details/173420/nutrients",
+            "id": "173420"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5244,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.551 = 52.4% of KCl by mass",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (PubChem oral value; not used because a rat value exists)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              },
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (PubChem oral value; not used)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, potassium chloride (rev. 18-Dec-2025): LD50 2600 mg/kg rat",
+                "url": "https://www.fishersci.com/store/msds?partNumber=P217500&productDescription=POTASSIUM+CHLORIDE+CERT+ACS+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (no rat oral value listed)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 153955,
+          "notes": "Not limiting for this food."
+        }
+      ],
+      "headlineConstituentKey": "sodium",
+      "servingUnits": [
+        {
+          "singular": "wedge of feta (38 g)",
+          "plural": "wedges of feta (38 g)",
+          "gramsPerUnit": 38,
+          "emoji": "🧀",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173420/nutrients"
+          }
+        },
+        {
+          "singular": "cup of crumbled feta (150 g)",
+          "plural": "cups of crumbled feta (150 g)",
+          "gramsPerUnit": 150,
+          "emoji": "🥗",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy) portion data",
+            "url": "https://fdc.nal.usda.gov/food-details/173420/nutrients"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "high",
+      "confidenceNote": "USDA (1,139 mg) and NZ cows' feta (970 mg) sodium agree within about 15%, and both give 'absurd'.",
+      "realWorldCaveat": "The rat figure isn't a human salt threshold, and a big salt load is a real hazard to people at lower doses. Thirst and a very salty mouth stop you first."
+    }
+  ],
+  "flagged": [
+    {
+      "name": "Beef liver (cooked, braised)",
+      "reason": "Real acute and cumulative toxicity from vitamin A (preformed retinol) at ordinary serving sizes, far below anything the lab LD50 maths suggests.",
+      "details": "USDA SR Legacy 168626 (braised beef liver, https://fdc.nal.usda.gov/food-details/168626/nutrients): retinol 9428 µg (9.43 mg) per 100 g. A single 100 g serving is about 6.3x the 1.5 mg/day vitamin A figure the NHS gives as a daily ceiling for some groups, and the NHS advises not eating liver more than about once a week (https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a/). USDA's record for NZ-imported boiled beef liver (174728) lists 21014 µg (21.0 mg) retinol per 100 g, about 14x that figure. Lab-style lethal masses for a 70 kg person, per 100 g composition: water 10712 g (water 58.81 g per 100 g, rat oral >90 mL/kg lower bound), sodium 104566 g (79 mg per 100 g), potassium 27117 g (352 mg per 100 g), copper 58540 g (14.283 mg per 100 g; copper(II) sulfate rat oral 300 mg/kg per PubChem https://pubchem.ncbi.nlm.nih.gov/compound/24462, Cu = 63.546/159.602 = 39.8% of CuSO4, giving 119.4 mg Cu/kg), vitamin A 1908146 g (retinol mouse oral LD50 2570 mg/kg per PubChem https://pubchem.ncbi.nlm.nih.gov/compound/445354; no rat oral value found). So every lab number says 'absurd' (the smallest is water at about 10.7 kg), but that is exactly why the lab number misleads here: the real problem is vitamin A building up at serving sizes of a few hundred grams a week, not an acute LD50."
+    }
+  ],
+  "problems": [
+    "Composition data: USDA values were read from the official SR Legacy bulk CSV download (FoodData_Central_sr_legacy_food_csv_2018-04.zip from https://fdc.nal.usda.gov/fdc-datasets/, records dated 2019-04-01) because the FoodData Central API's DEMO_KEY was rate-limited (HTTP 429). The 'url' on each USDA source is the FDC page for the same fdcId; I did not open those pages in a browser. The numbers are the same records.",
+    "NZ composition data (bacon, ham, prawns, tuna in brine, green-lipped mussels) were read from the NZ Food Composition Database Concise Tables 14th edition (2021) Excel file at https://www.foodcomposition.co.nz/downloads/concise-14-edition.xlsx (the online search page is JavaScript-only). NZ figures are rounded to 2 to 3 significant figures.",
+    "How I chose between USDA and NZ: USDA by default. NZ was used where USDA lacks the exact form (green-lipped mussels; tuna 'in brine, drained', where USDA only has 'in water') or where the NZ product is much saltier (bacon 2,370 vs USDA 1,684 mg Na/100 g; ham 1,500 vs 814; prawns 552 vs 111) so the more cautious, smaller-mass figure is used. Where the two agreed within about 15% (cheddar, butter, feta, sausage, milk, cream, ice cream) USDA was used and the NZ figure is mentioned in notes.",
+    "Green-lipped mussels: no swap was needed. NZ FOODfiles has 'Mussel, green, meat, boiled' (T1026), so the entry is for the actual species. USDA only has blue mussels.",
+    "WATER LD50 is a lower bound. The only source I could open that gives a rat oral value is an archived ScienceLab SDS (Wayback capture): 'LD50 Rat oral > 90 ml/kg'. PubChem has no oral value for water (only mouse intraperitoneal values, 25,000 and 190,000 mg/kg), Fisher's water SDS lists none, and ECHA/Sigma pages were blocked. So every water-based figure (12 of the 19 foods) is a floor on the lethal food mass, not a measured median. ScienceLab's site is defunct; the URL is the Wayback capture.",
+    "Potassium chloride: the only rat oral value I could open is 2600 mg/kg (Fisher SDS). PubChem lists no rat oral value, but does list a mouse oral value of 383 mg/kg (and guinea pig 2500). The mouse figure is NOT used (a rat value exists). For transparency: if it were used, potassium would become the limiting constituent for several meats, with the smallest potassium-based masses being bacon 3,340 g, pork-loin 3,446 g, salmon 3,662 g, beef-mince 4,029 g, still 'large' or 'absurd' but headline would change.",
+    "Sodium chloride: PubChem gives rat oral 3000 mg/kg and Fisher's SDS gives 3550 mg/kg; the lower 3000 is the working number. PubChem also quotes 1000 mg/kg for humans in one record, which is not a rat value and is not used.",
+    "Bacon is only just 'large' (about 3.5 kg, via sodium) and ham only just 'absurd' (about 5.5 kg). Humans react to big salt loads at lower doses than rats do, so the lab-derived mass is generous. Both pass the spec's thresholds so they are in `foods`, but you may want to downgrade or hide bacon if you want extra caution.",
+    "Calcium (as calcium chloride) was considered for the cheeses and milk but NOT included: PubChem lists only rabbit oral values for CaCl2, and the SDS pages I tried (Sigma, ECHA, guessed Fisher part numbers) were blocked or not found, so there is no sourced rat oral LD50 to use. If a rat value around 1,000 to 2,000 mg/kg exists it could make cheddar's limit lower than the sodium-based one. Not computed.",
+    "Lactose has no rat oral LD50 that I opened, so dairy sugars are left out. Ice cream uses total sugars with the sucrose LD50 (29,700 mg/kg, PubChem) as a stand-in; sucrose and water give nearly the same answer (9.8 vs 10.3 kg), so the choice barely matters.",
+    "Beef liver is in `flagged`, not `foods`, for real-world vitamin A toxicity (see details). I could not open a rat oral LD50 for vitamin A: PubChem's retinol record has a mouse oral value (2,570 mg/kg) only, used in the flagged details and labelled as mouse. Copper uses PubChem's copper(II) sulfate rat oral 300 mg/kg (the record does not say if that is anhydrous or pentahydrate; I assumed anhydrous, which is the more cautious reading).",
+    "Form notes: beef mince is USDA 85% lean / 15% fat pan-broiled patty (NZ mince is typically 10 to 20% fat). Lamb is USDA's record for imported NZ frozen leg, roasted, lean and fat. Pork loin is roasted, lean and fat. Chicken breast is roasted, meat only (no skin). Salmon is farmed Atlantic, dry-heat cooked. Cream is USDA 'heavy whipping' (about 36% fat) as the stand-in for pouring/heavy cream.",
+    "Liquids/units: milk grams per cup (244 g) and per litre (1,031 g) come from USDA's 976 g per US quart (0.9464 L), a density of about 1.03 g/mL. All masses are per 100 g, not per 100 mL. The dozen-egg unit is 12 x USDA's 50 g large egg.",
+    "I did not include extra constituents (selenium, iron, vitamin D, cholesterol, calcium, nitrite, mercury) as limiting candidates: either no sourced rat oral LD50, or their lethal masses are many times larger than water or sodium (for example, vitamin D in salmon at 13.1 µg/100 g). Nitrite in cured meats has no USDA/NZ composition value to use.",
+    "Fun facts: those with figures are from composition data above or Wikipedia (chicken population, sheep/dairy history, feta PDO, kuku/kutai, curing salt, cream whipping, yoghurt bacteria, tuna). Not independently checked against primary sources: cheddar's Somerset naming, salmon astaxanthin from feed, the 'snag'/Bunnings line. Eyeball them before publishing."
+  ]
+}

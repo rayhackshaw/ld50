@@ -1,0 +1,37 @@
+{
+  "name": "ld50",
+  "private": true,
+  "version": "0.1.0",
+  "description": "How much is too much? An LD50 lookup that is mostly a joke.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c green,cyan \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "node --watch server/index.ts",
+    "dev:web": "vite",
+    "build:foods": "node scripts/build-foods.ts",
+    "check": "tsc -p tsconfig.app.json && tsc -p tsconfig.node.json",
+    "build": "npm run check && vite build",
+    "start": "node server/index.ts --static"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "@hono/node-server": "^2.1.6",
+    "hono": "^4.13.17",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "concurrently": "^10.0.7",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+
+    // The server runs straight on Node's built-in TypeScript support (no build step),
+    // so only syntax that can simply be erased is allowed (no enums, namespaces, etc).
+    "erasableSyntaxOnly": true
+  },
+  "include": ["server", "shared", "scripts", "vite.config.ts"]
+}

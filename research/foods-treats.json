@@ -1,0 +1,3361 @@
+{
+  "meta": {
+    "category": "treats",
+    "compiledAt": "2026-11-10",
+    "count": 20
+  },
+  "foods": [
+    {
+      "slug": "brewed-coffee",
+      "name": "Brewed coffee",
+      "emoji": "☕",
+      "aliases": [
+        "coffee",
+        "black coffee",
+        "long black",
+        "filter coffee",
+        "plunger coffee"
+      ],
+      "category": "treats",
+      "form": "brewed, prepared with tap water",
+      "tagline": "The caffeine isn't the problem. The water gets there first.",
+      "overview": [
+        "Brewed coffee is 99.39 g water per 100 g, with 40 mg of caffeine, 49 mg of potassium and 2 mg of sodium (USDA). A cup is 237 g, so about 95 mg of caffeine.",
+        "Caffeine, with a rat oral LD50 of 192 mg/kg, would take about 33.6 kg of coffee. Water sets the headline instead, at about 6.3 kg. Nobody is drinking six-odd kilos of coffee, and it's the water, not the coffee, doing the limiting."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 cup (237 g)"
+        },
+        {
+          "label": "Caffeine",
+          "value": "40 mg per 100 g (about 95 mg a cup)"
+        },
+        {
+          "label": "Water",
+          "value": "99.39 g per 100 g"
+        },
+        {
+          "label": "Limiting constituent",
+          "value": "Water (caffeine would need about 33.6 kg)"
+        }
+      ],
+      "funFact": "USDA lists brewed coffee at 40 mg of caffeine per 100 g, so a 237 g cup carries roughly 95 mg.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 99390,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171890"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 6339,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        },
+        {
+          "key": "caffeine",
+          "label": "Caffeine",
+          "mgPer100g": 40,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171890"
+          },
+          "ld50": {
+            "compound": "Caffeine",
+            "mgPerKgCompound": 192,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 192,
+            "conversionNote": "Caffeine is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 367.7,
+                "species": "Rat (oral), Fisher SDS",
+                "url": "https://www.fishersci.com/store/msds?partNumber=O1728500&productDescription=CAFFEINE+USP%2FFCC+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 127,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Caffeine; HSDB data)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 33600,
+          "notes": "Lowest rat oral value used (192 mg/kg); a Fisher SDS gives 367.7 mg/kg. Not the limiting constituent here."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 49,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171890"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 194800,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 2,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171890"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 4130700,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "cup of coffee (237 g)",
+          "plural": "cups of coffee (237 g)",
+          "gramsPerUnit": 237,
+          "emoji": "☕",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 171890)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "litre of coffee (about 1,000 g)",
+          "plural": "litres of coffee (about 1,000 g)",
+          "gramsPerUnit": 1000,
+          "emoji": "🫗",
+          "source": {
+            "name": "Derived: 1 L taken as about 1,000 g (1 mL ≈ 1 g; USDA lists 29.6 g per fl oz, about 1,000 g per litre)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Headline is water, whose only rat figure is a \">90 mL/kg\" limit value; the caffeine figure alone varies about 2x between sources.",
+      "realWorldCaveat": "Water has no true rat median here (the SDS gives a limit value), and drinking very large volumes of anything quickly is dangerous in its own right (water intoxication), so this is arithmetic, not a challenge. The caffeine number is irrelevant because nobody could get anywhere near it."
+    },
+    {
+      "slug": "black-tea",
+      "name": "Black tea",
+      "emoji": "🫖",
+      "aliases": [
+        "tea",
+        "cuppa",
+        "brewed tea",
+        "builders tea"
+      ],
+      "category": "treats",
+      "form": "brewed, prepared with tap water",
+      "tagline": "A cuppa is mostly hot water, and the maths knows it.",
+      "overview": [
+        "Brewed black tea is 99.7% water (USDA), with 20 mg of caffeine, 2 mg of theobromine and 37 mg of potassium per 100 g. A cup is 237 g.",
+        "Caffeine would need about 67.2 kg of tea, and the trace theobromine 3,325 kg. Water sets the headline at about 6.3 kg. As a lethal agent, the tea bag is largely decorative."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 cup (237 g)"
+        },
+        {
+          "label": "Caffeine",
+          "value": "20 mg per 100 g (about 47 mg a cup)"
+        },
+        {
+          "label": "Water",
+          "value": "99.70 g per 100 g"
+        }
+      ],
+      "funFact": "Per USDA, brewed black tea has 20 mg of caffeine per 100 g, half of brewed coffee's 40 mg.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 99700,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "173227"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 6319,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        },
+        {
+          "key": "caffeine",
+          "label": "Caffeine",
+          "mgPer100g": 20,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "173227"
+          },
+          "ld50": {
+            "compound": "Caffeine",
+            "mgPerKgCompound": 192,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 192,
+            "conversionNote": "Caffeine is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 367.7,
+                "species": "Rat (oral), Fisher SDS",
+                "url": "https://www.fishersci.com/store/msds?partNumber=O1728500&productDescription=CAFFEINE+USP%2FFCC+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 127,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Caffeine; HSDB data)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 67200,
+          "notes": "Lowest rat oral value used (192 mg/kg); a Fisher SDS gives 367.7 mg/kg."
+        },
+        {
+          "key": "theobromine",
+          "label": "Theobromine",
+          "mgPer100g": 2,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "173227"
+          },
+          "ld50": {
+            "compound": "Theobromine",
+            "mgPerKgCompound": 950,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 950,
+            "conversionNote": "Theobromine is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 1265,
+                "species": "Rat (oral), Fisher SDS",
+                "url": "https://www.fishersci.com/store/msds?partNumber=AC258821000&productDescription=THEOBROMINE%2C+99%25+100GR&vendorId=VN00032119&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 300,
+                "species": "Dog (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5429/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Theobromine)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5429/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 3325000,
+          "notes": "PubChem rat value 950 mg/kg used; a Fisher SDS gives 1,265 mg/kg."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 37,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "173227"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 257978,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "cup of tea (237 g)",
+          "plural": "cups of tea (237 g)",
+          "gramsPerUnit": 237,
+          "emoji": "🫖",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 173227)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "litre of tea (about 1,000 g)",
+          "plural": "litres of tea (about 1,000 g)",
+          "gramsPerUnit": 1000,
+          "emoji": "🫗",
+          "source": {
+            "name": "Derived: 1 L taken as about 1,000 g (1 mL ≈ 1 g; USDA lists 29.6 g per fl oz)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Headline is water, whose only rat figure is a \">90 mL/kg\" limit value.",
+      "realWorldCaveat": "The water figure is a floor from a safety data sheet, not a measured median, and a large volume of any drink taken quickly is dangerous in its own right. This is not a target."
+    },
+    {
+      "slug": "green-tea",
+      "name": "Green tea",
+      "emoji": "🍵",
+      "aliases": [
+        "brewed green tea",
+        "japanese tea",
+        "sencha"
+      ],
+      "category": "treats",
+      "form": "brewed, regular",
+      "tagline": "Barely anything but water, so water it is.",
+      "overview": [
+        "Brewed green tea is 99.93% water (USDA), leaving 0.07 g per 100 g of everything else, of which 12 mg is caffeine and 8 mg potassium. A cup is 245 g.",
+        "Caffeine would take about 112 kg of tea. Water sets the headline at about 6.3 kg, since there's so little of anything else. The lethal dose is, in effect, a lot of water with a tint."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 cup (245 g)"
+        },
+        {
+          "label": "Caffeine",
+          "value": "12 mg per 100 g (about 29 mg a cup)"
+        },
+        {
+          "label": "Water",
+          "value": "99.93 g per 100 g"
+        }
+      ],
+      "funFact": "USDA lists brewed green tea as 99.93% water, with just 12 mg of caffeine and 8 mg of potassium per 100 g.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 99930,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171917"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 6304,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        },
+        {
+          "key": "caffeine",
+          "label": "Caffeine",
+          "mgPer100g": 12,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171917"
+          },
+          "ld50": {
+            "compound": "Caffeine",
+            "mgPerKgCompound": 192,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 192,
+            "conversionNote": "Caffeine is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 367.7,
+                "species": "Rat (oral), Fisher SDS",
+                "url": "https://www.fishersci.com/store/msds?partNumber=O1728500&productDescription=CAFFEINE+USP%2FFCC+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 127,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Caffeine; HSDB data)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 112000,
+          "notes": "Lowest rat oral value used (192 mg/kg); a Fisher SDS gives 367.7 mg/kg."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 8,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171917"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 1193150,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "cup of green tea (245 g)",
+          "plural": "cups of green tea (245 g)",
+          "gramsPerUnit": 245,
+          "emoji": "🍵",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 171917)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "litre of green tea (about 1,000 g)",
+          "plural": "litres of green tea (about 1,000 g)",
+          "gramsPerUnit": 1000,
+          "emoji": "🫗",
+          "source": {
+            "name": "Derived: 1 L taken as about 1,000 g (1 mL ≈ 1 g; USDA lists 29.6 g per fl oz)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Headline is water, whose only rat figure is a \">90 mL/kg\" limit value.",
+      "realWorldCaveat": "Water's rat figure is a limit value, not a median, and drinking huge volumes quickly is dangerous regardless of what is dissolved in it. Treat this as a punchline, not a benchmark."
+    },
+    {
+      "slug": "cola",
+      "name": "Cola",
+      "emoji": "🥤",
+      "aliases": [
+        "coke",
+        "fizzy drink",
+        "soft drink",
+        "soda",
+        "regular cola"
+      ],
+      "category": "treats",
+      "form": "carbonated, regular (sugar-sweetened)",
+      "tagline": "Mostly sugar water, and the water is the limiting factor.",
+      "overview": [
+        "USDA's regular cola is 89.36% water, with 9.94 g of sugars, 9 mg of caffeine and 5 mg of potassium per 100 g. A 12 fl oz can is 370 g.",
+        "Sugars (treated as glucose) would take about 18.2 kg and caffeine 149 kg. Water sets the headline at about 7.0 kg, roughly 19 cans. Cola's fearsome reputation turns out to be mostly water."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 can (12 fl oz, 370 g)"
+        },
+        {
+          "label": "Sugars",
+          "value": "9.94 g per 100 g (about 36.8 g a can)"
+        },
+        {
+          "label": "Caffeine",
+          "value": "9 mg per 100 g (about 33 mg a can)"
+        }
+      ],
+      "funFact": "By USDA's numbers a 370 g can of regular cola holds about 36.8 g of sugars (9.94 g per 100 g).",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 89360,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "174852"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 7050,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        },
+        {
+          "key": "sugars",
+          "label": "Sugars (total, glucose LD50 as stand-in)",
+          "mgPer100g": 9940,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "174852"
+          },
+          "ld50": {
+            "compound": "D-Glucose (stand-in for mixed sugars)",
+            "mgPerKgCompound": 25800,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 25800,
+            "conversionNote": "Fraction 1: the whole \"total sugars\" figure is treated as if it were glucose, the lowest sourced sugar LD50. Fructose, the other main sugar, has no credible sourced rat oral LD50 (see problems).",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (D-Glucose)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5793/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 18169,
+          "notes": "USDA total sugars treated as glucose for the LD50, because fructose (often the largest share) has no credible sourced rat oral LD50. USDA splits this entry into fructose 5.84 g and glucose 4.1 g (no sucrose) per 100 g."
+        },
+        {
+          "key": "caffeine",
+          "label": "Caffeine",
+          "mgPer100g": 9,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "174852"
+          },
+          "ld50": {
+            "compound": "Caffeine",
+            "mgPerKgCompound": 192,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 192,
+            "conversionNote": "Caffeine is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 367.7,
+                "species": "Rat (oral), Fisher SDS",
+                "url": "https://www.fishersci.com/store/msds?partNumber=O1728500&productDescription=CAFFEINE+USP%2FFCC+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 127,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Caffeine; HSDB data)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 149333,
+          "notes": "Lowest rat oral value used (192 mg/kg); a Fisher SDS gives 367.7 mg/kg."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 5,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "174852"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 1909040,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "can of cola (12 fl oz, 370 g)",
+          "plural": "cans of cola (12 fl oz, 370 g)",
+          "gramsPerUnit": 370,
+          "emoji": "🥤",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 174852)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "extra-large cola (44 fl oz, 1353 g)",
+          "plural": "extra-large colas (44 fl oz, 1353 g)",
+          "gramsPerUnit": 1353,
+          "emoji": "🥤",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 174852)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Headline is water (limit-value LD50); the sugar figure is a glucose stand-in for a fructose-heavy mix.",
+      "realWorldCaveat": "The water figure is a limit value, and a huge volume of fizzy sugar water would be refused by the stomach long before any lab number, and is dangerous in its own right. Not a challenge."
+    },
+    {
+      "slug": "orange-juice",
+      "name": "Orange juice",
+      "emoji": "🍊",
+      "aliases": [
+        "oj",
+        "juice",
+        "orange juice from concentrate"
+      ],
+      "category": "treats",
+      "form": "chilled, includes from concentrate",
+      "tagline": "The vitamin C is harmless. The litres are the problem.",
+      "overview": [
+        "USDA's chilled orange juice is 87.22% water, with 8.31 g of sugars, 178 mg of potassium and 33.6 mg of vitamin C per 100 g. A cup is 249 g.",
+        "Vitamin C would need about 2,479 kg of juice before it did anything. Sugars (as glucose) come in at 21.7 kg. Water wins again, at about 7.2 kg, roughly 7 litre cartons."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 cup (249 g)"
+        },
+        {
+          "label": "Vitamin C",
+          "value": "33.6 mg per 100 g (about 84 mg a cup)"
+        },
+        {
+          "label": "Sugars",
+          "value": "8.31 g per 100 g"
+        }
+      ],
+      "funFact": "USDA lists chilled orange juice at 33.6 mg of vitamin C per 100 g, which is about 84 mg in a 249 g cup.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 87220,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169100"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 7223,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        },
+        {
+          "key": "sugars",
+          "label": "Sugars (total, glucose LD50 as stand-in)",
+          "mgPer100g": 8310,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169100"
+          },
+          "ld50": {
+            "compound": "D-Glucose (stand-in for mixed sugars)",
+            "mgPerKgCompound": 25800,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 25800,
+            "conversionNote": "Fraction 1: the whole \"total sugars\" figure is treated as if it were glucose, the lowest sourced sugar LD50. Fructose, the other main sugar, has no credible sourced rat oral LD50 (see problems).",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (D-Glucose)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5793/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 21733,
+          "notes": "USDA total sugars treated as glucose for the LD50, because fructose (often the largest share) has no credible sourced rat oral LD50. USDA splits this entry into sucrose 4.01 g, glucose 2.08 g and fructose 2.23 g per 100 g."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 178,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169100"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 53625,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        },
+        {
+          "key": "vitamin-c",
+          "label": "Vitamin C (ascorbic acid)",
+          "mgPer100g": 33.6,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169100"
+          },
+          "ld50": {
+            "compound": "L-Ascorbic acid",
+            "mgPerKgCompound": 11900,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 11900,
+            "conversionNote": "Ascorbic acid is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 5000,
+                "species": "Rat (oral), a \">5000\" limit value rather than a median",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (L-Ascorbic Acid)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 2479167,
+          "notes": "USDA total ascorbic acid; LD50 is for ascorbic acid (fraction 1). Nowhere near limiting."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "cup of orange juice (249 g)",
+          "plural": "cups of orange juice (249 g)",
+          "gramsPerUnit": 249,
+          "emoji": "🍊",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 169100)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "litre carton of orange juice (about 1052 g)",
+          "plural": "litre cartons of orange juice (about 1052 g)",
+          "gramsPerUnit": 1052,
+          "emoji": "🧃",
+          "source": {
+            "name": "Derived: 1 L = 33.8 US fl oz × 31.1 g per fl oz (USDA) = about 1052 g",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Headline is water (limit-value LD50). The USDA entry mixes from-concentrate and not-from-concentrate juice.",
+      "realWorldCaveat": "The water figure is a limit value, and nobody could drink this much juice: acidity and sugar would stop you well before. Treat it as a punchline, not a target."
+    },
+    {
+      "slug": "milk-chocolate",
+      "name": "Milk chocolate",
+      "emoji": "🍫",
+      "aliases": [
+        "chocolate",
+        "milk choc",
+        "chocolate bar",
+        "choc"
+      ],
+      "category": "treats",
+      "form": "plain milk chocolate",
+      "tagline": "Theobromine gets the press, but plain sugar gets there first.",
+      "overview": [
+        "USDA's milk chocolate has 51.5 g of sugars, 205 mg of theobromine, 20 mg of caffeine and 372 mg of potassium per 100 g. A 44 g bar is the standard serving.",
+        "Sugars (as a glucose stand-in) set the headline at about 3.5 kg, roughly 80 bars. Theobromine, the famous one, would need 32.4 kg. The cocoa is the celebrity; the sugar does the work."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 bar (44 g)"
+        },
+        {
+          "label": "Sugars",
+          "value": "51.5 g per 100 g"
+        },
+        {
+          "label": "Theobromine",
+          "value": "205 mg per 100 g"
+        },
+        {
+          "label": "Caffeine",
+          "value": "20 mg per 100 g"
+        }
+      ],
+      "funFact": "USDA lists milk chocolate at 205 mg of theobromine per 100 g, about a quarter of the 802 mg in dark chocolate (70-85% cacao).",
+      "constituents": [
+        {
+          "key": "sugars",
+          "label": "Sugars (total, glucose LD50 as stand-in)",
+          "mgPer100g": 51500,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "167587"
+          },
+          "ld50": {
+            "compound": "D-Glucose (stand-in for mixed sugars)",
+            "mgPerKgCompound": 25800,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 25800,
+            "conversionNote": "Fraction 1: the whole \"total sugars\" figure is treated as if it were glucose, the lowest sourced sugar LD50. Fructose, the other main sugar, has no credible sourced rat oral LD50 (see problems).",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (D-Glucose)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5793/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 3507,
+          "notes": "USDA total sugars treated as glucose for the LD50, because fructose (often the largest share) has no credible sourced rat oral LD50. The sugars here include milk sugar (lactose), which has no sourced LD50 in this dataset."
+        },
+        {
+          "key": "theobromine",
+          "label": "Theobromine",
+          "mgPer100g": 205,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "167587"
+          },
+          "ld50": {
+            "compound": "Theobromine",
+            "mgPerKgCompound": 950,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 950,
+            "conversionNote": "Theobromine is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 1265,
+                "species": "Rat (oral), Fisher SDS",
+                "url": "https://www.fishersci.com/store/msds?partNumber=AC258821000&productDescription=THEOBROMINE%2C+99%25+100GR&vendorId=VN00032119&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 300,
+                "species": "Dog (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5429/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Theobromine)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5429/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 32439,
+          "notes": "PubChem rat value 950 mg/kg used; a Fisher SDS gives 1,265 mg/kg."
+        },
+        {
+          "key": "caffeine",
+          "label": "Caffeine",
+          "mgPer100g": 20,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "167587"
+          },
+          "ld50": {
+            "compound": "Caffeine",
+            "mgPerKgCompound": 192,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 192,
+            "conversionNote": "Caffeine is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 367.7,
+                "species": "Rat (oral), Fisher SDS",
+                "url": "https://www.fishersci.com/store/msds?partNumber=O1728500&productDescription=CAFFEINE+USP%2FFCC+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 127,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Caffeine; HSDB data)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 67200,
+          "notes": "Lowest rat oral value used (192 mg/kg); a Fisher SDS gives 367.7 mg/kg."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 372,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "167587"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 25659,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 79,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "167587"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 104575,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        }
+      ],
+      "headlineConstituentKey": "sugars",
+      "servingUnits": [
+        {
+          "singular": "chocolate bar (1.55 oz, 44 g)",
+          "plural": "chocolate bars (1.55 oz, 44 g)",
+          "gramsPerUnit": 44,
+          "emoji": "🍫",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 167587)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "cup of chocolate chips (168 g)",
+          "plural": "cups of chocolate chips (168 g)",
+          "gramsPerUnit": 168,
+          "emoji": "🥣",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 167587)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "large",
+      "confidence": "medium",
+      "confidenceNote": "Headline uses a glucose LD50 as a stand-in for total sugars (including lactose); theobromine rat values differ by about 1.3x between sources.",
+      "realWorldCaveat": "Rat figures do not carry over to every animal: PubChem lists a dog oral LD50 for theobromine of 300 mg/kg, about a third of the rat value, so keep chocolate away from dogs. For people, a stomach full of sugar and fat objects long before any of these numbers."
+    },
+    {
+      "slug": "dark-chocolate",
+      "name": "Dark chocolate",
+      "emoji": "🍫",
+      "aliases": [
+        "dark choc",
+        "70% chocolate",
+        "85% chocolate",
+        "dark chocolate 70-85%"
+      ],
+      "category": "treats",
+      "form": "70-85% cacao solids",
+      "tagline": "Theobromine finally gets to be the headline.",
+      "overview": [
+        "USDA's dark chocolate (70-85% cacao) has 802 mg of theobromine, 80 mg of caffeine, 715 mg of potassium and 23.99 g of sucrose per 100 g. A 101 g bar is a generous serving.",
+        "Theobromine sets the headline at about 8.3 kg, roughly 82 bars, with sucrose close behind at 8.7 kg. Caffeine, at twice coffee's per-gram strength, still needs 16.8 kg."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 oz piece (28.35 g)"
+        },
+        {
+          "label": "Theobromine",
+          "value": "802 mg per 100 g"
+        },
+        {
+          "label": "Caffeine",
+          "value": "80 mg per 100 g"
+        },
+        {
+          "label": "Sucrose",
+          "value": "23.99 g per 100 g"
+        }
+      ],
+      "funFact": "USDA lists dark chocolate (70-85% cacao) at 80 mg of caffeine per 100 g, twice the 40 mg per 100 g of brewed coffee.",
+      "constituents": [
+        {
+          "key": "theobromine",
+          "label": "Theobromine",
+          "mgPer100g": 802,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "170273"
+          },
+          "ld50": {
+            "compound": "Theobromine",
+            "mgPerKgCompound": 950,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 950,
+            "conversionNote": "Theobromine is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 1265,
+                "species": "Rat (oral), Fisher SDS",
+                "url": "https://www.fishersci.com/store/msds?partNumber=AC258821000&productDescription=THEOBROMINE%2C+99%25+100GR&vendorId=VN00032119&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 300,
+                "species": "Dog (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5429/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Theobromine)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5429/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 8292,
+          "notes": "PubChem rat value 950 mg/kg used; a Fisher SDS gives 1,265 mg/kg."
+        },
+        {
+          "key": "sucrose",
+          "label": "Sucrose",
+          "mgPer100g": 23990,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "170273"
+          },
+          "ld50": {
+            "compound": "Sucrose",
+            "mgPerKgCompound": 29700,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 29700,
+            "conversionNote": "Sucrose is the constituent itself (fraction 1).",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sucrose)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5988/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 8666,
+          "notes": "USDA lists sucrose directly for this entry (23.99 g per 100 g), so no stand-in is needed."
+        },
+        {
+          "key": "caffeine",
+          "label": "Caffeine",
+          "mgPer100g": 80,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "170273"
+          },
+          "ld50": {
+            "compound": "Caffeine",
+            "mgPerKgCompound": 192,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 192,
+            "conversionNote": "Caffeine is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 367.7,
+                "species": "Rat (oral), Fisher SDS",
+                "url": "https://www.fishersci.com/store/msds?partNumber=O1728500&productDescription=CAFFEINE+USP%2FFCC+500G&vendorId=VN00033897&countryCode=US&language=en"
+              },
+              {
+                "mgPerKg": 127,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Caffeine; HSDB data)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 16800,
+          "notes": "Lowest rat oral value used (192 mg/kg); a Fisher SDS gives 367.7 mg/kg."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 715,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "170273"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 13350,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        }
+      ],
+      "headlineConstituentKey": "theobromine",
+      "servingUnits": [
+        {
+          "singular": "piece of dark chocolate (1 oz, 28.35 g)",
+          "plural": "pieces of dark chocolate (1 oz, 28.35 g)",
+          "gramsPerUnit": 28.35,
+          "emoji": "🍫",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 170273)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "bar of dark chocolate (101 g)",
+          "plural": "bars of dark chocolate (101 g)",
+          "gramsPerUnit": 101,
+          "emoji": "🍫",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 170273)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "high",
+      "confidenceNote": "Theobromine rat values (950 and 1,265 mg/kg) differ by 1.3x, and sucrose is a close second headline.",
+      "realWorldCaveat": "Rat figures do not carry over to every animal: PubChem lists a dog oral LD50 for theobromine of 300 mg/kg, about a third of the rat value, so keep chocolate away from dogs. For people, nausea and a very sore stomach would stop things long before any of this."
+    },
+    {
+      "slug": "maple-syrup",
+      "name": "Maple syrup",
+      "emoji": "🍁",
+      "aliases": [
+        "maple",
+        "pure maple syrup"
+      ],
+      "category": "treats",
+      "form": "pure maple syrup",
+      "tagline": "Mostly sucrose, in a tree-themed bottle.",
+      "overview": [
+        "USDA's maple syrup is 58.32 g sucrose per 100 g (60.46 g total sugars), with 32.39 g water, 212 mg potassium and 12 mg sodium. A tablespoon is 20 g.",
+        "Sucrose, with a rat oral LD50 of 29,700 mg/kg, sets the headline at about 3.6 kg, roughly 178 tablespoons. That's a lot of pancakes, and a very sticky afternoon."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 tablespoon (20 g)"
+        },
+        {
+          "label": "Sucrose",
+          "value": "58.32 g per 100 g"
+        },
+        {
+          "label": "Potassium",
+          "value": "212 mg per 100 g"
+        }
+      ],
+      "funFact": "USDA lists maple syrup at 58.32 g of sucrose per 100 g, and 212 mg of potassium, about four times the 52 mg in honey.",
+      "constituents": [
+        {
+          "key": "sucrose",
+          "label": "Sucrose",
+          "mgPer100g": 58320,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169661"
+          },
+          "ld50": {
+            "compound": "Sucrose",
+            "mgPerKgCompound": 29700,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 29700,
+            "conversionNote": "Sucrose is the constituent itself (fraction 1).",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sucrose)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5988/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 3565,
+          "notes": "USDA lists sucrose directly for this entry (58.32 g per 100 g)."
+        },
+        {
+          "key": "glucose",
+          "label": "Glucose",
+          "mgPer100g": 1600,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169661"
+          },
+          "ld50": {
+            "compound": "D-Glucose",
+            "mgPerKgCompound": 25800,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 25800,
+            "conversionNote": "Glucose is the constituent itself (fraction 1).",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (D-Glucose)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5793/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 112875,
+          "notes": "USDA lists glucose directly (1.6 g per 100 g). Fructose (0.52 g) has no credible sourced rat LD50 and is left out."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 212,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169661"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 45025,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 12,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169661"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 688450,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        }
+      ],
+      "headlineConstituentKey": "sucrose",
+      "servingUnits": [
+        {
+          "singular": "tablespoon of maple syrup (20 g)",
+          "plural": "tablespoons of maple syrup (20 g)",
+          "gramsPerUnit": 20,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 169661)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "quarter cup of maple syrup (83 g)",
+          "plural": "quarter cups of maple syrup (83 g)",
+          "gramsPerUnit": 83,
+          "emoji": "🥞",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 169661)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          },
+          "quip": "A generous pancake stack."
+        }
+      ],
+      "attainability": "large",
+      "confidence": "high",
+      "confidenceNote": "USDA gives sucrose directly and PubChem has a single clear rat value (29,700 mg/kg).",
+      "realWorldCaveat": "Rats are dosed by gavage in one go; a person eating this much syrup would be sick long before any lethal threshold, and the gut can only absorb sugar so fast. Not a target."
+    },
+    {
+      "slug": "tomato-ketchup",
+      "name": "Tomato ketchup",
+      "emoji": "🍅",
+      "aliases": [
+        "ketchup",
+        "tomato sauce",
+        "tommy sauce",
+        "catsup",
+        "tom sauce"
+      ],
+      "category": "treats",
+      "form": "tomato ketchup (USDA \"catsup\")",
+      "tagline": "More sugar per gram than cola, with salt on the side.",
+      "overview": [
+        "USDA's ketchup has 21.27 g of sugars, 907 mg of sodium, 281 mg of potassium and 68.51 g of water per 100 g. A tablespoon is 17 g, a packet 9 g.",
+        "Sugars (as a glucose stand-in) set the headline at about 8.5 kg, roughly 499 tablespoons. Sodium follows at 9.1 kg. Your hot chips are in no danger."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 tablespoon (17 g)"
+        },
+        {
+          "label": "Sugars",
+          "value": "21.27 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "907 mg per 100 g"
+        }
+      ],
+      "funFact": "USDA lists ketchup at 21.27 g of sugars per 100 g, more than twice the 9.94 g per 100 g of regular cola.",
+      "constituents": [
+        {
+          "key": "sugars",
+          "label": "Sugars (total, glucose LD50 as stand-in)",
+          "mgPer100g": 21270,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "168556"
+          },
+          "ld50": {
+            "compound": "D-Glucose (stand-in for mixed sugars)",
+            "mgPerKgCompound": 25800,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 25800,
+            "conversionNote": "Fraction 1: the whole \"total sugars\" figure is treated as if it were glucose, the lowest sourced sugar LD50. Fructose, the other main sugar, has no credible sourced rat oral LD50 (see problems).",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (D-Glucose)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5793/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 8491,
+          "notes": "USDA total sugars treated as glucose for the LD50, because fructose (often the largest share) has no credible sourced rat oral LD50. USDA splits this entry into sucrose 2.3 g, fructose 8.72 g and glucose 10.25 g per 100 g."
+        },
+        {
+          "key": "sucrose",
+          "label": "Sucrose",
+          "mgPer100g": 2300,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "168556"
+          },
+          "ld50": {
+            "compound": "Sucrose",
+            "mgPerKgCompound": 29700,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 29700,
+            "conversionNote": "Sucrose is the constituent itself (fraction 1).",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sucrose)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5988/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 90391,
+          "notes": "USDA lists sucrose directly (2.3 g per 100 g)."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 907,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "168556"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 9108,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 281,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "168556"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 33969,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        },
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 68510,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "168556"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 9196,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        }
+      ],
+      "headlineConstituentKey": "sugars",
+      "servingUnits": [
+        {
+          "singular": "ketchup packet (9 g)",
+          "plural": "ketchup packets (9 g)",
+          "gramsPerUnit": 9,
+          "emoji": "📦",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 168556)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "tablespoon of ketchup (17 g)",
+          "plural": "tablespoons of ketchup (17 g)",
+          "gramsPerUnit": 17,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 168556)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "cup of ketchup (240 g)",
+          "plural": "cups of ketchup (240 g)",
+          "gramsPerUnit": 240,
+          "emoji": "🫙",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 168556)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Headline uses a glucose LD50 as a stand-in for total sugars; sodium (NaCl) comes from a single PubChem value.",
+      "realWorldCaveat": "Rats are dosed by gavage in one go; sugar and salt in this quantity would make a person vomit long before the lab number. The figure is arithmetic, not a forecast."
+    },
+    {
+      "slug": "mayonnaise",
+      "name": "Mayonnaise",
+      "emoji": "🫙",
+      "aliases": [
+        "mayo",
+        "regular mayonnaise",
+        "salad dressing mayonnaise"
+      ],
+      "category": "treats",
+      "form": "regular (salad dressing, mayonnaise)",
+      "tagline": "It's mostly oil, but the salt is what the maths picks on.",
+      "overview": [
+        "USDA's regular mayonnaise has 635 mg of sodium, 20 mg of potassium and 21.65 g of water per 100 g; the rest is mostly fat (74.85 g per 100 g). A tablespoon is 13.8 g.",
+        "Sodium (as salt) sets the headline at about 13.0 kg, roughly 943 tablespoons. Water is next at 29.1 kg. Most of that weight would be oil, so the sandwich filling is the least of your problems."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 tablespoon (13.8 g)"
+        },
+        {
+          "label": "Sodium",
+          "value": "635 mg per 100 g"
+        },
+        {
+          "label": "Fat",
+          "value": "74.85 g per 100 g"
+        }
+      ],
+      "funFact": "USDA lists regular mayonnaise as 74.85% fat by weight and only 21.65% water.",
+      "constituents": [
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 635,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171009"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 13010,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        },
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 21650,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171009"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 29099,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 20,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171009"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 477260,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        }
+      ],
+      "headlineConstituentKey": "sodium",
+      "servingUnits": [
+        {
+          "singular": "tablespoon of mayo (13.8 g)",
+          "plural": "tablespoons of mayo (13.8 g)",
+          "gramsPerUnit": 13.8,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 171009)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "cup of mayo (220 g)",
+          "plural": "cups of mayo (220 g)",
+          "gramsPerUnit": 220,
+          "emoji": "🫙",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 171009)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Sodium comes via a single PubChem NaCl rat value (3,000 mg/kg); water is a limit value.",
+      "realWorldCaveat": "Rats are dosed with salt by gavage; eating this much mayo means eating about ten kilos of fat as well, and no stomach would go along with it. Arithmetic only."
+    },
+    {
+      "slug": "white-vinegar",
+      "name": "White vinegar",
+      "emoji": "🧴",
+      "aliases": [
+        "vinegar",
+        "distilled vinegar",
+        "distilled white vinegar",
+        "spirit vinegar"
+      ],
+      "category": "treats",
+      "form": "distilled, about 5% acetic acid",
+      "tagline": "Five per cent acid, and the wincing starts well before the maths.",
+      "overview": [
+        "Distilled white vinegar is about 5% acetic acid (Fisher SDS), and USDA lists it as 94.78% water with just 2 mg of sodium and 2 mg of potassium per 100 g. A tablespoon is 14.9 g.",
+        "Acetic acid, with a lowest rat oral LD50 of 3,310 mg/kg, sets the headline at about 4.6 kg, roughly 311 tablespoons. Water is the runner-up at 6.6 kg. The sourness would end the experiment long before the numbers did."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 tablespoon (14.9 g)"
+        },
+        {
+          "label": "Acetic acid",
+          "value": "5% (5 g per 100 g)"
+        },
+        {
+          "label": "Water",
+          "value": "94.78 g per 100 g"
+        }
+      ],
+      "funFact": "The Fisher Scientific safety data sheet for vinegar lists it as 5% acetic acid, while USDA puts distilled vinegar at 94.78 g of water per 100 g.",
+      "constituents": [
+        {
+          "key": "acetic-acid",
+          "label": "Acetic acid",
+          "mgPer100g": 5000,
+          "compositionSource": {
+            "name": "Fisher Scientific SDS, Vinegar (acetic acid 5%, density 1 g/cm3)",
+            "url": "https://www.fishersci.com/store/msds?partNumber=S25623&productDescription=vinegar&vendorId=VN00115888&keyword=true&countryCode=US&language=en",
+            "id": "S25623"
+          },
+          "ld50": {
+            "compound": "Acetic acid",
+            "mgPerKgCompound": 3310,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 3310,
+            "conversionNote": "Acetic acid is the constituent itself (fraction 1). Lowest rat oral value seen (Fisher SDS for 5% vinegar); PubChem has higher rat values.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 3530,
+                "species": "Rat (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/176/JSON"
+              },
+              {
+                "mgPerKg": 4665,
+                "species": "Rat (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/176/JSON"
+              },
+              {
+                "mgPerKg": 4960,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/176/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Vinegar (acetic acid 5%)",
+                "url": "https://www.fishersci.com/store/msds?partNumber=S25623&productDescription=vinegar&vendorId=VN00115888&keyword=true&countryCode=US&language=en"
+              },
+              {
+                "name": "PubChem (Acetic Acid)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/176/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 4634,
+          "notes": "USDA does not list acetic acid; the 5% (5 g per 100 g, density 1 g/cm3) figure is from the Fisher SDS for vinegar. Lowest rat oral value used; PubChem rat values are 3,530 and 4,665 mg/kg."
+        },
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 94780,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "172237"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 6647,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 2,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "172237"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 4130700,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        }
+      ],
+      "headlineConstituentKey": "acetic-acid",
+      "servingUnits": [
+        {
+          "singular": "tablespoon of vinegar (14.9 g)",
+          "plural": "tablespoons of vinegar (14.9 g)",
+          "gramsPerUnit": 14.9,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 172237)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "cup of vinegar (238 g)",
+          "plural": "cups of vinegar (238 g)",
+          "gramsPerUnit": 238,
+          "emoji": "🫗",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 172237)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "large",
+      "confidence": "medium",
+      "confidenceNote": "Rat oral LD50 for acetic acid ranges from 3,310 to 4,665 mg/kg across sources; the acid strength is a typical label figure.",
+      "realWorldCaveat": "Vinegar at this strength stings the mouth and throat, so nobody could drink this volume; the rat figure is a gavage dose, not a guide to what a person could swallow."
+    },
+    {
+      "slug": "olive-oil",
+      "name": "Olive oil",
+      "emoji": "🫒",
+      "aliases": [
+        "extra virgin olive oil",
+        "evoo",
+        "cooking oil"
+      ],
+      "category": "treats",
+      "form": "salad or cooking oil",
+      "tagline": "Mostly oleic acid, and about 538 tablespoons of it.",
+      "overview": [
+        "USDA's olive oil has 71.3 g per 100 g of 18:1 monounsaturated fat, which is mostly oleic acid, and next to no water or minerals (2 mg sodium, 1 mg potassium). A tablespoon is 13.5 g.",
+        "Oleic acid has a rat oral LD50 of 74,000 mg/kg, which sets the headline at about 7.3 kg. The oil is really triglycerides rather than free oleic acid, so the lab number is a stand-in, and most of it would arrive as a very large salad."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 tablespoon (13.5 g)"
+        },
+        {
+          "label": "18:1 monounsaturated fat",
+          "value": "71.3 g per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "2 mg per 100 g"
+        }
+      ],
+      "funFact": "By USDA's numbers over 71% of olive oil by weight is 18:1 monounsaturated fat, which is largely oleic acid.",
+      "constituents": [
+        {
+          "key": "oleic-acid",
+          "label": "Oleic acid (USDA 18:1 monounsaturated fat)",
+          "mgPer100g": 71269,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171413"
+          },
+          "ld50": {
+            "compound": "Oleic acid",
+            "mgPerKgCompound": 74000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 74000,
+            "conversionNote": "Oleic acid is the constituent itself (fraction 1). PubChem gives 74 g/kg = 74,000 mg/kg.",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Oleic Acid)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/445639/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 7268,
+          "notes": "USDA reports undifferentiated 18:1 monounsaturated fat (71.269 g per 100 g), which in olive oil is mostly oleic acid. In the oil it is bound in triglycerides rather than free, so the free-acid LD50 is a stand-in."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 2,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171413"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 4130700,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 1,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171413"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 9545200,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        }
+      ],
+      "headlineConstituentKey": "oleic-acid",
+      "servingUnits": [
+        {
+          "singular": "tablespoon of olive oil (13.5 g)",
+          "plural": "tablespoons of olive oil (13.5 g)",
+          "gramsPerUnit": 13.5,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 171413)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "cup of olive oil (216 g)",
+          "plural": "cups of olive oil (216 g)",
+          "gramsPerUnit": 216,
+          "emoji": "🫗",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 171413)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Oleic acid has one PubChem rat value (74 g/kg), and USDA's 18:1 figure is not split into oleic and its isomers.",
+      "realWorldCaveat": "The LD50 is for free oleic acid dosed to rats; olive oil is mostly triglycerides, and no gut would tolerate this much oil. The figure is arithmetic, not a forecast."
+    },
+    {
+      "slug": "hot-sauce",
+      "name": "Hot sauce",
+      "emoji": "🌶️",
+      "aliases": [
+        "tabasco",
+        "tabasco sauce",
+        "chilli sauce",
+        "pepper sauce"
+      ],
+      "category": "treats",
+      "form": "ready-to-serve pepper sauce (USDA TABASCO entry)",
+      "tagline": "Hot, but heat doesn't register on the LD50 scale.",
+      "overview": [
+        "USDA's TABASCO entry is 95.17% water, with 633 mg of sodium, 128 mg of potassium and 4.5 mg of vitamin C per 100 g. A teaspoon is 4.7 g.",
+        "The famous heat, capsaicin, isn't in USDA's table, so it can't be modelled. Water sets the headline at about 6.6 kg, roughly 1,409 teaspoons, and sodium follows at 13.1 kg."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 teaspoon (4.7 g)"
+        },
+        {
+          "label": "Sodium",
+          "value": "633 mg per 100 g"
+        },
+        {
+          "label": "Water",
+          "value": "95.17 g per 100 g"
+        }
+      ],
+      "funFact": "USDA's TABASCO entry lists 633 mg of sodium per 100 g, so a 4.7 g teaspoon holds about 30 mg.",
+      "constituents": [
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 95170,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "174528"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 6620,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 633,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "174528"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 13051,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 128,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "174528"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 74572,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        },
+        {
+          "key": "vitamin-c",
+          "label": "Vitamin C (ascorbic acid)",
+          "mgPer100g": 4.5,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "174528"
+          },
+          "ld50": {
+            "compound": "L-Ascorbic acid",
+            "mgPerKgCompound": 11900,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 11900,
+            "conversionNote": "Ascorbic acid is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 5000,
+                "species": "Rat (oral), a \">5000\" limit value rather than a median",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (L-Ascorbic Acid)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 18511111,
+          "notes": "USDA total ascorbic acid; LD50 is for ascorbic acid (fraction 1). Nowhere near limiting."
+        }
+      ],
+      "headlineConstituentKey": "water",
+      "servingUnits": [
+        {
+          "singular": "teaspoon of hot sauce (4.7 g)",
+          "plural": "teaspoons of hot sauce (4.7 g)",
+          "gramsPerUnit": 4.7,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 174528)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "tablespoon of hot sauce (3 tsp, about 14.1 g)",
+          "plural": "tablespoons of hot sauce (3 tsp, about 14.1 g)",
+          "gramsPerUnit": 14.1,
+          "emoji": "🥄",
+          "source": {
+            "name": "Derived: 3 teaspoons × 4.7 g (USDA)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Headline is water (limit-value LD50); capsaicin is not modelled because USDA does not list it, and acetic acid is likewise unlisted.",
+      "realWorldCaveat": "Capsaicin, the actual hazard of a hot sauce for the mouth and stomach, is not part of this number, and nobody could swallow this many teaspoons of burning liquid anyway."
+    },
+    {
+      "slug": "jam",
+      "name": "Jam",
+      "emoji": "🍓",
+      "aliases": [
+        "strawberry jam",
+        "jam",
+        "preserves",
+        "conserve",
+        "fruit spread"
+      ],
+      "category": "treats",
+      "form": "jams and preserves (generic; USDA has no strawberry-specific entry)",
+      "tagline": "Half sugar by weight, and the sugar is the limiting factor.",
+      "overview": [
+        "USDA's generic jams and preserves have 48.5 g of sugars, 30.47 g of water, 77 mg of potassium and 32 mg of sodium per 100 g. A tablespoon is 20 g.",
+        "Treating total sugars as glucose, the limit is about 3.7 kg, roughly 186 tablespoons. The scone supply would run out long before the jam did."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 tablespoon (20 g)"
+        },
+        {
+          "label": "Sugars",
+          "value": "48.5 g per 100 g (about 9.7 g a tablespoon)"
+        },
+        {
+          "label": "Water",
+          "value": "30.47 g per 100 g"
+        }
+      ],
+      "funFact": "USDA lists generic jam at 48.5 g of sugars per 100 g, so a 20 g tablespoon holds about 9.7 g.",
+      "constituents": [
+        {
+          "key": "sugars",
+          "label": "Sugars (total, glucose LD50 as stand-in)",
+          "mgPer100g": 48500,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169641"
+          },
+          "ld50": {
+            "compound": "D-Glucose (stand-in for mixed sugars)",
+            "mgPerKgCompound": 25800,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 25800,
+            "conversionNote": "Fraction 1: the whole \"total sugars\" figure is treated as if it were glucose, the lowest sourced sugar LD50. Fructose, the other main sugar, has no credible sourced rat oral LD50 (see problems).",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (D-Glucose)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5793/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 3724,
+          "notes": "USDA total sugars treated as glucose for the LD50, because fructose (often the largest share) has no credible sourced rat oral LD50. "
+        },
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 30470,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169641"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 20676,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 77,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169641"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 123964,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 32,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169641"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 258169,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        }
+      ],
+      "headlineConstituentKey": "sugars",
+      "servingUnits": [
+        {
+          "singular": "tablespoon of jam (20 g)",
+          "plural": "tablespoons of jam (20 g)",
+          "gramsPerUnit": 20,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 169641)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "jam packet (14 g)",
+          "plural": "jam packets (14 g)",
+          "gramsPerUnit": 14,
+          "emoji": "📦",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 169641)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "large",
+      "confidence": "medium",
+      "confidenceNote": "Headline uses a glucose LD50 as a stand-in for total sugars, and the USDA entry is generic, not strawberry-specific.",
+      "realWorldCaveat": "The rat figure is a single gavage dose of plain sugar; a person would be sick long before this much jam, and the number is not a target."
+    },
+    {
+      "slug": "potato-chips",
+      "name": "Potato chips",
+      "emoji": "🥔",
+      "aliases": [
+        "chips",
+        "crisps",
+        "chippies",
+        "potato crisps"
+      ],
+      "category": "treats",
+      "form": "plain, salted",
+      "tagline": "More than three times the potassium of a banana, weight for weight.",
+      "overview": [
+        "USDA's plain, salted potato chips have 1,196 mg of potassium, 527 mg of sodium and 21.6 mg of vitamin C per 100 g. A 1 oz (28 g) serving is about 22 chips.",
+        "Potassium sets the headline at about 8.0 kg, roughly 285 small packets or 35 big bags. Sodium follows at 15.7 kg. The local dairy would run out of chips first."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 oz (28 g, about 22 chips)"
+        },
+        {
+          "label": "Potassium",
+          "value": "1,196 mg per 100 g"
+        },
+        {
+          "label": "Sodium",
+          "value": "527 mg per 100 g"
+        }
+      ],
+      "funFact": "USDA lists plain salted potato chips at 1,196 mg of potassium per 100 g, over three times the 358 mg in 100 g of raw banana (USDA, FDC 173944).",
+      "constituents": [
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 1196,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169677"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 7981,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 527,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169677"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 15676,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        },
+        {
+          "key": "vitamin-c",
+          "label": "Vitamin C (ascorbic acid)",
+          "mgPer100g": 21.6,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169677"
+          },
+          "ld50": {
+            "compound": "L-Ascorbic acid",
+            "mgPerKgCompound": 11900,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 11900,
+            "conversionNote": "Ascorbic acid is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 5000,
+                "species": "Rat (oral), a \">5000\" limit value rather than a median",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (L-Ascorbic Acid)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 3856481,
+          "notes": "USDA total ascorbic acid; LD50 is for ascorbic acid (fraction 1). Nowhere near limiting."
+        },
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 1860,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "169677"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 338710,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        }
+      ],
+      "headlineConstituentKey": "potassium",
+      "servingUnits": [
+        {
+          "singular": "small packet of chips (1 oz, 28 g)",
+          "plural": "small packets of chips (1 oz, 28 g)",
+          "gramsPerUnit": 28,
+          "emoji": "🥔",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 169677)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "big bag of chips (8 oz, 227 g)",
+          "plural": "big bags of chips (8 oz, 227 g)",
+          "gramsPerUnit": 227,
+          "emoji": "🛍️",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 169677)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "single chip (about 1.27 g)",
+          "plural": "single chips (about 1.27 g each)",
+          "gramsPerUnit": 1.27,
+          "emoji": "🥔",
+          "source": {
+            "name": "Derived: 28 g serving ÷ 22 chips (USDA portion)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "medium",
+      "confidenceNote": "Potassium rat value (KCl, 2,600 mg/kg) comes from one SDS; PubChem lists lower values only for other species.",
+      "realWorldCaveat": "The rat figure is for potassium chloride dosed all at once; potassium in food comes with fat, salt and a lot of bulk, and healthy kidneys handle ordinary dietary potassium. The weight of chips involved is simply not something anyone can eat."
+    },
+    {
+      "slug": "cassia-cinnamon",
+      "name": "Cassia cinnamon",
+      "emoji": "🍂",
+      "aliases": [
+        "cinnamon",
+        "ground cinnamon",
+        "cassia",
+        "chinese cinnamon"
+      ],
+      "category": "treats",
+      "form": "ground",
+      "tagline": "Coumarin is the story, and the real limit is far below the lab one.",
+      "overview": [
+        "USDA's ground cinnamon is 10.58% water with 431 mg potassium and 10 mg sodium per 100 g, and doesn't say if it's cassia or Ceylon. BfR puts cassia at about 300 mg coumarin per 100 g on average. A teaspoon is 2.6 g.",
+        "Coumarin, with a rat oral LD50 of 293 mg/kg, sets the headline at about 6.8 kg, roughly 2,630 teaspoons. The lethal number is silly; the real limit, a tolerable daily intake, is much lower."
+      ],
+      "facts": [
+        {
+          "label": "Typical serving",
+          "value": "1 teaspoon (2.6 g)"
+        },
+        {
+          "label": "Coumarin (cassia average)",
+          "value": "about 300 mg per 100 g (BfR)"
+        },
+        {
+          "label": "Tolerable daily intake",
+          "value": "0.1 mg coumarin per kg body weight (BfR)"
+        }
+      ],
+      "funFact": "BfR's tolerable daily intake for coumarin is 0.1 mg per kg of body weight, which for a 60 kg adult is 6 mg a day, or about 2 g of average cassia, a bit under a teaspoon (2.6 g).",
+      "constituents": [
+        {
+          "key": "coumarin",
+          "label": "Coumarin",
+          "mgPer100g": 300,
+          "compositionSource": {
+            "name": "BfR (German Federal Institute for Risk Assessment), FAQ on coumarin in cinnamon",
+            "url": "https://www.bfr.bund.de/cm/349/faq-on-coumarin-in-cinnamon-and-other-foods.pdf",
+            "id": "BfR FAQ"
+          },
+          "ld50": {
+            "compound": "Coumarin",
+            "mgPerKgCompound": 293,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 293,
+            "conversionNote": "Coumarin is the constituent itself (fraction 1).",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 196,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/323/JSON"
+              },
+              {
+                "mgPerKg": 202,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/323/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "PubChem (Coumarin)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/323/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 6837,
+          "notes": "BfR says cassia averages about 3,000 mg coumarin per kg (300 mg per 100 g), with a highest measured value of 10,000 mg/kg (1,000 mg per 100 g). At that maximum the lethal mass falls to about 2,051 g, still in the \"large\" band. USDA does not say whether its ground cinnamon is cassia or Ceylon (Ceylon has far less coumarin)."
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium (as KCl)",
+          "mgPer100g": 431,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171320"
+          },
+          "ld50": {
+            "compound": "Potassium chloride",
+            "mgPerKgCompound": 2600,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.5245,
+            "mgPerKgConstituent": 1363.6,
+            "conversionNote": "K = 39.098 / 74.548 = 52.4% of KCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 2500,
+                "species": "Guinea pig (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              },
+              {
+                "mgPerKg": 383,
+                "species": "Mouse (oral)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "NIST SRM 999c SDS (potassium chloride)",
+                "url": "https://tsapps.nist.gov/srmext/msds/999c-MSDS.pdf"
+              },
+              {
+                "name": "PubChem (Potassium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 22147,
+          "notes": "Potassium from USDA; LD50 is for potassium chloride, converted to potassium."
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium (as NaCl)",
+          "mgPer100g": 10,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171320"
+          },
+          "ld50": {
+            "compound": "Sodium chloride",
+            "mgPerKgCompound": 3000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 0.3934,
+            "mgPerKgConstituent": 1180.2,
+            "conversionNote": "Na = 22.990 / 58.44 = 39.3% of NaCl by mass (Cl taken as 35.45)",
+            "otherValuesSeen": [],
+            "sources": [
+              {
+                "name": "PubChem (Sodium Chloride)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5234/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 826140,
+          "notes": "Sodium from USDA; LD50 is for sodium chloride, converted to sodium."
+        },
+        {
+          "key": "water",
+          "label": "Water",
+          "mgPer100g": 10580,
+          "compositionSource": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "id": "171320"
+          },
+          "ld50": {
+            "compound": "Water",
+            "mgPerKgCompound": 90000,
+            "species": "Rat",
+            "route": "Oral",
+            "constituentFraction": 1,
+            "mgPerKgConstituent": 90000,
+            "conversionNote": "Water is the constituent itself (fraction 1). The Fisher SDS gives \">90 mL/kg\", a limit value rather than a true median; 1 mL taken as 1 g gives 90,000 mg/kg, matching the site's existing water entry.",
+            "otherValuesSeen": [
+              {
+                "mgPerKg": 25000,
+                "species": "Mouse (intraperitoneal; PubChem lists no rat oral value)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              },
+              {
+                "mgPerKg": 190000,
+                "species": "Mouse (intraperitoneal)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ],
+            "sources": [
+              {
+                "name": "Fisher Scientific SDS, Water (USP/EP purified)",
+                "url": "https://www.fishersci.ca/store/msds?partNumber=91901&productDescription=water-usp-ep-purified-ricca-chemical-4&language=en&countryCode=CA"
+              },
+              {
+                "name": "PubChem (Water)",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON"
+              }
+            ]
+          },
+          "lethalFoodGramsAt70kg": 59546,
+          "notes": "LD50 is a limit value (\">90 mL/kg\"), so this is a floor, not a measured median. Mass of water per 100 g from USDA."
+        }
+      ],
+      "headlineConstituentKey": "coumarin",
+      "servingUnits": [
+        {
+          "singular": "teaspoon of cinnamon (2.6 g)",
+          "plural": "teaspoons of cinnamon (2.6 g)",
+          "gramsPerUnit": 2.6,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 171320)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        },
+        {
+          "singular": "tablespoon of cinnamon (7.8 g)",
+          "plural": "tablespoons of cinnamon (7.8 g)",
+          "gramsPerUnit": 7.8,
+          "emoji": "🥄",
+          "source": {
+            "name": "USDA FoodData Central (SR Legacy bulk CSV) (food_portion, FDC 171320)",
+            "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+          }
+        }
+      ],
+      "attainability": "absurd",
+      "confidence": "low",
+      "confidenceNote": "Coumarin content varies about 3x between cassia samples, USDA does not say which cinnamon species it measured, and the content figure is from a regulator FAQ rather than a food table.",
+      "realWorldCaveat": "Coumarin is a liver risk at far lower doses than the lethal one, which is why BfR sets a tolerable daily intake that works out to about 2 g of average cassia for a 60 kg adult. Dry cinnamon swallowed by the spoonful is also a choking and inhalation hazard. Do not treat the lab number as a safe ceiling."
+    }
+  ],
+  "flagged": [
+    {
+      "name": "Soy sauce (shoyu)",
+      "reason": "plausible: headline sodium (as salt) gives about 1,504 g, under the 2,000 g cut-off",
+      "details": "USDA FDC 174277 (SR Legacy). Sodium (as NaCl): 5,493 mg per 100 g, rat-derived 1,180.2 mg/kg, so 1,504 g; Potassium (as KCl): 435 mg per 100 g, rat-derived 1,363.6 mg/kg, so 21,943 g; Water: 71,150 mg per 100 g, rat-derived 90,000.0 mg/kg, so 8,855 g. Salt-dominated; sodium is the limiting constituent."
+    },
+    {
+      "name": "Marmite / yeast extract spread",
+      "reason": "borderline: headline sodium (as salt) gives about 2,444 g, just over the 2,000 g \"large\" line, and it is very salty; flagged conservatively",
+      "details": "USDA FDC 167717 (SR Legacy, \"Yeast extract spread\"; a generic entry, not necessarily Marmite). Sodium (as NaCl): 3,380 mg per 100 g, rat-derived 1,180.2 mg/kg, so 2,444 g; Potassium (as KCl): 2,100 mg per 100 g, rat-derived 1,363.6 mg/kg, so 4,545 g; Water: 40,900 mg per 100 g, rat-derived 90,000.0 mg/kg, so 15,403 g. A teaspoon is 6 g."
+    },
+    {
+      "name": "Honey",
+      "reason": "borderline: the largest sugar (fructose) has no credible sourced rat LD50, so the headline cannot be trusted to stay above 2,000 g",
+      "details": "USDA FDC 169640 (SR Legacy). Sugars (total, glucose LD50 as stand-in): 82,120 mg per 100 g, rat-derived 25,800.0 mg/kg, so 2,199 g; Glucose: 35,750 mg per 100 g, rat-derived 25,800.0 mg/kg, so 5,052 g; Water: 17,100 mg per 100 g, rat-derived 90,000.0 mg/kg, so 36,842 g; Potassium (as KCl): 52 mg per 100 g, rat-derived 1,363.6 mg/kg, so 183,562 g. Fructose is 40.94 g per 100 g but has no rat oral value in PubChem or the Fisher fructose SDSs. A figure of 4,000 mg/kg appears only in small-distributor SDS copies (e.g. https://www.drm-chem.com/wp-content/uploads/2023/03/fructose-SDS.pdf), which looks implausibly low next to sucrose at 29,700 mg/kg; if it were used, honey would come to about 684 g (plausible). Flagged rather than published."
+    },
+    {
+      "name": "Black pepper",
+      "reason": "plausible: piperine gives about 1,644 g (under 2,000 g), and real pepper often has more piperine than the minimum used here",
+      "details": "Piperine 2.5% of dry weight is the USP monograph minimum (https://doi.usp.org/USPNF/USPNF_M7084_01_01.html); with USDA FDC 170931 moisture of 12.46 g per 100 g that is 2,188.5 mg per 100 g as sold. Rat intragastric LD50 514 mg/kg (adult females, PubMed 6857729). Piperine: 2,188.5 mg per 100 g, rat-derived 514.0 mg/kg, so 1,644 g; Potassium (as KCl): 1,329 mg per 100 g, rat-derived 1,363.6 mg/kg, so 7,182 g; Sodium (as NaCl): 20 mg per 100 g, rat-derived 1,180.2 mg/kg, so 413,070 g. Higher real piperine content would lower the lethal mass further."
+    }
+  ],
+  "problems": [
+    "USDA FoodData Central API (DEMO_KEY) was rate-limited (HTTP 429) and the FDC food-page URLs are a JavaScript app that returned 404 to a plain fetch, so all composition figures come from the official SR Legacy bulk CSV. compositionSource.url is that dataset download (https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip) and `id` is the FDC id inside it.",
+    "PubChem sources cite the PUG-View JSON URLs actually fetched (https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/<CID>/JSON), not the human-readable compound pages, which could not be fetched.",
+    "Fructose has no credible rat oral LD50 (PubChem: only a rabbit IV value; Fisher fructose SDSs: no LD50). A 4,000 mg/kg figure appears only in small-distributor SDS copies and looks wrong next to sucrose (29,700 mg/kg). So fructose is not used as a constituent, and wherever USDA gives only total sugars (cola, orange juice, milk chocolate, ketchup, jam) the total is treated as glucose (25,800 mg/kg, the lowest sourced sugar value) and labelled as a stand-in.",
+    "Water is the headline constituent for brewed coffee, black tea, green tea, cola, orange juice and hot sauce (about 6.3 to 7.2 kg). The only rat figure for water is a \">90 mL/kg\" limit value from an SDS, not a true median, and I used 90,000 mg/kg to match the site's existing water entry. They clear the 5,000 g \"absurd\" cut-off by rule, but that is the same order of magnitude as litres of drink, and drinking too much water too fast is dangerous in its own right, so the realWorldCaveat on each says so plainly. Consider whether the site wants to show these at all.",
+    "Caffeine is not the limiting constituent in any drink (e.g. coffee about 33.6 kg vs water about 6.3 kg).",
+    "Jam: USDA has no strawberry jam entry, so the generic \"Jams and preserves\" (FDC 169641) was used and the food is named just \"Jam\" with strawberry jam as an alias.",
+    "Orange juice uses the USDA entry \"chilled, includes from concentrate\" (FDC 169100), a mix of juice types; the raw juice entry (FDC 169098) was not used.",
+    "Hot sauce uses the USDA TABASCO entry (FDC 174528). Capsaicin is not in USDA, its only PubChem oral LD50 values I saw are for mouse, and acetic acid in the sauce is not listed, so only water, sodium, potassium and vitamin C are modelled.",
+    "Cassia cinnamon: USDA does not say whether its ground cinnamon is cassia or Ceylon. Coumarin content (about 3,000 mg/kg average, up to 10,000 mg/kg maximum) is from the BfR FAQ, not a food composition table. The 3,000 mg/kg average is the working value (about 6,837 g); at the 10,000 mg/kg maximum it is about 2,051 g, still \"large\". Coumarin rat LD50 is 293 mg/kg (PubChem); mouse 196 and guinea pig 202 mg/kg also seen.",
+    "White vinegar: USDA does not list acetic acid, so the 5% strength comes from the Fisher SDS for vinegar (the same SDS gives the 3,310 mg/kg rat LD50). PubChem rat values are higher (3,530 and 4,665 mg/kg).",
+    "Olive oil: USDA reports undifferentiated 18:1 monounsaturated fat; in olive oil it is mostly oleic acid but bound in triglycerides, so the free oleic acid LD50 (74,000 mg/kg) is a stand-in.",
+    "Black pepper moved to flagged: piperine rat LD50 (514 mg/kg, adult female rats, PubMed 6857729) with the USP monograph minimum of 2.5% piperine on a dry basis gives about 1,644 g (plausible). Real pepper often contains more piperine, which would only lower this. I did not find a measured average piperine content in an openable source (ScienceDirect and ResearchGate are blocked), so the USP minimum was used.",
+    "Soy sauce and honey are also flagged. Soy sauce is plausible (sodium about 1,504 g). Honey is borderline because its biggest sugar, fructose, has no credible LD50; on the glucose stand-in it is about 2,199 g, and the unreliable 4,000 mg/kg fructose figure would drop it to about 684 g. Marmite (yeast extract spread, sodium about 2,444 g) is just inside \"large\" but is flagged conservatively as very salty; USDA's entry is generic yeast extract spread, not necessarily Marmite.",
+    "No oxalate data were found in USDA for these foods, so oxalate was not considered.",
+    "Sodium and potassium LD50s each rest on one primary source (NaCl from PubChem 3,000 mg/kg; KCl from a NIST SDS 2,600 mg/kg), so confidence for foods headlined by them is \"medium\" at best.",
+    "meta.count is 20, the number of foods researched; 16 are in `foods` and 4 are in `flagged`."
+  ]
+}

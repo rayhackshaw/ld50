@@ -1,0 +1,169 @@
+{
+  "category": "animal",
+  "rewrites": [
+    {
+      "slug": "chicken-breast",
+      "tagline": "Meal-prep royalty. Your Tupperware would run out long before the potassium.",
+      "overview": [
+        "Skinless roast chicken breast is about two-thirds water and 31 g protein per 100 g, with under 4 g fat, 74 mg of sodium and 256 mg of potassium (USDA). It's the gym-bag staple, the sandwich filler and the thing everyone overcooks.",
+        "Potassium (as KCl) gets there first. At the rat-derived dose that's 37.3 kg of cooked breast, or 175 single breasts, which is a lot of meal prep. Sodium trails at 112 kg, and that's with no added salt."
+      ],
+      "funFact": "The domestic chicken is the most numerous bird on Earth, with more than 20 billion alive at any one time.",
+      "realWorldCaveat": "The rat figure is a measured dose of potassium chloride, whereas chicken's potassium is bound up in muscle and arrives slowly alongside a lot of protein, with healthy kidneys clearing it as it comes. People with kidney disease are rightly told to watch potassium even at normal servings, but you'd be thoroughly done with chicken long before the maths mattered.",
+      "confidenceNote": "Composition is USDA SR Legacy; the LD50 is a single published rat oral figure for potassium chloride standing in for potassium, and PubChem also lists a much lower mouse value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "beef-mince",
+      "tagline": "Dinner's workhorse. The potassium would outlast every burger night you'll ever have.",
+      "overview": [
+        "Pan-cooked 85% lean beef mince is about 25 g protein and 14 g fat per 100 g, with 349 mg of potassium and 79 mg of sodium before you season it (USDA). The salt gets added at the stove, not by the cow.",
+        "Potassium (as KCl) is the one that gets there first: at the rat-derived dose it's 27.3 kg of cooked mince, or 329 burger patties. Sodium is nowhere near, at 105 kg. The most dangerous thing in the pan remains the spitting fat."
+      ],
+      "funFact": "'85% lean' on a mince label means 85% lean meat to 15% fat, by weight, measured before cooking.",
+      "realWorldCaveat": "A rat gets its potassium chloride in one measured dose, whereas mince delivers potassium slowly, tangled up in protein and fat, and healthy kidneys are good at shedding the surplus. The 14 g of fat per 100 g would have you waving the white flag long before any toxicology.",
+      "confidenceNote": "Composition is USDA SR Legacy for pan-broiled 85/15 mince; the LD50 is a single published rat oral figure for potassium chloride standing in for potassium, and PubChem also lists a much lower mouse value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "pork-loin",
+      "tagline": "Sunday roast energy: heaps of potassium, and the apple sauce long gone.",
+      "overview": [
+        "Roast pork loin (lean and fat) has about 27 g protein, 14.7 g fat and 408 mg of potassium per 100 g, with only 59 mg of sodium, a small fraction of what bacon carries (USDA). Fresh pork isn't a salty food, however it gets treated later.",
+        "Potassium (as KCl) gets there first: at the rat-derived dose that's 23.4 kg of roast pork loin, or 275 three-ounce servings. Sodium trails at 140 kg. The apple sauce would run out very early on."
+      ],
+      "funFact": "Pork loin carries just 59 mg of sodium per 100 g (USDA); NZ's database lists ham at 1,500 mg, so curing does the salting.",
+      "realWorldCaveat": "Neat potassium chloride is notorious for upsetting the stomach, which is a very different experience from potassium tucked inside roast pork. Fat (14.7 g per 100 g) and plain fullness would end the experiment long before any toxicology.",
+      "confidenceNote": "Composition is USDA SR Legacy; the LD50 is a single published rat oral figure for potassium chloride standing in for potassium, and PubChem also lists a much lower mouse value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "lamb-leg",
+      "tagline": "The Kiwi Sunday roast: low on salt, modest on potassium, endless on leftovers.",
+      "overview": [
+        "Roast New Zealand leg of lamb (lean and fat) has about 25 g protein, 16 g fat and 167 mg of potassium per 100 g, and just 43 mg of sodium (USDA's record for imported NZ lamb). The salt arrives with the gravy.",
+        "Potassium (as KCl) gets there first: at the rat-derived dose it takes 57.2 kg of roast lamb, or 672 three-ounce servings. Sodium would need 192 kg. That's a lot of Sundays, and the mint sauce is not included."
+      ],
+      "funFact": "From 1856 to 1987, sheep farming was New Zealand's most important agricultural industry; dairy returns have exceeded sheep's since 1992 (Te Ara).",
+      "realWorldCaveat": "A person isn't a rat: size, gut and kidneys all differ, and lamb's potassium is bound in meat and trickles in over the length of a meal, unlike a neat dose of potassium chloride. With 15.6 g of fat per 100 g, 'full' arrives a long way before 'toxic'.",
+      "confidenceNote": "Composition is USDA's record for imported NZ lamb leg; the LD50 is a single published rat oral figure for potassium chloride standing in for potassium, and PubChem also lists a much lower mouse value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "egg",
+      "tagline": "Nature's tidy protein capsule. You'd run out of egg cups, and chickens, first.",
+      "overview": [
+        "A hard-boiled egg has 12.6 g protein and 10.6 g fat per 100 g, plus 124 mg of sodium and 126 mg of potassium (USDA). It also carries 373 mg of cholesterol per 100 g, which is why eggs have spent decades on trial in the court of public opinion.",
+        "Sodium (as NaCl) gets there first, with potassium close behind at 75.7 kg. At the rat-derived dose that's 66.6 kg of boiled egg, or 1,330 large hard-boiled eggs. The shell recycling alone would need a council contract."
+      ],
+      "funFact": "A hard-boiled egg is about three-quarters water (USDA: 74.6 g per 100 g).",
+      "realWorldCaveat": "The rat dose was sodium chloride delivered neat, whereas an egg's sodium comes in small amounts alongside protein and fat, over as long as you can stand to keep eating. Eggs are also a major allergen, and for someone with an egg allergy a single egg is already too many.",
+      "confidenceNote": "Composition is USDA SR Legacy; the LD50 is a single published rat oral figure for sodium chloride standing in for sodium, and PubChem quotes a lower human value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "milk",
+      "tagline": "Calcium, a faint sense of childhood, and a trolley of cartons before potassium bites.",
+      "overview": [
+        "Whole cow's milk is about 88% water, with 3.2 g protein, 3.3 g fat and 5 g lactose per 100 g, plus 43 mg of sodium and 132 mg of potassium (USDA). It is basically water with ambition.",
+        "Potassium (as KCl) gets there first: at the rat-derived dose it's 72.3 kg of milk, or 70.1 cartons (1 litre each). That's a trolley load of cartons and a very patient cow. Sodium would need 192 kg."
+      ],
+      "funFact": "A litre of milk weighs about 1,031 g, roughly 3% more than a litre of water (from USDA's 976 g per US quart).",
+      "realWorldCaveat": "People don't meet potassium as a rat's neat dose of potassium chloride: milk's comes dissolved in a drink and is absorbed gradually, and healthy kidneys shed the surplus. Long before any lab maths you'd be uncomfortably full, and lactose intolerance and milk allergy are common enough that for some people one glass is already a bad idea.",
+      "confidenceNote": "Composition is USDA SR Legacy for whole milk; the LD50 is a single published rat oral figure for potassium chloride standing in for potassium, and PubChem also lists a much lower mouse value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "yoghurt",
+      "tagline": "Milk that took up a hobby. The cultures would burn out before the potassium did.",
+      "overview": [
+        "Plain whole-milk yoghurt is about 88% water, with 3.5 g protein, 3.3 g fat and 4.7 g sugars per 100 g, plus 46 mg of sodium and 155 mg of potassium (USDA). Bacteria turn some of the lactose into lactic acid, which is where the tang comes from.",
+        "Potassium (as KCl) gets there first: at the rat-derived dose that's 61.6 kg of yoghurt, or 362 small tubs. The lid-licking alone would take a career. Sodium would need 180 kg."
+      ],
+      "funFact": "Yoghurt is made by two bacteria, Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus, fermenting the lactose in milk.",
+      "realWorldCaveat": "Yoghurt's potassium is dissolved in a food eaten by the spoonful, absorbed slowly and mostly shed by healthy kidneys, nothing like a rat's single measured dose of potassium chloride. You'd be full, and thoroughly sick of the tang, many kilos earlier.",
+      "confidenceNote": "Composition is USDA SR Legacy for plain whole-milk yoghurt; the LD50 is a single published rat oral figure for potassium chloride standing in for potassium, and PubChem also lists a much lower mouse value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "salmon",
+      "tagline": "Oily, pink and rich in omega-3. Even its potassium, high for a fish, is out of reach.",
+      "overview": [
+        "Cooked farmed Atlantic salmon has about 22 g protein and 12 g fat per 100 g, with 384 mg of potassium and only 61 mg of sodium (USDA). A notable extra is vitamin D, at 13 µg per 100 g.",
+        "Potassium (as KCl) gets there first: at the rat-derived dose that's 24.9 kg of salmon, or 140 half-fillets. Potassium is high for a fish, but that's still a fishmonger's entire week. Sodium trails at 135 kg."
+      ],
+      "funFact": "Salmon flesh is pink-orange because of astaxanthin, a pigment from the crustaceans they eat (farmed salmon get it added to their feed).",
+      "realWorldCaveat": "Potassium inside a fillet arrives slowly alongside protein and oily fat, with healthy kidneys clearing the extra, which is nothing like a rat's neat dose of potassium chloride. People with kidney disease are rightly cautious about potassium at normal servings, but everyone else would be oiled out and full a very long way short.",
+      "confidenceNote": "Composition is USDA SR Legacy for cooked farmed Atlantic salmon; the LD50 is a single published rat oral figure for potassium chloride standing in for potassium, and PubChem also lists a much lower mouse value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "tuna-in-brine",
+      "tagline": "Pantry hero: the brine goes down the sink, the sodium stays in the fish.",
+      "overview": [
+        "Drained tuna in brine has 26.8 g protein and 1.0 g fat per 100 g, with 310 mg of sodium and 220 mg of potassium, and it's about 71% water (NZ Food Composition Database). Most of the brine ends up in the sink.",
+        "Sodium (as NaCl) gets there first, as you'd expect from a fish packed in brine. At the rat-derived dose that's 26.6 kg of drained tuna, or 162 cans of tuna. Your cat would have to join in."
+      ],
+      "funFact": "Some tuna species, such as bluefin, can keep their bodies warmer than the water around them.",
+      "realWorldCaveat": "The rat got sodium chloride as one neat dose, whereas the sodium here is spread through drained flesh and arrives over the length of a meal, with a salty mouthful sending you off for a drink long before. Tuna also accumulates mercury, which would be the bigger worry well ahead of the salt.",
+      "confidenceNote": "Composition is an exact NZ 'canned in brine, drained' match; the LD50 is a single published rat oral figure for sodium chloride standing in for sodium, and PubChem quotes a lower human value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "prawns",
+      "tagline": "Seafood's fancy cousin, and the sodium depends entirely on what they were cooked in.",
+      "overview": [
+        "Cooked king prawn flesh has 23.7 g protein and 0.9 g fat per 100 g, with 552 mg of sodium and 127 mg of potassium (NZ Food Composition Database). Sodium varies with how they were cooked: USDA's cooked shrimp record shows 111 mg.",
+        "Sodium (as NaCl) gets there first, though that depends on the cooking brine. At the rat-derived dose it's 15 kg of prawn flesh, or 935 king prawns. That's every prawn on the platter, and probably the platter."
+      ],
+      "funFact": "Whether a crustacean gets called a prawn or a shrimp depends heavily on where you are, not just on the biology.",
+      "realWorldCaveat": "A prawn's sodium is largely whatever the cooking brine left behind, and it arrives across a meal rather than as the rat's single neat dose of sodium chloride. Shell-peeling fatigue would hit first, and for anyone with a shellfish allergy a single prawn is already too many.",
+      "confidenceNote": "Sodium differs about 5x between NZ (552 mg) and USDA (111 mg); the NZ figure is the more cautious one. The LD50 is a single published rat oral figure for sodium chloride standing in for sodium, and PubChem quotes a lower human value.",
+      "confidence": "low"
+    },
+    {
+      "slug": "green-lipped-mussels",
+      "tagline": "Aotearoa's shellfish export: basically steamed ocean, with the salt to prove it.",
+      "overview": [
+        "Boiled green-lipped mussel meat has 15.9 g protein and 2.7 g fat per 100 g, with 596 mg of sodium and 219 mg of potassium (NZ Food Composition Database). The data is for the green-lipped species itself, not a blue-mussel stand-in.",
+        "Sodium (as NaCl) gets there first, which makes sense for an animal that lives in seawater. At the rat-derived dose that's 13.9 kg of mussel meat, or 912 mussels (15.2 g of meat each), and a lot of shell-picking."
+      ],
+      "funFact": "Green-lipped mussels (Perna canaliculus) occur around all of New Zealand's mainland, and are also called kuku or kutai.",
+      "realWorldCaveat": "The rat's sodium chloride was a single neat dose; a mussel's sodium comes inside chewy protein, spread over a very long meal. For anyone with a shellfish allergy a single mussel is already too many, and the shell-picking alone would end the attempt.",
+      "confidenceNote": "Exact species and form from NZ data; the LD50 is a single published rat oral figure for sodium chloride standing in for sodium, and PubChem quotes a lower human value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "vanilla-ice-cream",
+      "tagline": "Sugar is the big number here, but brain freeze would intervene first.",
+      "overview": [
+        "Vanilla ice cream has 21.2 g sugars and 11.0 g fat per 100 g, plus 80 mg of sodium and 199 mg of potassium (USDA). The sugars are a mix of sucrose, lactose and others, but sucrose is the only one with a rat LD50 we could source, so it stands in for the lot.",
+        "Total sugars (as sucrose) gets there first, by a wide margin over potassium (48 kg) and sodium (103 kg). At the rat-derived dose it's 9.8 kg of ice cream, or 148 half-cup scoops. Brain freeze would arrive a very long way earlier."
+      ],
+      "funFact": "Hokey pokey, vanilla ice cream with crunchy honeycomb toffee, is a Kiwi favourite, and NZ's food composition database lists it as its own entry.",
+      "realWorldCaveat": "The rat got neat sucrose; ice cream's sugars are a mix, folded into fat and eaten a spoonful at a time, which is absorbed far more slowly than a straight dose. Nausea, a sugar crash and brain freeze would all intervene well before the sugar did.",
+      "confidenceNote": "Sugars are USDA SR Legacy; sucrose is a stand-in for total sugars, and it is the only rat LD50 we sourced, so this figure is shakier than most.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "cream",
+      "tagline": "36% fat, almost no potassium, and a whisk arm that gives out well before the maths.",
+      "overview": [
+        "Heavy whipping cream is about 36 g fat and 58 g water per 100 g, with just 27 mg of sodium and 95 mg of potassium (USDA). NZ's 'standard' cream is very close, at 55% water and 25 mg sodium.",
+        "Potassium (as KCl) gets there first, though 'first' is relative: at the rat-derived dose it's 100 kg of cream, or 6,700 tablespoons. Sodium is nowhere near, at 306 kg. You'd stop pouring a very long way short."
+      ],
+      "funFact": "Cream needs roughly 30–36% butterfat to whip, because the fat globules hold the air bubbles in place.",
+      "realWorldCaveat": "Cream is over a third fat, and the little potassium in it arrives slowly alongside that fat, nothing like a rat's neat dose of potassium chloride. Your stomach would stage a protest a very long way short.",
+      "confidenceNote": "Composition is USDA SR Legacy for heavy whipping cream; the LD50 is a single published rat oral figure for potassium chloride standing in for potassium, and PubChem also lists a much lower mouse value.",
+      "confidence": "medium"
+    }
+  ],
+  "notes": [
+    "Web search was unavailable in this run, so I could not re-verify old funFacts. I kept them verbatim where they don't frame water as the limit; the ones to eyeball before launch are chicken-breast (26.5 billion live / 50 billion+ slaughtered) and lamb-leg (130 years, dairy overtook sheep in 1987).",
+    "beef-mince funFact is new (replacing the old one that named water as the headline): the '85% lean' label meaning lean:fat by weight, raw. Well established, but not web-checked this run.",
+    "prawns is set to confidence 'low' because sodium differs about 5x between NZ and USDA, so the headline lethal mass is much shakier than the others. All other confidence values are unchanged ('medium').",
+    "egg keeps its old funFact verbatim; I removed the water mention from paragraph 1 so the page doesn't say it twice.",
+    "Added light real-world hazards that weren't in the old caveats (no numbers): egg, prawn and mussel allergies, lactose intolerance/milk allergy, kidney disease and potassium (chicken, salmon), and mercury in tuna. Cut them if you want to stay strictly to the old caveats.",
+    "In sodium foods the 'other values seen' include a lower human value (quoted in PubChem), so those confidence notes say 'a lower human value'. For potassium foods they mention the much lower mouse value. No LD50 numbers were quoted."
+  ]
+}

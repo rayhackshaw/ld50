@@ -1,0 +1,109 @@
+{
+  "category": "treats",
+  "rewrites": [
+    {
+      "slug": "brewed-coffee",
+      "tagline": "Plenty of caffeine per cup, but your bladder taps out long before the maths does.",
+      "overview": [
+        "Brewed coffee is mostly water (99.39 g per 100 g), with 40 mg of caffeine, 49 mg of potassium and 2 mg of sodium (USDA). A cup is 237 g, so about 95 mg of caffeine.",
+        "Caffeine is where the lethal arithmetic lands: at the rat-derived dose it takes 33.6 kg of coffee, which is 142 cups of coffee (237 g). Even the keenest barista would have clocked off long before the last one."
+      ],
+      "funFact": "USDA lists brewed coffee at 40 mg of caffeine per 100 g, so a 237 g cup carries roughly 95 mg.",
+      "realWorldCaveat": "The rat dose is neat caffeine in one go, whereas coffee spreads it over litres, and the jitters, nausea and a desperate need for the loo would end things long first. People and rats also clear caffeine at different speeds, and real-life caffeine trouble tends to come from concentrated powders and tablets, not a brew.",
+      "confidenceNote": "Caffeine per 100 g is from USDA's brewed coffee entry; the LD50 is one published rat oral figure (192 mg/kg), another rat value is about double and a mouse value (127 mg/kg) is lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "black-tea",
+      "tagline": "Half the caffeine of coffee, so the maths wants twice as many cuppas.",
+      "overview": [
+        "Brewed black tea is steeped, oxidised leaves: 99.70 g of water per 100 g, with 20 mg of caffeine, 37 mg of potassium and 2 mg of theobromine (USDA). A 237 g cup carries about 47 mg of caffeine.",
+        "Caffeine is the number that counts: at the rat-derived dose it takes 67.2 kg of tea, or 284 cups of tea (237 g), which is a very long afternoon. The trace theobromine, better known from chocolate, would need 3.33 tonnes. As lethal agents go, the tea bag is largely decorative."
+      ],
+      "funFact": "Per USDA, brewed black tea has 20 mg of caffeine per 100 g, half of brewed coffee's 40 mg.",
+      "realWorldCaveat": "The rat dose is neat caffeine in one go; tea spreads it thinly over hundreds of cups, and a full bladder and a sloshing stomach would call time long before. Rats and people also handle caffeine at different speeds, so the rat number is a rough guide at best.",
+      "confidenceNote": "Caffeine per 100 g is from USDA's brewed black tea entry; the LD50 is one published rat oral figure (192 mg/kg), another rat value is about double and a mouse value (127 mg/kg) is lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "green-tea",
+      "tagline": "Barely any caffeine per cup, so the cup count balloons into the hundreds.",
+      "overview": [
+        "Brewed green tea is steeped tea leaves in hot water: 99.93 g of water per 100 g, with almost nothing else, just 12 mg of caffeine and 8 mg of potassium (USDA). A cup is 245 g, so about 29 mg of caffeine.",
+        "Caffeine is the number that counts, and at 12 mg per 100 g the rat-derived dose takes 112 kg of green tea, or 457 cups of green tea (245 g). The potassium would need 1.19 tonnes, so nothing in the pot is in any hurry."
+      ],
+      "funFact": "USDA lists brewed green tea as 99.93% water, with just 12 mg of caffeine and 8 mg of potassium per 100 g.",
+      "realWorldCaveat": "The rat dose is neat caffeine in one go; here it is thinned out across hundreds of cups, and volume and a very full bladder would stop anyone long before. Rats and people also clear caffeine at different speeds, so treat the rat figure as a punchline, not a benchmark.",
+      "confidenceNote": "Caffeine per 100 g is from USDA's brewed green tea entry; the LD50 is one published rat oral figure (192 mg/kg), another rat value is about double and a mouse value (127 mg/kg) is lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "cola",
+      "tagline": "Sugar is the star, and the stomach quits well before the maths does.",
+      "overview": [
+        "Regular cola is a sugar-sweetened fizzy drink; USDA's entry is 89.36% water, with 9.94 g of sugars, 9 mg of caffeine and 5 mg of potassium per 100 g. A 12 fl oz can is 370 g, so about 36.8 g of sugars a can.",
+        "Sugars are what the maths lands on: at the rat-derived dose, 18.2 kg of cola, or 49.1 cans of cola (12 fl oz, 370 g). Caffeine, the other famous ingredient, would need 149 kg. Cola's fearsome reputation holds up better in the dentist's chair than on the LD50 table."
+      ],
+      "funFact": "By USDA's numbers a 370 g can of regular cola holds about 36.8 g of sugars (9.94 g per 100 g).",
+      "realWorldCaveat": "No stomach would accept that much fizzy liquid: gas, volume and sheer sweetness would send it back up long before any lab number. Cola is also a mix of sugars rather than pure glucose, so the rat figure is a rough stand-in.",
+      "confidenceNote": "Sugar content is from USDA's regular cola entry; the LD50 (25,800 mg/kg) is a single published rat oral figure for glucose, standing in for cola's mix of sugars, with no other values to compare.",
+      "confidence": "low"
+    },
+    {
+      "slug": "orange-juice",
+      "tagline": "Plenty of vitamin C on the label, but it's the sugar the maths picks on.",
+      "overview": [
+        "USDA's chilled orange juice (from and not from concentrate) is 87.22% water, with 8.31 g of sugars, 178 mg of potassium and 33.6 mg of vitamin C per 100 g. A 249 g cup carries about 84 mg of vitamin C.",
+        "Sugars are what the maths lands on: at the rat-derived dose, 21.7 kg of juice, or 20.7 litre cartons of orange juice (about 1052 g). The potassium would need 53.6 kg and the vitamin C a heroic 2.48 tonnes, so the famous vitamin is the least of anyone's worries."
+      ],
+      "funFact": "USDA lists chilled orange juice at 33.6 mg of vitamin C per 100 g, which is about 84 mg in a 249 g cup.",
+      "realWorldCaveat": "Between the acidity, the sweetness and the sheer volume, anyone would be sick of juice, and probably just sick, long before this much went down. The rat figure is a single neat glucose dose, not the mixed sugars of juice taken in sips.",
+      "confidenceNote": "Sugar content is from USDA's chilled orange juice entry, which mixes from-concentrate and not-from-concentrate juice; the LD50 is a single published rat oral figure for glucose, standing in for juice's mixed sugars.",
+      "confidence": "low"
+    },
+    {
+      "slug": "mayonnaise",
+      "tagline": "Three-quarters fat, and still it's the salt the maths picks on.",
+      "overview": [
+        "Mayonnaise is an emulsion of oil, egg and acid. USDA's regular version is 74.85 g of fat per 100 g, with 21.65 g of water, 635 mg of sodium and 20 mg of potassium. A tablespoon is 13.8 g.",
+        "Sodium (as NaCl) is where the maths lands: at the rat-derived dose it takes 13 kg of mayo, or 943 tablespoons of mayo (13.8 g), each one about three-quarters fat. Potassium wouldn't come into play until 477 kg, by which point the deli would be out of stock."
+      ],
+      "funFact": "USDA lists regular mayonnaise as 74.85% fat by weight and only 21.65% water.",
+      "realWorldCaveat": "A rat's salt is dosed neat by gavage; in mayo it is folded into a greasy emulsion that is mostly fat, which no stomach would hold at anything like this volume, and food-bound sodium reaches the blood more slowly than a neat dose.",
+      "confidenceNote": "Sodium (635 mg per 100 g) is from USDA's regular mayonnaise entry; the LD50 is a single published rat oral figure for sodium chloride (3,000 mg/kg), converted to sodium, so it stands in for all the sodium in the jar.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "white-vinegar",
+      "tagline": "Five per cent acid, and the wincing starts well before the maths.",
+      "overview": [
+        "Distilled white vinegar is about 5% acetic acid (Fisher SDS), and USDA lists it as 94.78 g of water per 100 g, with just 2 mg of sodium. A tablespoon is 14.9 g.",
+        "Acetic acid is what the maths picks on: at the rat-derived dose, using the lowest rat oral figure, it takes 4.63 kg of vinegar, or 19.5 cups of vinegar (238 g). Your throat would hand in its resignation at the first cup."
+      ],
+      "funFact": "The Fisher Scientific safety data sheet for vinegar lists it as 5% acetic acid, while USDA puts distilled vinegar at 94.78 g of water per 100 g.",
+      "realWorldCaveat": "At 5% acid, vinegar stings the mouth and throat on its own, so nobody could drink this volume. The rat figure is a gavage dose straight into the stomach, not a guide to what a person could swallow.",
+      "confidenceNote": "Acid strength is a typical label figure (about 5%); the 3,310 mg/kg is the lowest of several rat oral values, which run up to 4,665 mg/kg across sources.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "hot-sauce",
+      "tagline": "All that heat, and the maths only notices the salt. Capsaicin isn't on the spreadsheet.",
+      "overview": [
+        "Hot sauce is peppers, vinegar and a good deal of salt. USDA's TABASCO entry is 95.17% water, with 633 mg of sodium, 128 mg of potassium and 4.5 mg of vitamin C per 100 g, and a teaspoon is 4.7 g.",
+        "The famous heat comes from capsaicin, which isn't in USDA's table, so the maths can't see it. Sodium (as NaCl) is what it can see: at the rat-derived dose, 13.1 kg of hot sauce, or 2,780 teaspoons of hot sauce (4.7 g). That's a lot of teaspoons, and the mouth would be filing complaints from the first."
+      ],
+      "funFact": "USDA's TABASCO entry lists 633 mg of sodium per 100 g, so a 4.7 g teaspoon holds about 30 mg.",
+      "realWorldCaveat": "Capsaicin, the real hazard of a hot sauce for the mouth and stomach, isn't part of this number, and nobody could swallow thousands of teaspoons of burning liquid anyway. The rat figure is for neat salt, and sodium bound in a sauce is absorbed more slowly.",
+      "confidenceNote": "Sodium (633 mg per 100 g) is from USDA's TABASCO entry, one brand standing in for hot sauce generally; the LD50 is a single published rat oral figure for sodium chloride, standing in for sodium. Capsaicin and acetic acid aren't listed by USDA, so they aren't modelled.",
+      "confidence": "medium"
+    }
+  ],
+  "notes": [
+    "Kept every funFact verbatim; none frames water as the limit. They are dry (mostly restating USDA composition), so swap in something livelier if you'd rather.",
+    "confidence lowered from medium to low for cola and orange-juice: the headline is now glucose standing in for mixed sugars, with no second LD50 value to cross-check. Sodium (mayo, hot sauce) kept at medium since NaCl is the real compound in the food and the conversion is straightforward. Caffeine foods stay at medium (rat values differ about 2x, mouse value lower).",
+    "The input facts for brewed-coffee include a 'Limiting constituent: Water' row, which will contradict the new copy if the page still renders it. Worth checking the code drops it.",
+    "Cola and orange-juice paragraph 2 uses the full headline label 'Sugars (total, glucose LD50 as stand-in)' verbatim per rule 1; it reads a bit clunky, so the build script could use a shorter display label.",
+    "Quoted only masses/counts present in the input (headline, serving counts, otherConstituents) plus LD50 values from headline/otherLd50ValuesSeen and the old confidenceNotes (3,000 mg/kg NaCl, 3,310-4,665 mg/kg acetic acid). The 3,000 mg/kg NaCl figure is not in the structured input, only the old note.",
+    "hot-sauce is a single USDA TABASCO entry and capsaicin is unmodelled; fine as a joke page, but it is the least representative of the 'hot sauce' label."
+  ]
+}

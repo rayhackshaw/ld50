@@ -1,0 +1,242 @@
+{
+  "category": "fruit",
+  "rewrites": [
+    {
+      "slug": "banana",
+      "tagline": "The potassium poster fruit, and the maths needs a very large fruit bowl.",
+      "overview": [
+        "Raw, peeled banana has 358 mg of potassium per 100 g, which is how it became the poster fruit for the mineral. It is about three-quarters water (74.9 g per 100 g), and a medium one weighs about 118 g.",
+        "Potassium is the banana's one claim to fame, so it gets the maths. At the rat-derived dose it comes to 26.7 kg of banana, which is 226 medium bananas (118 g). Even a committed banana-for-breakfast person would hit banana fatigue first."
+      ],
+      "funFact": "Bananas are very slightly radioactive because of potassium-40, which spawned the informal \"banana equivalent dose\" used to explain radiation exposure.",
+      "realWorldCaveat": "The rat figure is for a neat dose of potassium chloride, whereas banana potassium arrives slowly with fibre and bulk, and you would stop eating long before it added up. Kidneys do the heavy lifting on potassium, which is why people with kidney disease often have to watch their intake.",
+      "confidenceNote": "Potassium per 100 g is from USDA SR Legacy. The LD50 is a single published rat oral figure for potassium chloride, standing in for potassium; mouse values are much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "apple",
+      "tagline": "An apple a day, minus the seeds, minus the toxicologist.",
+      "overview": [
+        "Raw apple with its skin (no core or seeds) is about 86% water, with 10.4 g of sugars per 100 g (sucrose, glucose and fructose, heavy on fructose). Glucose alone is 2,430 mg per 100 g, and a medium apple weighs about 182 g.",
+        "Glucose is the sugar that does the maths here: at the rat-derived dose it would take 74.3 kg of apple, or 408 medium apples (182 g). An apple a day famously keeps the doctor away; 408 at once is a different proposal."
+      ],
+      "funFact": "Apples float in water because a good part of their volume is air.",
+      "realWorldCaveat": "The lab dose is neat glucose; in an apple the sugar arrives locked in fibre and bulk, so you would be full, and thoroughly tired of chewing, long before it added up. This is flesh and skin only: the seeds are excluded and are a separate conversation.",
+      "confidenceNote": "Composition from USDA SR Legacy. The LD50 is a single published rat oral figure for D-glucose, which is only one of the sugars in an apple.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "orange",
+      "tagline": "Vitamin C royalty, but it's the citric acid doing the sums.",
+      "overview": [
+        "A raw, peeled orange is about 87% water, with 53.2 mg of vitamin C and 181 mg of potassium per 100 g, plus about 910 mg of citric acid per 100 g, which is the tang. One 131 g orange carries about 70 mg of vitamin C.",
+        "Citric acid is the tang, and it is the first constituent to reach the rat-derived dose: 23.1 kg of orange, or 176 oranges (131 g). Vitamin C, the fruit's famous bit, would need tonnes, so the sour wins by a very long way."
+      ],
+      "funFact": "The colour is named after the fruit, not the other way round. Before the fruit's name caught on, English speakers called the colour 'yellow-red'.",
+      "realWorldCaveat": "The rat figure is a neat dose of citric acid; an orange delivers it diluted in juice and pulp, and a sore mouth, heartburn and sheer fullness would end this experiment early. Vitamin C megadoses also tend to upset the gut well before anything else, and a rat's tolerance is not a person's.",
+      "confidenceNote": "Composition from USDA SR Legacy, but the citric acid amount (about 9.1 g/L) comes from squeezed juice standing in for the flesh. The LD50 is the lowest of several published rat oral figures, which run higher.",
+      "confidence": "low"
+    },
+    {
+      "slug": "lemon",
+      "tagline": "Citric acid in bulk, and a face that gives up well before the arithmetic does.",
+      "overview": [
+        "A peeled lemon (flesh and juice, no peel) is about 89% water, with 53 mg of vitamin C and 138 mg of potassium per 100 g. The sour is citric acid: about 4,800 mg per 100 g, based on roughly 48 g per litre in freshly squeezed juice (Penniston et al., 2008).",
+        "Citric acid is the whole personality of a lemon, and at the rat-derived dose it comes to 4.38 kg of lemon, or 75.4 lemons (58 g). Your mouth and stomach would lodge formal complaints well before the arithmetic got a turn."
+      ],
+      "funFact": "In a 2008 study, freshly squeezed lemon juice carried about 48 g of citric acid per litre, roughly five times as much as fresh orange juice (9.1 g/L).",
+      "realWorldCaveat": "Citric acid is far more irritating than lethal in practice: enamel, throat and stomach lining object long before any dose, and the rat figure is for the neat acid rather than acid diluted in pulp and juice. Nobody is getting through that much lemon.",
+      "confidenceNote": "Citric acid comes from a 2-sample juice study (48.0 g/L, SD 3.8) standing in for the flesh and juice, and the LD50 is the lowest of several published rat oral figures, which run higher. Treat it as a rough guide.",
+      "confidence": "low"
+    },
+    {
+      "slug": "strawberry",
+      "tagline": "Not technically a berry. You'd run out of punnets long before the potassium.",
+      "overview": [
+        "Raw, hulled strawberries have 153 mg of potassium and 58.8 mg of vitamin C per 100 g, and are about 91% water. A medium berry is only about 12 g, which turns the maths into a counting exercise.",
+        "Potassium would take 62.4 kg of strawberries at the rat-derived dose, or 5,200 medium strawberries (12 g). You would run out of punnets, and then patience, long before the potassium got a say."
+      ],
+      "funFact": "The \"seeds\" on a strawberry are actually tiny separate fruits (achenes) sitting on the outside of the berry.",
+      "realWorldCaveat": "The rat figure is a neat dose of potassium chloride; strawberry potassium arrives slowly, in fibre and a lot of juicy bulk, and fullness (and a very red shirt) would end this long before any mineral mattered.",
+      "confidenceNote": "Potassium per 100 g is from USDA SR Legacy. The LD50 is a single published rat oral figure for potassium chloride, standing in for potassium; mouse values are much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "blueberry",
+      "tagline": "Small, blue and gently sugary. Bring a very large bowl.",
+      "overview": [
+        "Raw blueberries are about 84% water, with roughly 10 g of sugars per 100 g, split between glucose and fructose, plus 77 mg of potassium. Glucose alone is 4,880 mg per 100 g. A cup is about 148 g, and each berry weighs roughly 1.4 g.",
+        "Glucose is what the maths runs on: at the rat-derived dose it takes 37 kg of blueberries, or 250 cups of blueberries (148 g). At about 1.4 g a berry you would be counting in thousands, which is no way to eat."
+      ],
+      "funFact": "The dusty white coating on a blueberry is a natural wax called bloom, made by the fruit itself, and it is a sign of freshness rather than a residue.",
+      "realWorldCaveat": "The rat figure is a neat dose of glucose; in a blueberry the sugar comes with skins and fibre and is absorbed slowly, so a person would be full, purple-toothed and bored long before anything toxicological. Fullness and plumbing would object first.",
+      "confidenceNote": "Composition from USDA SR Legacy. The LD50 is a single published rat oral figure for D-glucose, which is only one of the sugars in blueberries.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "grape",
+      "tagline": "Mostly water, partly sugar, entirely not worth the maths.",
+      "overview": [
+        "Raw seedless grapes are about 81% water, with 15.5 g of sugars per 100 g (mostly glucose and fructose) and 191 mg of potassium. Glucose alone is 7,200 mg per 100 g. Ten grapes weigh about 49 g.",
+        "Glucose comes in first at the rat-derived dose: 25.1 kg of grapes, or 512 handfuls of 10 grapes (49 g). That is a long way past a snack, and nobody has ever called the last of those handfuls a snack."
+      ],
+      "funFact": "A grape cut nearly in half makes a plasma spark in a microwave, an effect explained in a 2019 paper in PNAS.",
+      "realWorldCaveat": "The rat figure is a neat dose of glucose; in grapes the sugar arrives with skins, juice and bulk, so a person would be stopped by fullness and a very unhappy stomach first. Grapes are also toxic to dogs, which is a separate matter.",
+      "confidenceNote": "Composition from USDA SR Legacy. The LD50 is a single published rat oral figure for D-glucose, which is only one of the sugars in grapes.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "watermelon",
+      "tagline": "Mostly water, not much potassium. Bring a ute and a lot of melons.",
+      "overview": [
+        "Raw watermelon flesh is about 91% water, among the wettest fruits here, with 112 mg of potassium and 8.1 mg of vitamin C per 100 g. A big wedge (1/16 of a melon) is about 286 g, and a whole melon about 4,518 g.",
+        "Potassium is thin on the ground in watermelon, so the rat-derived dose takes 85.2 kg of fruit, or 18.9 whole watermelons (4,518 g). That is a very long summer, and a very short supply of fridge space."
+      ],
+      "funFact": "Watermelon is in the same plant family as cucumbers, pumpkins and squash (Cucurbitaceae).",
+      "realWorldCaveat": "The rat figure is a neat dose of potassium chloride; watermelon potassium arrives diluted through an enormous volume of juicy flesh, so fullness and an urgent need for the bathroom would end this long before any mineral mattered.",
+      "confidenceNote": "Potassium per 100 g is from USDA SR Legacy. The LD50 is a single published rat oral figure for potassium chloride, standing in for potassium; mouse values are much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "pineapple",
+      "tagline": "Contains an enzyme that digests protein, including parts of your mouth.",
+      "overview": [
+        "Raw pineapple flesh is about 86% water, with 47.8 mg of vitamin C, 109 mg of potassium and 5,990 mg of sucrose per 100 g. A thick slice is about 166 g, and one whole pineapple yields about 905 g of flesh.",
+        "Sucrose is the sweet, sticky part that decides it: at the rat-derived dose it takes 34.7 kg of pineapple flesh, or 38.4 whole pineapples, flesh only (905 g). A very tired tongue would call it long before then."
+      ],
+      "funFact": "Pineapple contains bromelain, a protein-digesting enzyme, which is why fresh pineapple can leave your mouth tingly or sore.",
+      "realWorldCaveat": "Bromelain and acidity make a mouth sore from far smaller amounts than this. The rat dose was neat sucrose; pineapple sugar comes bound in fibre and pulp, and your tongue would call time first.",
+      "confidenceNote": "Composition from USDA SR Legacy. The LD50 is a single published rat oral figure for sucrose, and HSDB lists the same value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "mango",
+      "tagline": "Related to cashews and poison ivy. Mostly, though, it is water.",
+      "overview": [
+        "Raw mango flesh is about 83% water, with 36.4 mg of vitamin C, 168 mg of potassium and roughly 14 g of sugars per 100 g, of which sucrose is 6,970 mg. The flesh of one mango is about 336 g.",
+        "Sucrose is the sugar that gets there first: at the rat-derived dose it takes 29.8 kg of mango, or 88.8 mangoes, flesh only (336 g). That is a lot of mangoes, and an even bigger fridge."
+      ],
+      "funFact": "Mangoes belong to the same plant family as cashews, pistachios and poison ivy (Anacardiaceae).",
+      "realWorldCaveat": "The rat dose was neat sucrose; mango sugar arrives with stringy fibre and bulk, so fullness and an upset stomach would end the experiment early.",
+      "confidenceNote": "Composition from USDA SR Legacy. The LD50 is a single published rat oral figure for sucrose, and HSDB lists the same value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "avocado",
+      "tagline": "Rich in fat, potassium and smugness. Only the potassium gets a number.",
+      "overview": [
+        "Raw avocado flesh is about 73% water, but also 14.66 g of fat and 485 mg of potassium per 100 g, more potassium than a banana (358 mg) by weight. One avocado's flesh is about 201 g.",
+        "Potassium is the avocado's biggest flex, so it does the maths: at the rat-derived dose it takes 19.7 kg of avocado flesh, or 97.9 whole avocados, flesh only (201 g). That is a lot of toast."
+      ],
+      "funFact": "Avocados do not ripen on the tree: they start softening only once picked.",
+      "realWorldCaveat": "The rat dose was neat potassium chloride, while avocado potassium arrives slowly inside a rich, fatty, fibrous mouthful that would make this experiment unpleasant long before the numbers mattered. Kidneys do the heavy lifting on potassium, which is why people with kidney disease often have to watch their intake.",
+      "confidenceNote": "Composition from USDA SR Legacy; fat is listed as a fact only and no fat LD50 was used. The potassium LD50 is a single published rat oral figure for potassium chloride, standing in for potassium; mouse values are much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "kiwifruit",
+      "tagline": "More vitamin C than an orange, and a 'Chinese gooseberry' until the late 1950s.",
+      "overview": [
+        "Raw green kiwifruit, peeled, is about 83% water, with 312 mg of potassium and 92.7 mg of vitamin C per 100 g, against 53.2 mg for an orange. One kiwifruit (69 g) has about 64 mg of vitamin C.",
+        "Potassium is the constituent that gets there first: 30.6 kg of kiwifruit at the rat-derived dose, or 443 kiwifruit (69 g). Vitamin C, famously plentiful here, would need 899 kg, so the vitamin C angle is a dead end."
+      ],
+      "funFact": "Exporter Turners & Growers began using the name 'kiwifruit' in 1959, replacing 'Chinese gooseberry'. The name nods to 'kiwi', the nickname for New Zealanders, not just the bird.",
+      "realWorldCaveat": "The rat dose was neat potassium chloride, whereas kiwifruit potassium arrives slowly in pulp and fibre. Kiwifruit also has its own brake: the enzyme actinidain, which can make a mouth sore and which some people are allergic to.",
+      "confidenceNote": "Potassium per 100 g is from USDA SR Legacy. The LD50 is a single published rat oral figure for potassium chloride, standing in for potassium; mouse values are much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "peach",
+      "tagline": "Fuzzy on the outside, sugary on the inside. The stone stays out of this.",
+      "overview": [
+        "Raw yellow peach flesh (no stone) is about 89% water, with 190 mg of potassium, 6.6 mg of vitamin C and 4,760 mg of sucrose per 100 g, in roughly 8 g of sugars overall, mostly sucrose. A medium peach weighs about 150 g.",
+        "Sucrose is the sweet part of the story: at the rat-derived dose it takes 43.7 kg of peach, or 291 medium peaches (150 g). The stone is a different story, and is not part of this maths."
+      ],
+      "funFact": "A nectarine is a peach with a gene for smooth skin, not a cross between a peach and a plum.",
+      "realWorldCaveat": "The rat dose was neat sucrose; peach sugar comes bound in fibre and juice, so you would be full, sticky and thoroughly peached out long before it mattered. Stones are not part of this maths.",
+      "confidenceNote": "Composition from USDA SR Legacy. The LD50 is a single published rat oral figure for sucrose, and HSDB lists the same value.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "pear",
+      "tagline": "Ripe for roughly a day. The maths wants several hundred more.",
+      "overview": [
+        "Raw pear (no core) is about 84% water, with 116 mg of potassium and 9.7 g of sugars per 100 g, heavy on fructose. Glucose alone is 2,600 mg per 100 g. A medium pear weighs about 178 g.",
+        "Glucose is the constituent that gets there first: at the rat-derived dose it comes to 69.5 kg of pear, or 390 medium pears (178 g). A pear's moment of perfect ripeness lasts about a day; 390 at once is not what it had in mind."
+      ],
+      "funFact": "European pears are usually picked while still hard and ripen from the inside out, which is why a pear can feel fine outside and be mush at the core.",
+      "realWorldCaveat": "The rat dose was neat glucose; pear sugar comes bound in fibre and grit, absorbs slowly, and fullness would stop a person long before it counted.",
+      "confidenceNote": "Composition from USDA SR Legacy (generic \"Pears, raw\"). The LD50 is a single published rat oral figure for D-glucose, which is only one of the sugars in a pear.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "cherry",
+      "tagline": "Pitted, sweet and in the thousands. The stones are not part of this.",
+      "overview": [
+        "Raw sweet cherries (pitted) are about 82% water, with 222 mg of potassium and roughly 12 g of sugars per 100 g, mainly glucose and fructose; glucose alone is 6,590 mg. One cherry without its stone weighs about 8.2 g.",
+        "Glucose is the sweet spot of the sums: at the rat-derived dose it takes 27.4 kg of cherries, or 3,340 cherries, pitted (8.2 g). That is several summers of Christmas cherries in one sitting."
+      ],
+      "funFact": "Sweet cherries belong to the rose family, along with apples, pears, peaches and strawberries.",
+      "realWorldCaveat": "The rat dose was neat glucose; cherry sugar comes with juice and fibre, and a person would be stopped by fullness, stained fingers and a very long time spitting stones long before this. Cherry stones are not part of this maths.",
+      "confidenceNote": "Composition from USDA SR Legacy. The LD50 is a single published rat oral figure for D-glucose, which is only one of the sugars in cherries.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "tomato",
+      "tagline": "A 'vegetable' in US customs law since 1893, and a fruit everywhere else.",
+      "overview": [
+        "Raw ripe tomato is about 95% water, with 237 mg of potassium, 13.7 mg of vitamin C and only 5 mg of sodium per 100 g. A medium tomato weighs about 123 g, and a cherry tomato about 17 g.",
+        "Potassium is the constituent that gets there first: at the rat-derived dose it takes 40.3 kg of tomato, or 327 medium tomatoes (123 g). A fortnight of BLTs would not get close."
+      ],
+      "funFact": "In 1893 the US Supreme Court (Nix v. Hedden) ruled tomatoes are vegetables for import-duty purposes, even though botanically they are fruit.",
+      "realWorldCaveat": "The rat dose was neat potassium chloride; tomato potassium arrives slowly in bulky, acidic, seedy flesh, and your stomach would object long before any numbers did. Kidneys do the heavy lifting on potassium, which is why people with kidney disease often have to watch their intake.",
+      "confidenceNote": "Potassium per 100 g is from USDA SR Legacy. The LD50 is a single published rat oral figure for potassium chloride, standing in for potassium; mouse values are much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "raspberry",
+      "tagline": "Not one berry but dozens of tiny fruits stuck together.",
+      "overview": [
+        "Raw raspberries are about 86% water, with 151 mg of potassium, 26.2 mg of vitamin C and roughly 4 g of sugars per 100 g. A cup is about 123 g, and ten raspberries weigh about 19 g.",
+        "Potassium would take 63.2 kg of raspberries at the rat-derived dose, or 514 cups of raspberries (123 g). That is a serious dent in anyone's grocery budget."
+      ],
+      "funFact": "Each raspberry is an aggregate of many tiny drupelets, each holding its own seed, which is why it comes off the plant hollow.",
+      "realWorldCaveat": "The rat dose was neat potassium chloride; raspberry potassium arrives slowly in seedy, fibrous flesh, and a person would stop, with seeds in their teeth, long before the numbers mattered.",
+      "confidenceNote": "Potassium per 100 g is from USDA SR Legacy. The LD50 is a single published rat oral figure for potassium chloride, standing in for potassium; mouse values are much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "pomegranate",
+      "tagline": "Jewel-like arils, potassium on the side, and namesake of the grenade.",
+      "overview": [
+        "Pomegranate arils (the juicy seed sacs, seeds included) are about 78% water, with 236 mg of potassium and 10.2 mg of vitamin C per 100 g. Half a cup of arils is about 87 g, and a whole pomegranate yields about 282 g of arils.",
+        "Potassium is the sum that matters at the rat-derived dose: 40.4 kg of arils, or 143 whole pomegranates, arils only (282 g). Extracting that many seeds would be punishment enough."
+      ],
+      "funFact": "The word \"grenade\" comes from the French for pomegranate, because the weapon's shape and its scatter of seeds reminded people of the fruit.",
+      "realWorldCaveat": "The rat dose was neat potassium chloride; pomegranate potassium arrives slowly inside crunchy seeds and fibre. A person extracting and eating this many arils would be stopped by fullness, stained hands and boredom long before the numbers mattered.",
+      "confidenceNote": "Potassium per 100 g is from USDA SR Legacy. The LD50 is a single published rat oral figure for potassium chloride, standing in for potassium; mouse values are much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "rockmelon",
+      "tagline": "Rockmelon in NZ and Australia, cantaloupe everywhere else.",
+      "overview": [
+        "Raw rockmelon (cantaloupe) flesh is about 90% water, with 267 mg of potassium, 36.7 mg of vitamin C and 16 mg of sodium per 100 g, a bit more sodium than most fruit. A wedge from a medium melon is about 69 g.",
+        "Potassium is first to the finish at the rat-derived dose: 35.7 kg of rockmelon, or 64.8 medium rockmelons, flesh only (552 g). That is a lot of rockmelon."
+      ],
+      "funFact": "The name \"cantaloupe\" comes from Cantalupo, an Italian town near Rome where the melon was once grown.",
+      "realWorldCaveat": "The rat dose was neat potassium chloride; rockmelon potassium arrives slowly in sugary, bulky flesh, and you would feel the volume long before you got anywhere near it.",
+      "confidenceNote": "Potassium per 100 g is from USDA SR Legacy. The LD50 is a single published rat oral figure for potassium chloride, standing in for potassium; mouse values are much lower.",
+      "confidence": "medium"
+    }
+  ],
+  "notes": [
+    "orange and lemon: confidence moved from medium to low. The citric acid amount is from squeezed juice standing in for the flesh (lemon: a 2-sample study), and the LD50 used (3,000 mg/kg) is the lowest of four published rat values (up to 12,000 mg/kg).",
+    "orange funFact reworded: the old claim that English 'had no word' for the colour is overstated (Old English had 'yellow-red'). Verified against Wikipedia's Orange (colour) article.",
+    "kiwifruit funFact reworded: old text said the name is 'not the bird'; per the brief it now says the name nods to the nickname for New Zealanders, not just the bird (Wikipedia/Ferguson 2020: coined by Jack Turner, 1959). Tagline changed from 'until 1959' to 'until the late 1950s'.",
+    "Taglines kept from old text because they do not frame water as the limit: apple, grape, pineapple, mango, raspberry, rockmelon. Funfacts kept verbatim except orange and kiwifruit.",
+    "mango and grape taglines mention 'mostly water' as colour only; change if you want fewer water jokes.",
+    "peach overview refers to the stone being 'kept on the flagged list', carried over from the old text; drop it if that list is not user-visible.",
+    "Sentences containing 'watermelon' or 'water' avoid the banned words (limit, limiting, headline, lower bound, runner-up, second, sets, problem)."
+  ]
+}

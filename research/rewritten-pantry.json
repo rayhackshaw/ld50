@@ -1,0 +1,132 @@
+{
+  "category": "pantry",
+  "rewrites": [
+    {
+      "slug": "white-rice",
+      "tagline": "Cooked rice barely contains potassium, which makes for a very long dinner.",
+      "overview": [
+        "Cooked long-grain white rice is mostly water the grains soaked up in the pot: 68.4 g of every 100 g. The rest is starch, 2.69 g of protein and very little of anything lethal-dose maths cares about, including 35 mg of potassium and 1 mg of sodium (cooked without salt).",
+        "Potassium, at 35 mg per 100 g, is the constituent that gives out first: at the rat-derived dose you'd need 273 kg of cooked rice, or 1,730 cups of cooked rice (158 g). Magnesium would take even more. At that point you aren't having dinner, you're running a restaurant."
+      ],
+      "funFact": "In Japanese, “gohan” means both cooked rice and a meal, and in Thai “to eat” is literally “kin khao”: eat rice.",
+      "realWorldCaveat": "A rat gets neat potassium chloride in one hit, whereas the potassium in rice arrives a spoonful at a time, and fullness would end the experiment far too early to matter. The real everyday hazard is cooked rice left out at room temperature, which can grow Bacillus cereus and cause food poisoning at ordinary servings.",
+      "confidenceNote": "Amount from USDA composition data (a single US average); the LD50 is one published rat figure for potassium chloride standing in for potassium, and one mouse figure is far lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "pasta",
+      "tagline": "Plain pasta has little potassium; you'd run out of sauce, and sauce pans, first.",
+      "overview": [
+        "Cooked enriched pasta, boiled without salt: 62.1 g of every 100 g is water, 5.8 g is protein, potassium is 44 mg and sodium is a mere 1 mg. In a real kitchen, the salt in the pasta water is what adds the sodium.",
+        "Potassium, at 44 mg per 100 g, is the constituent that gives out first: at the rat-derived dose it takes 217 kg of cooked pasta, or 1,750 cups of cooked spaghetti (124 g). Magnesium would need 278 kg. That is a lot of carbonara, even by the standards of a long Sunday."
+      ],
+      "funFact": "“Spaghetti” is already a plural. One strand is a spaghetto.",
+      "realWorldCaveat": "The lab dose is a neat potassium salt hitting a rat all at once; in pasta the potassium arrives a forkful at a time, and fullness would end the attempt very early. Plain pasta isn't the interesting hazard here; the joke is entirely in the maths.",
+      "confidenceNote": "Amount from USDA composition data (a single US average for cooked enriched pasta); the LD50 is one published rat figure for potassium chloride standing in for potassium, with one mouse figure far lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "white-bread",
+      "tagline": "It's the salt, not the dough, and the salt is still hundreds of slices away.",
+      "overview": [
+        "Commercially made white bread has 490 mg of sodium per 100 g, which is about 1.25 g of salt. That is why bread quietly counts for a big slice of everyday salt intake. It also has 126 mg of potassium per 100 g, and 36.4 g of every 100 g is water.",
+        "Sodium (as salt) is the constituent that gives out first: at the rat-derived dose it takes 16.9 kg of bread, or 581 slices (29 g). Toast them back to back and the toaster would need counselling."
+      ],
+      "funFact": "Bread is often one of the biggest sources of salt in people's diets, mostly because we eat so much of it, not because it tastes salty.",
+      "realWorldCaveat": "Rats and humans don't handle sodium identically, and a big dose of salt tends to come straight back up, so thirst, fullness and nausea would stop you long before the arithmetic did. The salt in bread is a long-term, everyday-diet matter (people with high blood pressure or kidney problems watch it), not a lethal-dose one.",
+      "confidenceNote": "Sodium content comes from a USDA entry and varies by brand, so the slice count is soft; the LD50 is one published rat figure for sodium chloride standing in for sodium, and the lowest published human figure is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "rolled-oats-porridge",
+      "tagline": "Porridge is 84% water, so technically you're drinking breakfast.",
+      "overview": [
+        "Oats cooked in water with no salt: 83.6 g of every 100 g is water, with 2.54 g of protein, 1.7 g of fibre, 70 mg of potassium and only 4 mg of sodium.",
+        "Potassium, at 70 mg per 100 g, is the constituent that gives out first: at the rat-derived dose it takes 136 kg of porridge, or 779 bowls of porridge (175 g). Magnesium would need 185 kg. At that point it's less breakfast and more a lifestyle."
+      ],
+      "funFact": "Samuel Johnson's dictionary defined oats as “a grain, which in England is generally given to horses, but in Scotland supports the people.”",
+      "realWorldCaveat": "Porridge swells and fills you, and its potassium arrives a spoonful at a time, nothing like the neat potassium chloride dose a rat is given. Your spoon arm and your stomach would give out long before the chemistry did.",
+      "confidenceNote": "Amount from the generic USDA 'regular and quick' cooked-oats entry, not a brand; the LD50 is one published rat figure for potassium chloride standing in for potassium, with one mouse figure far lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "lentils",
+      "tagline": "Potassium-rich and fibre-heavy: your gut would file a complaint before the maths did.",
+      "overview": [
+        "Boiled lentils without salt are a seed-and-fibre affair: 9.02 g of protein, 7.9 g of fibre and 369 mg of potassium per 100 g, plus just 2 mg of sodium. About 70% of the weight (69.6 g per 100 g) is water.",
+        "Potassium, at 369 mg per 100 g, is the constituent that gives out first: at the rat-derived dose it takes 25.9 kg of cooked lentils, or 131 cups of cooked lentils (198 g). Magnesium would need 139 kg. Your gut would file a formal complaint long before either."
+      ],
+      "funFact": "In the Bible (Genesis 25), Esau sells his birthright to his brother Jacob for a bowl of lentil stew.",
+      "realWorldCaveat": "With 7.9 g of fibre per 100 g, bloating and wind would end the attempt long before potassium mattered, and potassium bound in food arrives far more slowly than a neat salt dose. These are boiled lentils; the dry ones aren't eaten raw.",
+      "confidenceNote": "Amount from USDA composition data (a single US average); the LD50 is one published rat figure for potassium chloride standing in for potassium, with one mouse figure far lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "chickpeas",
+      "tagline": "Hummus, falafel, curry: you'd tire of every chickpea dish first.",
+      "overview": [
+        "Boiled chickpeas without salt: 8.86 g of protein, 7.6 g of fibre and 291 mg of potassium per 100 g, with 7 mg of sodium. A bit over half the weight (60.2 g per 100 g) is water.",
+        "Potassium, at 291 mg per 100 g, is the constituent that gives out first: at the rat-derived dose it takes 32.8 kg of cooked chickpeas, or 200 cups of cooked chickpeas (164 g). Magnesium would need 104 kg. That's a lot of falafel."
+      ],
+      "funFact": "The liquid from a tin of chickpeas, called aquafaba, whips up like egg white, which is how vegan meringues are made.",
+      "realWorldCaveat": "Fibre and fullness would stop you long before the potassium counted, and potassium locked inside food is absorbed far more slowly than the neat potassium chloride a rat is dosed with. Canned chickpeas are often salted, which this boiled entry isn't.",
+      "confidenceNote": "Amount from USDA composition data (a single US average); the LD50 is one published rat figure for potassium chloride standing in for potassium, with one mouse figure far lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "baked-beans",
+      "tagline": "Salty, saucy, and a very large number of tins away from trouble.",
+      "overview": [
+        "Canned baked beans in sauce: 343 mg of sodium (about 0.87 g of salt), 224 mg of potassium and 4.1 g of fibre per 100 g. Of every 100 g, 72 g is water; the rest is beans and sauce.",
+        "Sodium (as salt), at 343 mg per 100 g, is the constituent that gives out first: at the rat-derived dose it takes 24.1 kg of baked beans, or 94.8 cups of baked beans (254 g). Potassium would need 42.6 kg. That's more beans than a school camp."
+      ],
+      "funFact": "Most canned baked beans aren't baked in any traditional sense: they're cooked in sauce in a factory, so the name is mostly a brand relic.",
+      "realWorldCaveat": "Salt dissolved in a tomato sauce is nothing like a neat dose of it, and the saltiness, fibre and sheer volume would stop you long before the number came into play. The sodium here is a long-term matter for people watching their salt, not a lethal-dose one.",
+      "confidenceNote": "Amount from the USDA 'plain or vegetarian' tinned entry, not an NZ brand, so real tins vary; the LD50 is one published rat figure for sodium chloride standing in for sodium, and the lowest published human figure is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "tofu",
+      "tagline": "Wobbly, bland, and a very long way from the rat-derived dose.",
+      "overview": [
+        "Firm tofu set with calcium sulfate: 17.3 g of protein, 8.72 g of fat and 683 mg of calcium per 100 g, with 237 mg of potassium and only 14 mg of sodium. Roughly 70% of it (69.8 g per 100 g) is water.",
+        "Potassium, at 237 mg per 100 g, is the constituent that gives out first: at the rat-derived dose it takes 40.3 kg of tofu, or 497 quarter blocks (81 g). Magnesium would need 86.3 kg. Even the most patient tofu enthusiast would be bored well before that."
+      ],
+      "funFact": "Tofu is made a lot like cheese: soy milk is curdled with a coagulant and pressed. This entry used calcium sulfate, which is why it carries 683 mg of calcium per 100 g.",
+      "realWorldCaveat": "Tofu is dense and filling, so you'd stop long before the potassium counted, and the potassium inside it arrives far more slowly than the neat potassium chloride a rat is dosed with. Soy is also a common allergen, which matters at any dose.",
+      "confidenceNote": "Tofu composition varies with the coagulant and how firmly it's pressed (the USDA entry is calcium sulfate firm); the LD50 is one published rat figure for potassium chloride standing in for potassium, with one mouse figure far lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "quinoa",
+      "tagline": "The trendiest grain that isn't one. Potassium-wise, it barely registers.",
+      "overview": [
+        "Cooked quinoa: 4.4 g of protein, 2.8 g of fibre, 64 mg of magnesium and 172 mg of potassium per 100 g, with 7 mg of sodium. It's also 71.6 g of water per 100 g once cooked.",
+        "Potassium, at 172 mg per 100 g, is the constituent that gives out first: at the rat-derived dose it takes 55.5 kg of cooked quinoa, or 300 cups of cooked quinoa (185 g). Magnesium would need 78.2 kg. A very long salad bowl."
+      ],
+      "funFact": "Quinoa isn't a true grain. It's the seed of Chenopodium quinoa, a relative of beetroot and spinach.",
+      "realWorldCaveat": "Fibre and fullness would end the bowl long before the potassium mattered, and potassium bound in cooked seeds is absorbed far more slowly than a neat potassium chloride dose. A rat's tolerance for that salt also isn't a person's.",
+      "confidenceNote": "Amount from USDA composition data (a single US average); the LD50 is one published rat figure for potassium chloride standing in for potassium, with one mouse figure far lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "white-flour",
+      "tagline": "Dry, dusty and potassium-poor: you'd need a flour mill, not a pantry.",
+      "overview": [
+        "Plain white wheat flour is the dry end of the pantry: only 11.9 g of water per 100 g, with 10.3 g of protein, 107 mg of potassium and 22 mg of magnesium, and almost no sodium (2 mg).",
+        "Potassium, at 107 mg per 100 g, is the constituent that gives out first: at the rat-derived dose it takes 89.2 kg of flour, or 714 cups of flour (125 g). Magnesium would need 227 kg. You'd bake yourself into a dough-shaped hole first."
+      ],
+      "funFact": "Flour dust suspended in air is explosive; flour-mill explosions are a well-documented industrial hazard.",
+      "realWorldCaveat": "Dry flour is a famously unpleasant mouthful, so you'd stall long before the potassium counted. The real hazard is raw flour, which isn't a ready-to-eat food: it can carry E. coli and other bugs, which is why raw dough and batter aren't safe to eat, and the lab figure is irrelevant to that risk.",
+      "confidenceNote": "Amount from the USDA unenriched all-purpose entry (similar to NZ plain flour); the LD50 is one published rat figure for potassium chloride standing in for potassium, with one mouse figure far lower.",
+      "confidence": "medium"
+    }
+  ],
+  "notes": [
+    "All 10 foods keep confidence 'medium'. Potassium headlines use potassium chloride as a stand-in for potassium, and every one has a much lower mouse figure (383 mg/kg, flagged as an outlier) in otherLd50ValuesSeen; the confidenceNotes say so. White bread and baked beans use sodium chloride as the stand-in, and the lowest published human LDLo is much lower than the rat figure (also noted).",
+    "funFacts were kept verbatim from the old text for all foods: none framed water as the limit and all are still true as far as I can tell (the baked-beans one is slightly opinionated: 'brand relic').",
+    "Kept taglines for white-bread and rolled-oats-porridge from the old text (the porridge one mentions water as colour only, not as a limit; swap it if you want zero water in taglines).",
+    "The old pasta caveat's 'not a hazard at any realistic serving' was dropped to avoid a safe-amount claim.",
+    "Tofu uses 'quarter blocks (81 g)' for the serving count; 'half cups of tofu (126 g)' was also available."
+  ]
+}

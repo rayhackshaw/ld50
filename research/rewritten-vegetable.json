@@ -1,0 +1,241 @@
+{
+  "category": "vegetable",
+  "rewrites": [
+    {
+      "slug": "potato",
+      "tagline": "Potassium by the spud. You'd need a skip bin and an unreasonable amount of butter.",
+      "overview": [
+        "A boiled ripe potato (skin on, no salt) has 379 mg of potassium, 13 mg of vitamin C and 1.8 g of fibre per 100 g (USDA). It's about three-quarters water, which has never stopped it being the backbone of mash, potato salad and any chip-based argument.",
+        "Potassium is the constituent that takes the least potato. At the rat-derived dose, a 70 kg human would need 25.2 kg of boiled potato, or 185 potatoes (6 cm across, 136 g). That is a very large Christmas dinner, with all of the potatoes and none of the other guests."
+      ],
+      "funFact": "In 1995 potato plants were grown on the Space Shuttle Columbia in a NASA and University of Wisconsin experiment, making the potato the first vegetable grown in space.",
+      "realWorldCaveat": "The rat figure is for neat potassium chloride; potassium inside a boiled potato is absorbed gradually, healthy kidneys keep clearing it, and fullness would beat you long before it mattered (people with kidney disease handle potassium very differently, so none of this applies to them). This is only about ordinary ripe, well-cooked potatoes: green or sprouted ones contain glycoalkaloids (solanine) and are a genuinely different story.",
+      "confidenceNote": "Potassium per 100 g is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "sweet-potato",
+      "tagline": "Kumara: orange, sweet and quietly stocked with potassium. Not a threat.",
+      "overview": [
+        "Baked kumara flesh has 475 mg of potassium, 6.48 g of sugars and 19.6 mg of vitamin C per 100 g (USDA), and it's about three-quarters water. The orange is beta-carotene, about 11,500 µg per 100 g.",
+        "Potassium takes the least kumara. At the rat-derived dose, a 70 kg human would need 20.1 kg of baked kumara, or 112 large sweet potatoes (180 g). Sugars (total) trail at 27.9 kg, which is a lot of dessert."
+      ],
+      "funFact": "Kumara was brought to Aotearoa by early Polynesian voyagers, centuries before European ships turned up.",
+      "realWorldCaveat": "The rat dose is neat potassium chloride, not potassium inside baked flesh that you'd have to eat for days and keep down, and healthy kidneys clear the excess anyway (anyone with kidney problems handles potassium very differently from a healthy rat). Fullness and fibre would beat the arithmetic long before it mattered.",
+      "confidenceNote": "Composition is USDA data for US sweet potato, not NZ kumara varieties. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "carrot",
+      "tagline": "Good for your eyes, hopeless as a hazard. The rabbits would tap out first.",
+      "overview": [
+        "A raw carrot has 320 mg of potassium, 69 mg of sodium and 4.74 g of sugars per 100 g (USDA), and it's about 88% water. The orange is beta-carotene (about 8,285 µg per 100 g), which your body turns into vitamin A as needed.",
+        "Potassium takes the least carrot. At the rat-derived dose, a 70 kg human would need 29.8 kg of raw carrot, or 489 medium carrots (61 g). Rabbits would be insulted on your behalf."
+      ],
+      "funFact": "Early cultivated carrots were purple or yellow; orange ones only became common in Europe around the 1600s.",
+      "realWorldCaveat": "Eat a pile of carrots over a few weeks and your skin can turn faintly orange (carotenaemia), which is harmless and far more embarrassing than lethal. As for the potassium, the rat dose is neat potassium chloride, whereas a carrot's arrives slowly inside a lot of crunch and fibre, so you'd stall on volume long before it counted.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "onion",
+      "tagline": "More sugar than you'd guess, and it makes you cry long before it makes you ill.",
+      "overview": [
+        "A raw onion has 4.24 g of sugars, 146 mg of potassium and just 4 mg of sodium per 100 g (USDA), and it's about 89% water. The sting comes from sulphur compounds released when you cut it.",
+        "Sugars (total) take the least onion, with glucose standing in for the lot. At the rat-derived dose, a 70 kg human would need 42.6 kg of raw onion, or 387 medium onions (110 g). You'd be crying for entirely different reasons by onion number three."
+      ],
+      "funFact": "The tears come from syn-propanethial S-oxide, a gas formed when cutting the onion lets an enzyme (lachrymatory factor synthase) get to work on sulphur compounds.",
+      "realWorldCaveat": "The rat dose is neat glucose, not sugar tucked inside raw onion that would wreck your stomach and breath long before it mattered. Onions are also properly toxic to dogs and cats, so don't extrapolate this to pets.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for glucose, standing in for total sugars (the sucrose figure is a little higher).",
+      "confidence": "medium"
+    },
+    {
+      "slug": "garlic",
+      "tagline": "You'd be ostracised long before you'd be in any toxicological danger.",
+      "overview": [
+        "Raw garlic has 401 mg of potassium, 31.2 mg of vitamin C and 17 mg of sodium per 100 g (USDA). It's only about 58.58% water and carries 149 kcal per 100 g, both unusual for a vegetable.",
+        "Potassium takes the least garlic. At the rat-derived dose, a 70 kg human would need 23.8 kg of raw garlic, or 7,930 cloves (3 g). Social death arrives at about clove three."
+      ],
+      "funFact": "Garlic's smell comes from allicin, which isn't there in a whole clove: it forms when the clove is crushed or chopped and two stored compounds meet.",
+      "realWorldCaveat": "The rat dose is neat potassium chloride, whereas garlic's potassium comes bundled with a strong irritant that hits your mouth, stomach and heartburn long before it could matter. Like onion, garlic is a poor idea for dogs and cats.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "broccoli",
+      "tagline": "Eats like a tree, tastes like a lecture, and refuses to be dangerous.",
+      "overview": [
+        "Raw broccoli has 316 mg of potassium, 89.2 mg of vitamin C and 33 mg of sodium per 100 g (USDA), plus 101.6 µg of vitamin K. It's one of the better vitamin C sources in the veg aisle.",
+        "Potassium takes the least broccoli. At the rat-derived dose, a 70 kg human would need 30.2 kg of raw broccoli, or 200 stalks (151 g). Vitamin C, the famous bit, would need 934 kg."
+      ],
+      "funFact": "Broccoli, cabbage, cauliflower, kale and Brussels sprouts are all one species, Brassica oleracea, bred into different shapes.",
+      "realWorldCaveat": "The rat dose is neat potassium chloride, not potassium locked in raw florets and stalk that you'd absorb slowly, and fibre and fullness would end things long before it counted. Treat the figure as a joke with a decimal point.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "lettuce",
+      "tagline": "All crunch, no menace. You'd turn into a rabbit by head two.",
+      "overview": [
+        "Iceberg lettuce has 141 mg of potassium, 10 mg of sodium and 1.97 g of sugars per 100 g, with just 14 kcal (USDA). It's the pale, crunchy filling of burgers and sandwiches, valued for texture rather than for anything it contains.",
+        "Potassium takes the least lettuce, which is still 67.7 kg of it at the rat-derived dose for a 70 kg human, or 126 medium heads (539 g). That's several lifetimes of burger garnish."
+      ],
+      "funFact": "Iceberg lettuce is about 95.6% water by weight (USDA), and its crunch is mostly turgor: water-filled cells pushing against their walls.",
+      "realWorldCaveat": "The rat dose is neat potassium chloride, whereas lettuce spreads its potassium thinly through an enormous volume of leaf, so you'd run out of jaw and stomach room long before it mattered. Healthy kidneys also clear excess potassium, so the lab number says very little about a person at a salad bar.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "cucumber",
+      "tagline": "Cool as one. Technically a fruit, and about as dangerous as one.",
+      "overview": [
+        "Cucumber with the peel on has 147 mg of potassium and just 2 mg of sodium per 100 g (USDA), and it's about 95% water. There's barely anything else to it, which is the whole refreshing point.",
+        "Potassium takes the least cucumber. At the rat-derived dose, a 70 kg human would need 64.9 kg of cucumber, or 216 whole cucumbers (301 g). That is a very long salad."
+      ],
+      "funFact": "Botanically a cucumber is a fruit, specifically a berry type called a pepo, even though everyone treats it as a salad vegetable.",
+      "realWorldCaveat": "Rarely, a cucumber (or courgette) is intensely bitter from cucurbitacins, which can make people properly ill, so if it tastes properly bitter, bin it. Otherwise the rat dose is neat potassium chloride, and you'd stall on sheer cucumber volume long before the potassium mattered.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "capsicum",
+      "tagline": "Sweet, red and vitamin C-rich. The sugars are the only constituent with ambition.",
+      "overview": [
+        "Raw red capsicum has 4.2 g of sugars, 211 mg of potassium and 127.7 mg of vitamin C per 100 g (USDA). Gram for gram that's well over twice an orange's vitamin C (53.2 mg per 100 g, USDA).",
+        "Sugars (total) take the least capsicum, with glucose standing in for the lot. At the rat-derived dose, a 70 kg human would need 43 kg of raw red capsicum, or 361 medium capsicums (119 g). Vitamin C, the famous bit, would need 652 kg."
+      ],
+      "funFact": "Green, yellow, orange and red capsicums are largely the same plant at different stages: green ones are picked unripe, and red is what it looks like when it's fully ripe.",
+      "realWorldCaveat": "The rat dose is neat glucose, whereas the sugar in a capsicum is folded into a bulky, crunchy fruit and absorbed far more slowly, so you'd tire of chewing long before it mattered. Megadoses of vitamin C reliably upset your stomach well before any lab figure, so nobody is eating their way to that one either.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for glucose, standing in for total sugars (the sucrose figure is a little higher).",
+      "confidence": "medium"
+    },
+    {
+      "slug": "mushroom",
+      "tagline": "Fungi, not veg. Cultivated, polite and very hard to overdo.",
+      "overview": [
+        "White button mushrooms have 318 mg of potassium, 5 mg of sodium and 9.3 µg of selenium per 100 g (USDA), and they're about 92.45% water. They're a fungus, which is why they don't behave like vegetables.",
+        "Potassium takes the least mushroom. At the rat-derived dose, a 70 kg human would need 30 kg of button mushrooms, or 1,670 medium mushrooms (18 g). At that point you'd be a very full pizza topping."
+      ],
+      "funFact": "White button, cremini and portobello mushrooms are all the same species, Agaricus bisporus, just different strains or stages of maturity.",
+      "realWorldCaveat": "This is only about shop-bought cultivated mushrooms; wild mushrooms are a completely different and genuinely dangerous category, so please never take anything from this page as foraging advice. The rat dose is also neat potassium chloride, and a pile of mushrooms that size would beat you on volume long before any potassium arrived.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "sweetcorn",
+      "tagline": "Sweet by name, sugary by chemistry, and still a very long way off.",
+      "overview": [
+        "Boiled sweetcorn kernels have 4.54 g of sugars, 218 mg of potassium and almost no sodium (1 mg) per 100 g (USDA), plus 2.4 g of fibre. They're about 73% water, and the fibre has a reputation for outlasting the meal.",
+        "Sugars (total) take the least corn, with glucose standing in for the lot. At the rat-derived dose, a 70 kg human would need 39.8 kg of boiled kernels, or 386 medium ears (103 g). Your dental floss would not survive."
+      ],
+      "funFact": "An ear of corn usually has an even number of kernel rows, commonly 16.",
+      "realWorldCaveat": "Whole kernels are famously hard to digest because of their tough outer hulls, so you'd have worse problems than the lab figure long before reaching it. The rat dose is also neat glucose, whereas sugar bound up in kernels is absorbed far more slowly.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for glucose, standing in for total sugars (the sucrose figure is a little higher).",
+      "confidence": "medium"
+    },
+    {
+      "slug": "peas",
+      "tagline": "The one vegetable everyone actually eats. Lethal mass: absurdly large.",
+      "overview": [
+        "Boiled green peas have 5.93 g of sugars, 271 mg of potassium and 14.2 mg of vitamin C per 100 g (USDA), plus 5.5 g of fibre, which is plenty for something this small. They're about 77.87% water.",
+        "Sugars (total) take the least pea, with glucose standing in for the lot. At the rat-derived dose, a 70 kg human would need 30.5 kg of boiled peas, or 190 cups of boiled peas (160 g). Potassium is close behind at 35.2 kg."
+      ],
+      "funFact": "Gregor Mendel worked out the basic rules of genetic inheritance in the 1850s and 60s by crossing pea plants in a monastery garden.",
+      "realWorldCaveat": "This is only about ordinary cooked peas. The rat dose is neat glucose, whereas sugar tucked into peas arrives slowly alongside a lot of fibre, so stomach capacity would stop you long before the maths mattered.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for glucose, standing in for total sugars (the sucrose figure is a little higher).",
+      "confidence": "medium"
+    },
+    {
+      "slug": "pumpkin",
+      "tagline": "Orange, wholesome and soup-shaped. Soup season remains safe.",
+      "overview": [
+        "Boiled pumpkin has 230 mg of potassium and 2.08 g of sugars per 100 g, with only 20 kcal (USDA), and it's about 94% water. It's a very wet vegetable with a very good colour.",
+        "Potassium takes the least pumpkin. At the rat-derived dose, a 70 kg human would need 41.5 kg of boiled pumpkin, or 169 cups of mashed pumpkin (245 g). Soup would take a lot of stock."
+      ],
+      "funFact": "Pumpkin's orange comes from carotenoids; USDA lists about 2,100 µg beta-carotene per 100 g of boiled pumpkin.",
+      "realWorldCaveat": "USDA's pumpkin is the American orange kind; the crown and butternut pumpkins common in NZ will differ a little, and the rat dose is neat potassium chloride rather than potassium in cooked flesh. Either way, a very full stomach beats the arithmetic by a mile.",
+      "confidenceNote": "Composition is USDA data for US pumpkin, not NZ crown or butternut. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "cabbage",
+      "tagline": "Coleslaw's main ingredient. Defeated by volume, wind and common sense.",
+      "overview": [
+        "Raw cabbage has 170 mg of potassium, 18 mg of sodium, 36.6 mg of vitamin C and 3.2 g of sugars per 100 g (USDA), and it's about 92% water. It also carries 76 µg of vitamin K per 100 g.",
+        "Potassium takes the least cabbage. At the rat-derived dose, a 70 kg human would need 56.1 kg of raw cabbage, or 61.8 medium heads (908 g). Sugars (total) are right behind at 56.4 kg. That's a lot of coleslaw and a lot of wind."
+      ],
+      "funFact": "Captain Cook's ships carried barrels of sauerkraut (fermented cabbage) to ward off scurvy on voyages that included New Zealand.",
+      "realWorldCaveat": "Raw cabbage in these amounts is mostly a fibre-and-wind story, and the rat dose is neat potassium chloride, not potassium folded into tough leaf that you'd absorb gradually. Healthy kidneys also clear excess potassium, so volume wins long before potassium does.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "cauliflower",
+      "tagline": "Cabbage with a college education. Also, somehow, a pizza base.",
+      "overview": [
+        "Raw cauliflower has 299 mg of potassium, 48.2 mg of vitamin C and 30 mg of sodium per 100 g (USDA), and it's about 92% water. It's the same species as broccoli, cabbage and kale: Brassica oleracea.",
+        "Potassium takes the least cauliflower. At the rat-derived dose, a 70 kg human would need 31.9 kg of raw cauliflower, or 2,460 florets (13 g). Even the cauliflower cheese would not survive it."
+      ],
+      "funFact": "Mark Twain wrote in Pudd'nhead Wilson (1894) that cauliflower is nothing but cabbage with a college education.",
+      "realWorldCaveat": "Nobody is eating thousands of raw florets: fibre and sheer volume would win long before the potassium did. The rat dose is also neat potassium chloride, which absorbs very differently from potassium locked inside a floret.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "celery",
+      "tagline": "The 'negative-calorie' myth, now with a lethal dose. Spoiler: you'd tire first.",
+      "overview": [
+        "Raw celery has 260 mg of potassium and 80 mg of sodium per 100 g (USDA), and it's about 95% water. That sodium is high for a raw vegetable, though still tiny next to the salt shaker.",
+        "Potassium takes the least celery. At the rat-derived dose, a 70 kg human would need 36.7 kg of raw celery, or 918 medium stalks (40 g). The sodium route would need 103 kg."
+      ],
+      "funFact": "Celery is not 'negative calorie': USDA lists 14 kcal per 100 g, and digesting it burns only a small fraction of that.",
+      "realWorldCaveat": "Celery strings and fibre would beat you long before the numbers did, and the rat dose is neat potassium chloride rather than potassium trapped in stringy stalk. Healthy kidneys also clear the excess, though anyone with kidney disease handles potassium very differently.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "zucchini",
+      "tagline": "A fruit pretending to be a vegetable, and the star of every neighbour's summer glut.",
+      "overview": [
+        "Raw zucchini (courgette) with the skin on has 261 mg of potassium, 17.9 mg of vitamin C and 2.5 g of sugars per 100 g (USDA), and it's about 95% water. It's botanically a fruit.",
+        "Potassium takes the least zucchini. At the rat-derived dose, a 70 kg human would need 36.6 kg of raw zucchini, or 187 medium zucchinis (196 g). Every Kiwi neighbour in summer already thinks they've been given that many."
+      ],
+      "funFact": "Zucchini belongs to the same species as many pumpkins and squash, Cucurbita pepo; 'courgette' (French) and 'zucchini' (Italian) are the same thing.",
+      "realWorldCaveat": "A rare, intensely bitter zucchini can contain cucurbitacins that make people properly ill, so a very bitter one goes in the bin; ordinary zucchini are nowhere near this. The rat dose is neat potassium chloride, and you'd quit on volume long before the potassium mattered.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "kale",
+      "tagline": "A superfood with a vitamin C habit. The potassium still isn't impressed.",
+      "overview": [
+        "Raw kale has 348 mg of potassium, 93.4 mg of vitamin C, 254 mg of calcium and 53 mg of sodium per 100 g (USDA), plus 389.6 µg of vitamin K. It's a close relative of cabbage and broccoli, with a much better publicist.",
+        "Potassium takes the least kale. At the rat-derived dose, a 70 kg human would need 27.4 kg of raw kale, or 1,310 cups of raw kale (21 g). Vitamin C would need 892 kg. Either way, it's an extremely long smoothie."
+      ],
+      "funFact": "Kale is among the closest cultivated relatives of the wild cabbage (Brassica oleracea) from which cabbage, broccoli and cauliflower were all bred.",
+      "realWorldCaveat": "The rat dose is neat potassium chloride, whereas kale's potassium arrives slowly inside tough leaf, and you'd give up on the chewing (or the blender) long before it counted. Kale's famous vitamin C isn't a number anyone reaches either, so please don't test this one either way.",
+      "confidenceNote": "Composition is USDA data. The LD50 is one published rat oral figure for potassium chloride, standing in for potassium; a mouse value is much lower.",
+      "confidence": "medium"
+    },
+    {
+      "slug": "beetroot",
+      "tagline": "Stains everything, including your wee. The lethal bit is oxalate, mostly.",
+      "overview": [
+        "Boiled beetroot is about 87% water, with 7.96 g of sugars, 305 mg of potassium and 77 mg of sodium per 100 g (USDA). Beetroot is also an oxalate-rich vegetable: 275 mg per 100 g raw (Noonan & Savage).",
+        "Oxalate is the constituent that takes the least beetroot. At the rat-derived dose, a 70 kg human would need 6.66 kg of boiled beetroot, or 66.6 pairs of 2-inch beets (100 g). Sugars (total) trail at 22.7 kg. Your wee would be the better warning system."
+      ],
+      "funFact": "Beetroot's betalain pigments can turn wee or poo pink or red in some people (beeturia), which alarms them for no good reason.",
+      "realWorldCaveat": "Boiling leaches oxalate out, and only a few percent of dietary oxalate is absorbed (the review quotes 2 to 12%), so the real margin is bigger than this. The figure is the conservative end.",
+      "confidenceNote": "Oxalate is a raw-beetroot mean from a peer-reviewed table applied to boiled beetroot, which errs on the cautious side. The LD50 is one safety-data-sheet rat oral figure for oxalic acid (375 mg/kg), taken on the dihydrate basis, which is also the cautious reading.",
+      "confidence": "medium"
+    }
+  ],
+  "notes": [
+    "The input has 18 foods (not 20); all 18 are rewritten. The old text's '20 vegetables researched here' comparisons (lettuce 'highest water share', peas 'highest fibre') were dropped because they are not verifiable from this file alone.",
+    "All funFacts are kept verbatim from the old copy. The lettuce one is about water (turgor) but does not frame water as a limit; swap it if you want zero water on that page.",
+    "Capsicum funFact is kept verbatim but is slightly loose (yellow/orange capsicums are often separate cultivars that ripen to that colour); the 'largely' hedge covers it.",
+    "Confidence kept at 'medium' for all. Sugars-headlined foods (onion, capsicum, sweetcorn, peas) use glucose as a stand-in for total sugars and are the shakiest; consider 'low' if you want that to show. Potassium foods use KCl as a stand-in for potassium, and a much lower mouse value exists (said in confidenceNote without a number).",
+    "Quoted lethal masses beyond the headline are only ones present in the input: kumara sugars 27.9 kg, broccoli vitamin C 934 kg, capsicum vitamin C 652 kg, peas potassium 35.2 kg, cabbage sugars 56.4 kg, celery sodium 103 kg, kale vitamin C 892 kg.",
+    "Serving counts are copied with their pluralUnit text exactly (e.g. '185 potatoes (6 cm across, 136 g)'). I avoided the awkward '1 kg bags' / '1 kg lots' units."
+  ]
+}
