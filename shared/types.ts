@@ -95,6 +95,8 @@ export interface Substance {
   /** The honest "don't take this literally" note specific to this substance. */
   caveat?: string;
   sources: string[];
+  /** Linked sources for the LD50, shown in the footer. Without any, `sources` is printed as plain text. */
+  references?: Reference[];
   /**
    * Present for foods. `ld50` is then the headline constituent's figure (per kg of the constituent) and every
    * `equivalents[].mgPerUnit` is the mass of that constituent in one serving.

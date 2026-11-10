@@ -3,10 +3,11 @@ import type { Substance } from "../../shared/types.ts";
 /**
  * Seed dataset. Hand-written, everyday things only.
  *
- * TODO(before public launch): the LD50 numbers below are the commonly cited
- * safety-data-sheet figures for oral dosing in rats, entered from memory.
- * Double-check each against a current SDS / PubChem before shipping, and swap the
- * generic `sources` strings for real links.
+ * The LD50s below were checked on 2026-11-11 against the Hazardous Substances Data Bank (HSDB) records on
+ * PubChem, which quote Sax's Dangerous Properties of Industrial Materials and the EU's IUCLID datasets. Each
+ * entry's `references` links the record. Two are not clean measurements: water is a "greater than" figure from a
+ * supplier safety data sheet, and citric acid has rat reports from 3,000 to 12,000 mg/kg (we use the lowest, as
+ * the foods do).
  *
  * Why no painkillers, alcohol, etc? For those, "LD50 scaled to a human" is a
  * dangerously misleading number: real-world harm starts far below it. This is a
@@ -39,7 +40,8 @@ export const SUBSTANCES: Substance[] = [
     ],
     funFact: "You are about 60% the thing on this page. Statistically, you are mostly a very elaborate bag of the LD50 you're reading about.",
     caveat: "How fast you drink matters more than the total. Water intoxication has hit people at far lower volumes than this when they gulped it quickly.",
-    sources: ["Typical safety data sheet (SDS) value, rat, oral"],
+    sources: ["ScienceLab water safety data sheet (2015): rat, oral, > 90 mL/kg. A lower bound, not a measured median."],
+    references: [{ name: "ScienceLab water safety data sheet, 2015 (rat oral LD50 > 90 mL/kg, a lower bound)", url: "https://web.archive.org/web/20150301225811/http://www.sciencelab.com/msds.php?msdsId=9927321" }],
   },
   {
     slug: "table-salt",
@@ -65,7 +67,8 @@ export const SUBSTANCES: Substance[] = [
     ],
     funFact: "The word “salary” is traditionally traced back to salt, though historians argue about how literal that was.",
     caveat: "Rats and humans don't handle sodium identically, and people with heart or kidney conditions have much less wiggle room.",
-    sources: ["Typical safety data sheet (SDS) value, rat, oral"],
+    sources: ["HSDB, quoting Sax's Dangerous Properties of Industrial Materials (11th ed., 2004): rat, oral, 3,000 mg/kg"],
+    references: [{ name: "HSDB via PubChem: sodium chloride, rat oral LD50 3,000 mg/kg", url: "https://pubchem.ncbi.nlm.nih.gov/compound/5234#section=Non-Human-Toxicity-Values" }],
   },
   {
     slug: "sugar",
@@ -91,7 +94,8 @@ export const SUBSTANCES: Substance[] = [
     ],
     funFact: "Sugar's LD50 is about ten times higher than salt's. Your dentist is still not impressed.",
     caveat: "Nobody is claiming sugar is good for you. This is only about how much it takes to be acutely lethal, which is “a ridiculous amount”.",
-    sources: ["Typical safety data sheet (SDS) value, rat, oral"],
+    sources: ["HSDB, quoting Sax's Dangerous Properties of Industrial Materials (6th ed., 1984): rat, oral, 29,700 mg/kg"],
+    references: [{ name: "HSDB via PubChem: sucrose, rat oral LD50 29,700 mg/kg", url: "https://pubchem.ncbi.nlm.nih.gov/compound/5988#section=Non-Human-Toxicity-Values" }],
   },
   {
     slug: "caffeine",
@@ -117,7 +121,8 @@ export const SUBSTANCES: Substance[] = [
     ],
     funFact: "You would die of old age waiting in the queue for that many flat whites long before the caffeine got a vote.",
     caveat: "That comfort only applies to actual drinks. Regulators have warned that pure caffeine powder is a different story, and a teaspoon of it can be dangerous. Stick to the coffee.",
-    sources: ["Typical safety data sheet (SDS) value, rat, oral"],
+    sources: ["HSDB, quoting Sax's Dangerous Properties of Industrial Materials (11th ed., 2004): rat, oral, 192 mg/kg"],
+    references: [{ name: "HSDB via PubChem: caffeine, rat oral LD50 192 mg/kg", url: "https://pubchem.ncbi.nlm.nih.gov/compound/2519#section=Non-Human-Toxicity-Values" }],
   },
   {
     slug: "baking-soda",
@@ -142,7 +147,8 @@ export const SUBSTANCES: Substance[] = [
     ],
     funFact: "Combine it with vinegar and you get a bubbling mess of carbon dioxide, water and sodium acetate. That's the volcano.",
     caveat: "Large amounts upset your body's sodium and acid–base balance. The problem is basically the sodium, not the soda.",
-    sources: ["Typical safety data sheet (SDS) value, rat, oral"],
+    sources: ["HSDB, quoting Sax's Dangerous Properties of Industrial Materials (11th ed., 2004): rat, oral, 4,220 mg/kg"],
+    references: [{ name: "HSDB via PubChem: sodium bicarbonate, rat oral LD50 4,220 mg/kg", url: "https://pubchem.ncbi.nlm.nih.gov/compound/516892#section=Non-Human-Toxicity-Values" }],
   },
   {
     slug: "vitamin-c",
@@ -167,7 +173,8 @@ export const SUBSTANCES: Substance[] = [
     ],
     funFact: "Humans, guinea pigs and some fruit bats are among the few mammals that can't make their own vitamin C. Evolution lost the recipe and nobody noticed for millions of years.",
     caveat: "Long before anything dramatic, megadoses of vitamin C reliably cause stomach upset and the runs. Your gut taps out long before the maths does.",
-    sources: ["Typical safety data sheet (SDS) value, rat, oral"],
+    sources: ["HSDB, quoting Sax's Dangerous Properties of Industrial Materials (11th ed., 2004): rat, oral, 11,900 mg/kg. OECD SIDS lists > 5,000 mg/kg."],
+    references: [{ name: "HSDB via PubChem: L-ascorbic acid, rat oral LD50 11,900 mg/kg (OECD SIDS lists > 5,000 mg/kg)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/54670067#section=Non-Human-Toxicity-Values" }],
   },
   {
     slug: "msg",
@@ -185,14 +192,15 @@ export const SUBSTANCES: Substance[] = [
       { label: "Discovered", value: "Japan, 1908" },
       { label: "Also occurs naturally in", value: "Tomatoes, parmesan, breast milk" },
     ],
-    ld50: { mgPerKg: 15_000, species: "Rat", route: "Oral" },
+    ld50: { mgPerKg: 15_800, species: "Rat", route: "Oral" },
     equivalents: [
       { singular: "teaspoon (~5 g)", plural: "teaspoons (~5 g)", mgPerUnit: 5_000, emoji: "🥄" },
       { singular: "500 g packet", plural: "500 g packets", mgPerUnit: 500_000, emoji: "📦" },
     ],
     funFact: "Glutamate, MSG's active ingredient, is naturally abundant in tomatoes and parmesan. Your pizza has been “loaded with MSG” all along.",
     caveat: "Published figures for MSG vary by study, but all of them are comfortably in “you'd regret the soup long before it mattered” territory.",
-    sources: ["Typical safety data sheet (SDS) value, rat, oral"],
+    sources: ["HSDB, quoting the EU IUCLID dataset: rat, oral, 15,800 mg/kg (female), 17,300 mg/kg (male)"],
+    references: [{ name: "HSDB via PubChem: monosodium glutamate, rat oral LD50 15,800 mg/kg (female; 17,300 in males)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/23689119#section=Non-Human-Toxicity-Values" }],
   },
   {
     slug: "citric-acid",
@@ -217,6 +225,7 @@ export const SUBSTANCES: Substance[] = [
     ],
     funFact: "The sandpaper feeling on your tongue after sour lollies is the acid coating (usually citric and malic acid) working very hard on you.",
     caveat: "Citric acid is far more irritating than lethal. Well before the LD50, your mouth and stomach lodge formal complaints.",
-    sources: ["Typical safety data sheet (SDS) value, rat, oral"],
+    sources: ["HSDB, quoting the EU IUCLID dataset: rat, oral, 3,000 mg/kg. The same record lists 11,700 and 12,000 from separate experiments, and HSDB also lists 6,730."],
+    references: [{ name: "HSDB via PubChem: citric acid, rat oral LD50 3,000 mg/kg (lowest of 3,000 to 12,000 reported)", url: "https://pubchem.ncbi.nlm.nih.gov/compound/311#section=Non-Human-Toxicity-Values" }],
   },
 ];

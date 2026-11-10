@@ -1,4 +1,4 @@
-# Food data QA (2026-11-10)
+# Food data QA (2026-11-11)
 
 - Files read: foods-animal.json, foods-fruit.json, foods-pantry.json, foods-treats.json, foods-vegetable.json
 - Foods written: **91** (absurd: 86, large: 5)

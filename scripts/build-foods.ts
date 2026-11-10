@@ -422,7 +422,7 @@ for (const file of files) {
       continue;
     }
 
-    // Safety: only foods where the lethal serving is genuinely silly make it in.
+    // Safety: only foods where the lethal serving is genuinely out of reach make it in.
     if (headlineG < LARGE_G) {
       dropped.push({
         name: rf.name!,

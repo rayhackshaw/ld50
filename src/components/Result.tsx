@@ -223,7 +223,11 @@ export function Result({ substance: s, query, exact, weightKg, onWeightChange }:
   const headline = headlineConstituent(s);
   const headlineName = headline ? plainLabel(headline.label) : "";
   const ranking = constituentRanking(s, displayWeight);
-  const refs = uniqueReferences([...(headline?.references ?? []), ...(s.food?.servingReferences ?? [])]);
+  const refs = uniqueReferences([
+    ...(headline?.references ?? []),
+    ...(s.food?.servingReferences ?? []),
+    ...(s.references ?? []),
+  ]);
 
   // The headline answer: how much of the thing itself, plus the first everyday unit.
   const answer = headline ? formatFoodMass(foodGramsForDose(doseMg, headline)) : formatMass(doseMg);

@@ -14,7 +14,11 @@
     "build:foods": "node scripts/build-foods.ts",
     "check": "tsc -p tsconfig.app.json && tsc -p tsconfig.node.json",
     "build": "npm run check && vite build",
-    "start": "node server/index.ts --static"
+    "start": "node server/index.ts --static",
+    "check:cloudflare": "tsc -p tsconfig.worker.json",
+    "build:cloudflare": "npm run check:cloudflare && npm run build",
+    "dev:cloudflare": "npm run build:cloudflare && wrangler dev",
+    "deploy:cloudflare": "npm run build:cloudflare && wrangler deploy"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",
@@ -32,6 +36,7 @@
     "@vitejs/plugin-react": "^6.3.0",
     "concurrently": "^10.0.7",
     "typescript": "^7.0.2",
-    "vite": "^8.3.7"
+    "vite": "^8.3.7",
+    "wrangler": "^4.160.0"
   }
 }
